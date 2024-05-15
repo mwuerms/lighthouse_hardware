@@ -8,7 +8,7 @@ module origin(col = "Red", len = 10, loc_res = 4) {
     cylinder(d2 = .8, d1 = 0, h = len, $fn = loc_res);
 }
 
-module sip1907(loc_res = 32) {
+module isp1907(loc_res = 32) {
     // MCU part, with connections, light part
     color("DarkGray")
     translate([-4, 0, 0])
@@ -19,7 +19,7 @@ module sip1907(loc_res = 32) {
     cube([8, 4, 1]);
 }
 
-module sip1907_cut() {
+module isp1907_cut() {
     translate([-8.6/2, -8.6/2, 0])
     cube([8.6, 8.6, 3]);
 }

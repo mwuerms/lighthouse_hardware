@@ -23,7 +23,7 @@ module buoy(show_parts = 1, loc_res = 32) {
         // cut out parts
         translate([-15, 0, -2])
         rotate([0, 0, 90])
-        sip1907_cut();
+        isp1907_cut();
         
         // CR2032
         hull() {
@@ -93,7 +93,7 @@ module buoy(show_parts = 1, loc_res = 32) {
     if(show_parts) {
         translate([-15, 0, -2])
         rotate([0, 0, 90])
-        sip1907();
+        isp1907();
 
         translate([0, 0, -3.2-2])
         cr2032();
