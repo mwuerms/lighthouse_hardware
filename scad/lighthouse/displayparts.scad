@@ -27,18 +27,21 @@ module rgbled2427_cut(cut_hi = 2) {
 *rgbled2427();
 *rgbled2427_cut();
 
-module hexagon_cover_element(hex_rad1 = 9/2, hex_hi1 = 0.6, hex_res = 6) {
+module hexagon_cover_element(hex_rad1 = 10/2, hex_hi1 = 0.6, hex_res = 6) {
     cylinder(r = hex_rad1, h = hex_hi1, $fn = hex_res);
+    cylinder(r = hex_rad1-0.8, h = hex_hi1+0.2, $fn = hex_res);
 }
 
 module hexagon_cover_element_led(hex_rad1 = 10/2, hex_hi1 = 0.6, col = "Red", hex_res = 6) {
     cylinder(r = hex_rad1, h = hex_hi1, $fn = hex_res);
+    cylinder(r = hex_rad1-0.8, h = hex_hi1+0.2, $fn = hex_res);
     color(col)
     cylinder(r = hex_rad1-2, h = hex_hi1+0.4, $fn = hex_res);
 }
 
 module hexagon_cover_element_m3_mount(hex_rad1 = 10/2, hex_hi1 = 0.6, hex_hi2 = 5, hex_res = 6, loc_res = 32) {
     cylinder(r = hex_rad1, h = hex_hi1, $fn = hex_res);
+    cylinder(r = hex_rad1-0.8, h = hex_hi1+0.2, $fn = hex_res);
     translate([0, 0, -5])
     difference() {
         cylinder(r = 5/2, h = hex_hi2, $fn = loc_res);

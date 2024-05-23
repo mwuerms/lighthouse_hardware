@@ -8,12 +8,17 @@
 
 use <parts.scad>
 
+/* old unused
 module hexagon_cover_element(hex_rad1 = 5/2, hex_hi1 = 2*0.2, hex_rad2 = 4/2, hex_hi2 = 2*0.4, hex_res = 6) {
     cylinder(r = hex_rad1, h = hex_hi1, $fn = hex_res);
     cylinder(r = hex_rad2, h = hex_hi2, $fn = hex_res);
+}*/
+
+module hexagon_cover_element(hex_rad1 = 8/2, hex_hi1 = 0.8, hex_res = 6) {
+    cylinder(r = hex_rad1, h = hex_hi1, $fn = hex_res);
 }
 
-module hexagon_rest_element(hex_rad = 5/2, hex_hi = 4, wallth = 0.5, hex_res = 6) {
+module hexagon_rest_element(hex_rad = 10/2, hex_hi = 4, wallth = 0.5, hex_res = 6) {
     difference() {
         cylinder(r = hex_rad + (wallth/2), h = hex_hi, $fn = hex_res);
         translate([0, 0, -1])
@@ -21,7 +26,7 @@ module hexagon_rest_element(hex_rad = 5/2, hex_hi = 4, wallth = 0.5, hex_res = 6
     }
 }
 
-module hexagon_rest_element_led2427_cut(hex_rad = 5/2, hex_hi = 4, wallth = 0.5, hex_res = 6) {
+module hexagon_rest_element_led2427_cut(hex_rad = 8/2, hex_hi = 4, wallth = 0.5, hex_res = 6) {
     difference() {
         cylinder(r = hex_rad + (wallth/2), h = hex_hi, $fn = hex_res);
         translate([0, 0, 0.4])
@@ -31,7 +36,7 @@ module hexagon_rest_element_led2427_cut(hex_rad = 5/2, hex_hi = 4, wallth = 0.5,
     }
 }
 
-hex_rad = 5/2;
+hex_rad = 8/2;
 /* calculate hexagon center positions
  * r: radius, use "hex_rad"
  * n: index in x axis
@@ -73,7 +78,7 @@ module place_hexagon_rest_element(x_pos = 0, y_pos = 0) {
     }
 }
 
-//translate([0, 0, 10]) {
+*translate([0, 0, 10]) {
 place_hexagon_cover_element(0, 0);
 place_hexagon_cover_element(0, 1);
 place_hexagon_cover_element(0, 2);
@@ -90,7 +95,7 @@ place_hexagon_cover_element(2, 1);
 place_hexagon_cover_element(2, 2);
 place_hexagon_cover_element(2, 3);
 place_hexagon_cover_element(2, 4);
-/*}
+}
 
 place_hexagon_rest_element(0, 0);
 place_hexagon_rest_element(0, 1);
@@ -108,4 +113,3 @@ place_hexagon_rest_element(2, 1);
 place_hexagon_rest_element(2, 2);
 place_hexagon_rest_element(2, 3);
 place_hexagon_rest_element(2, 4);
-*/
