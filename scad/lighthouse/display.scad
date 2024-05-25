@@ -24,6 +24,59 @@ dx_even_factor = 3/2*hex_rad; // see dxeven = m*3*r
 dy_even_factor = 2*hex_rad*cos(30); // see dyeven = n*2*r*cos(30)
 dx_odd_factor = 3/2*hex_rad; // see dxodd = m*3/2*r
 dy_odd_factor = hex_rad*cos(30); // see dyodd = (2n+1)*r*cos(30)
+
+module place_hexagon_element(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        hexagon_element();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        hexagon_element();
+    }
+}
+
+module place_hexagon_edge_element(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        hexagon_edge_element();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        hexagon_edge_element();
+    }
+}
+
+module place_hexagon_upper_round_edge_element(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        hexagon_upper_round_edge_element();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        hexagon_upper_round_edge_element();
+    }
+}
+
+module place_hexagon_lower_round_edge_element(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        hexagon_lower_round_edge_element();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        hexagon_lower_round_edge_element();
+    }
+}
+
 module place_hexagon_cover_element(x_pos = 0, y_pos = 0) {
     if((x_pos % 2) == 0) {
         // even column
@@ -34,6 +87,19 @@ module place_hexagon_cover_element(x_pos = 0, y_pos = 0) {
         // odd column
         translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
         hexagon_cover_element();
+    }
+}
+
+module place_hexagon_cover_element_cut(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        hexagon_cover_element_cut();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        hexagon_cover_element_cut();
     }
 }
 
@@ -63,6 +129,32 @@ module place_hexagon_cover_element_m3_mount(x_pos = 0, y_pos = 0) {
     }
 }
 
+module place_m3_mount_cut(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        m3_mount_cut();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        m3_mount_cut();
+    }
+}
+
+module place_hexagon_cover_element_m3_mount_cut(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        hexagon_cover_element_m3_mount_cut();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        hexagon_cover_element_m3_mount_cut();
+    }
+}
+
 module place_hexagon_rest_element(x_pos = 0, y_pos = 0) {
     if((x_pos % 2) == 0) {
         // even column
@@ -89,8 +181,16 @@ module place_hexagon_rest_element_m3_mount(x_pos = 0, y_pos = 0) {
     }
 }
 
+module display_m3_mount_cut() {
+    place_m3_mount_cut(0, 2);
+    place_m3_mount_cut(5, -2);
+    place_m3_mount_cut(5, 6);
+    place_m3_mount_cut(10, 5);
+    place_m3_mount_cut(13, -2);
+    place_m3_mount_cut(15, 6);
+    place_m3_mount_cut(20, 4);
+}
 // - plain display ------------------
-// plain_display_cover_v1.0.stl
 module plain_display_cover() {
     place_hexagon_cover_element(0, 0);
     place_hexagon_cover_element(0, 1);
@@ -262,7 +362,7 @@ module plain_display_cover() {
 
     place_hexagon_cover_element(20, 2);
     place_hexagon_cover_element(20, 3);
-    place_hexagon_cover_element(20, 4);
+    *place_hexagon_cover_element(20, 4);
     
     // mounts
     place_hexagon_cover_element_m3_mount(0, 2);
@@ -272,6 +372,189 @@ module plain_display_cover() {
     place_hexagon_cover_element_m3_mount(13, -2);
     place_hexagon_cover_element_m3_mount(15, 6);
     place_hexagon_cover_element_m3_mount(20, 4);
+}
+
+module plain_display_cover_cut() {
+    place_hexagon_cover_element_cut(0, 0);
+    place_hexagon_cover_element_cut(0, 1);
+    *place_hexagon_cover_element_cut(0, 2);
+    
+    place_hexagon_cover_element_cut(1, -1);
+    place_hexagon_cover_element_cut(1, 0);
+    place_hexagon_cover_element_cut(1, 1);
+    place_hexagon_cover_element_cut(1, 2);
+    place_hexagon_cover_element_cut(1, 3);
+    place_hexagon_cover_element_cut(1, 4);
+    place_hexagon_cover_element_cut(1, 5);
+
+    place_hexagon_cover_element_cut(2, -1);
+    place_hexagon_cover_element_cut(2, 0);
+    place_hexagon_cover_element_cut(2, 1);
+    place_hexagon_cover_element_cut(2, 2);
+    place_hexagon_cover_element_cut(2, 3);
+    place_hexagon_cover_element_cut(2, 4);
+    place_hexagon_cover_element_cut(2, 5);
+
+    place_hexagon_cover_element_cut(3, -1);
+    place_hexagon_cover_element_cut(3, 0);
+    place_hexagon_cover_element_cut(3, 1);
+    place_hexagon_cover_element_cut(3, 2);
+    place_hexagon_cover_element_cut(3, 3);
+    place_hexagon_cover_element_cut(3, 4);
+    place_hexagon_cover_element_cut(3, 5);
+    place_hexagon_cover_element_cut(3, 6);
+
+    place_hexagon_cover_element_cut(4, -2);
+    place_hexagon_cover_element_cut(4, -1);
+    place_hexagon_cover_element_cut(4, 0);
+    place_hexagon_cover_element_cut(4, 1);
+    place_hexagon_cover_element_cut(4, 2);
+    place_hexagon_cover_element_cut(4, 3);
+    place_hexagon_cover_element_cut(4, 4);
+    place_hexagon_cover_element_cut(4, 5);
+
+    *place_hexagon_cover_element_cut(5, -2);
+    place_hexagon_cover_element_cut(5, -1);
+    place_hexagon_cover_element_cut(5, 0);
+    place_hexagon_cover_element_cut(5, 1);
+    place_hexagon_cover_element_cut(5, 2);
+    place_hexagon_cover_element_cut(5, 3);
+    place_hexagon_cover_element_cut(5, 4);
+    place_hexagon_cover_element_cut(5, 5);
+
+    place_hexagon_cover_element_cut(6, -2);
+    place_hexagon_cover_element_cut(6, -1);
+    place_hexagon_cover_element_cut(6, 0);
+    place_hexagon_cover_element_cut(6, 1);
+    place_hexagon_cover_element_cut(6, 2);
+    place_hexagon_cover_element_cut(6, 3);
+    place_hexagon_cover_element_cut(6, 4);
+    place_hexagon_cover_element_cut(6, 5);
+
+    place_hexagon_cover_element_cut(7, -1);
+    place_hexagon_cover_element_cut(7, 0);
+    place_hexagon_cover_element_cut(7, 1);
+    place_hexagon_cover_element_cut(7, 2);
+    place_hexagon_cover_element_cut(7, 3);
+    place_hexagon_cover_element_cut(7, 4);
+    place_hexagon_cover_element_cut(7, 5);
+    place_hexagon_cover_element_cut(7, 6);
+
+    place_hexagon_cover_element_cut(8, -2);
+    place_hexagon_cover_element_cut(8, -1);
+    place_hexagon_cover_element_cut(8, 0);
+    place_hexagon_cover_element_cut(8, 1);
+    place_hexagon_cover_element_cut(8, 2);
+    place_hexagon_cover_element_cut(8, 3);
+    place_hexagon_cover_element_cut(8, 4);
+    place_hexagon_cover_element_cut(8, 5);
+
+    place_hexagon_cover_element_cut(9, -2);
+    place_hexagon_cover_element_cut(9, -1);
+    place_hexagon_cover_element_cut(9, 0);
+    place_hexagon_cover_element_cut(9, 1);
+    place_hexagon_cover_element_cut(9, 2);
+    place_hexagon_cover_element_cut(9, 3);
+    place_hexagon_cover_element_cut(9, 4);
+    place_hexagon_cover_element_cut(9, 5);
+
+    place_hexagon_cover_element_cut(10, -2);
+    place_hexagon_cover_element_cut(10, -1);
+    place_hexagon_cover_element_cut(10, 0);
+    place_hexagon_cover_element_cut(10, 1);
+    place_hexagon_cover_element_cut(10, 2);
+    place_hexagon_cover_element_cut(10, 3);
+    place_hexagon_cover_element_cut(10, 4);
+    *place_hexagon_cover_element_cut(10, 5);
+
+    place_hexagon_cover_element_cut(11, -1);
+    place_hexagon_cover_element_cut(11, 0);
+    place_hexagon_cover_element_cut(11, 1);
+    place_hexagon_cover_element_cut(11, 2);
+    place_hexagon_cover_element_cut(11, 3);
+    place_hexagon_cover_element_cut(11, 4);
+    place_hexagon_cover_element_cut(11, 5);
+
+    place_hexagon_cover_element_cut(12, -2);
+    place_hexagon_cover_element_cut(12, -1);
+    place_hexagon_cover_element_cut(12, 0);
+    place_hexagon_cover_element_cut(12, 1);
+    place_hexagon_cover_element_cut(12, 2);
+    place_hexagon_cover_element_cut(12, 3);
+    place_hexagon_cover_element_cut(12, 4);
+    place_hexagon_cover_element_cut(12, 5);
+
+    *place_hexagon_cover_element_cut(13, -2);
+    place_hexagon_cover_element_cut(13, -1);
+    place_hexagon_cover_element_cut(13, 0);
+    place_hexagon_cover_element_cut(13, 1);
+    place_hexagon_cover_element_cut(13, 2);
+    place_hexagon_cover_element_cut(13, 3);
+    place_hexagon_cover_element_cut(13, 4);
+    place_hexagon_cover_element_cut(13, 5);
+    place_hexagon_cover_element_cut(13, 6);
+
+    place_hexagon_cover_element_cut(14, -2);
+    place_hexagon_cover_element_cut(14, -1);
+    place_hexagon_cover_element_cut(14, 0);
+    place_hexagon_cover_element_cut(14, 1);
+    place_hexagon_cover_element_cut(14, 2);
+    place_hexagon_cover_element_cut(14, 3);
+    place_hexagon_cover_element_cut(14, 4);
+    place_hexagon_cover_element_cut(14, 5);
+
+    place_hexagon_cover_element_cut(15, -1);
+    place_hexagon_cover_element_cut(15, 0);
+    place_hexagon_cover_element_cut(15, 1);
+    place_hexagon_cover_element_cut(15, 2);
+    place_hexagon_cover_element_cut(15, 3);
+    place_hexagon_cover_element_cut(15, 4);
+    place_hexagon_cover_element_cut(15, 5);
+
+    place_hexagon_cover_element_cut(16, -2);
+    place_hexagon_cover_element_cut(16, -1);
+    place_hexagon_cover_element_cut(16, 0);
+    place_hexagon_cover_element_cut(16, 1);
+    place_hexagon_cover_element_cut(16, 2);
+    place_hexagon_cover_element_cut(16, 3);
+    place_hexagon_cover_element_cut(16, 4);
+    place_hexagon_cover_element_cut(16, 5);
+
+    place_hexagon_cover_element_cut(17, -1);
+    place_hexagon_cover_element_cut(17, 0);
+    place_hexagon_cover_element_cut(17, 1);
+    place_hexagon_cover_element_cut(17, 2);
+    place_hexagon_cover_element_cut(17, 3);
+    place_hexagon_cover_element_cut(17, 4);
+    place_hexagon_cover_element_cut(17, 5);
+    place_hexagon_cover_element_cut(17, 6);
+
+    place_hexagon_cover_element_cut(18, -1);
+    place_hexagon_cover_element_cut(18, 0);
+    place_hexagon_cover_element_cut(18, 1);
+    place_hexagon_cover_element_cut(18, 2);
+    place_hexagon_cover_element_cut(18, 3);
+    place_hexagon_cover_element_cut(18, 4);
+    place_hexagon_cover_element_cut(18, 5);
+
+    place_hexagon_cover_element_cut(19, 1);
+    place_hexagon_cover_element_cut(19, 2);
+    place_hexagon_cover_element_cut(19, 3);
+    place_hexagon_cover_element_cut(19, 4);
+    place_hexagon_cover_element_cut(19, 5);
+
+    place_hexagon_cover_element_cut(20, 2);
+    place_hexagon_cover_element_cut(20, 3);
+    *place_hexagon_cover_element_cut(20, 4);
+    
+    // mounts
+    place_hexagon_cover_element_m3_mount_cut(0, 2);
+    place_hexagon_cover_element_m3_mount_cut(5, -2);
+    place_hexagon_cover_element_m3_mount_cut(5, 6);
+    place_hexagon_cover_element_m3_mount_cut(10, 5);
+    place_hexagon_cover_element_m3_mount_cut(13, -2);
+    place_hexagon_cover_element_m3_mount_cut(15, 6);
+    place_hexagon_cover_element_m3_mount_cut(20, 4);
 }
 
 // - display ------------------
@@ -786,8 +1069,123 @@ module led_spacer() {
     place_hexagon_rest_element_m3_mount(20, 4);
 }
 
+module place_plain_display_cover(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        plain_display_cover();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        plain_display_cover();
+    }
+}
 
+module place_plain_display_cover_cut(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        plain_display_cover_cut();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        plain_display_cover_cut();
+    }
+}
+
+module place_display_m3_mount_cut(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        display_m3_mount_cut();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        display_m3_mount_cut();
+    }
+}
+
+module place_display_clock_cover(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        display_clock_cover();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        display_clock_cover();
+    }
+}
+
+module place_display_backlight_cover(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        display_backlight_cover();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        display_backlight_cover();
+    }
+}
+
+module place_led_spacer(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        led_spacer();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        led_spacer();
+    }
+}
+
+module display_pcb(th = 1.6, col = "Green", loc_res = 32) {
+    color(col)
+    difference() {
+        hull() {
+            translate([-2, -25, 0])
+            cylinder(r = 2, h = th, $fn = loc_res);
+            translate([-2, +50, 0])
+            cylinder(r = 2, h = th, $fn = loc_res);
+            translate([+152, -25, 0])
+            cylinder(r = 2, h = th, $fn = loc_res);
+            translate([+152, +50, 0])
+            cylinder(r = 2, h = th, $fn = loc_res);
+        }
+        place_display_m3_mount_cut(0, 0);
+    }
+
+}
+
+module place_display_pcb(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        display_pcb();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        display_pcb();
+    }
+}
+
+*translate([0, 0, 20])
 *plain_display_cover();
+*plain_display_cover_cut();
+*translate([0, 0, -20])
+*place_display_m3_mount_cut();
 *display_clock_cover();
 *display_backlight_cover();
-led_spacer();
+*led_spacer();
+display_pcb();
+
+
