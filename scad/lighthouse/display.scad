@@ -9,7 +9,7 @@
 use <hexagonparts.scad>
 
 
-hex_rad = 10/2;
+hex_rad = 8/2;
 /* calculate hexagon center positions
  * r: radius, use "hex_rad"
  * n: index in x axis
@@ -1032,9 +1032,7 @@ plain_display_cover();
 *translate([0, 0, -20])
 place_display_m3_mount_cut();
 
-*display_clock_cover();
+display_clock_cover();
 *display_backlight_cover();
 *led_spacer();
 *display_pcb();
-
-
