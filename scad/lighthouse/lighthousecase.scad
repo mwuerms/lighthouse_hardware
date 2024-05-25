@@ -4,7 +4,7 @@
  * lighthouse case
  */
 use <display.scad>
-use <displayparts.scad>
+use <hexagonparts.scad>
 
 hex_rad = 10/2;
 /* calculate hexagon center positions

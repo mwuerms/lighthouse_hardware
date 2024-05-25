@@ -6,7 +6,8 @@
  * printing: 0.2 mm layer height
  */
 
-use <displayparts.scad>
+use <hexagonparts.scad>
+
 
 hex_rad = 10/2;
 /* calculate hexagon center positions
@@ -25,162 +26,6 @@ dy_even_factor = 2*hex_rad*cos(30); // see dyeven = n*2*r*cos(30)
 dx_odd_factor = 3/2*hex_rad; // see dxodd = m*3/2*r
 dy_odd_factor = hex_rad*cos(30); // see dyodd = (2n+1)*r*cos(30)
 
-module place_hexagon_element(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_element();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_element();
-    }
-}
-
-module place_hexagon_edge_element(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_edge_element();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_edge_element();
-    }
-}
-
-module place_hexagon_upper_round_edge_element(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_upper_round_edge_element();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_upper_round_edge_element();
-    }
-}
-
-module place_hexagon_lower_round_edge_element(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_lower_round_edge_element();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_lower_round_edge_element();
-    }
-}
-
-module place_hexagon_cover_element(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_cover_element();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_cover_element();
-    }
-}
-
-module place_hexagon_cover_element_cut(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_cover_element_cut();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_cover_element_cut();
-    }
-}
-
-module place_hexagon_cover_element_led(x_pos = 0, y_pos = 0, col = "Red") {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_cover_element_led(col = col);
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_cover_element_led(col = col);
-    }
-}
-
-module place_hexagon_cover_element_m3_mount(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_cover_element_m3_mount();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_cover_element_m3_mount();
-    }
-}
-
-module place_m3_mount_cut(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        m3_mount_cut();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        m3_mount_cut();
-    }
-}
-
-module place_hexagon_cover_element_m3_mount_cut(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_cover_element_m3_mount_cut();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_cover_element_m3_mount_cut();
-    }
-}
-
-module place_hexagon_rest_element(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_rest_element_led2427_cut();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_rest_element_led2427_cut();
-    }
-}
-
-module place_hexagon_rest_element_m3_mount(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_rest_element_m3_mount();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_rest_element_m3_mount();
-    }
-}
-
 module display_m3_mount_cut() {
     place_m3_mount_cut(0, 2);
     place_m3_mount_cut(5, -2);
@@ -190,6 +35,7 @@ module display_m3_mount_cut() {
     place_m3_mount_cut(15, 6);
     place_m3_mount_cut(20, 4);
 }
+
 // - plain display ------------------
 module plain_display_cover() {
     place_hexagon_cover_element(0, 0);
@@ -934,139 +780,139 @@ module display_backlight_cover() {
 
 // - spacer ---------------------------
 module led_spacer() {
-    place_hexagon_rest_element(1, 1);
-    place_hexagon_rest_element(1, 2);
-    place_hexagon_rest_element(1, 3);
+    place_hexagon_spacer_element(1, 1);
+    place_hexagon_spacer_element(1, 2);
+    place_hexagon_spacer_element(1, 3);
     
-    place_hexagon_rest_element(2, 0);
-    place_hexagon_rest_element(2, 1);
-    place_hexagon_rest_element(2, 2);
-    place_hexagon_rest_element(2, 3);
-    place_hexagon_rest_element(2, 4);
+    place_hexagon_spacer_element(2, 0);
+    place_hexagon_spacer_element(2, 1);
+    place_hexagon_spacer_element(2, 2);
+    place_hexagon_spacer_element(2, 3);
+    place_hexagon_spacer_element(2, 4);
     
-    place_hexagon_rest_element(3, 0);
-    place_hexagon_rest_element(3, 1);
-    place_hexagon_rest_element(3, 2);
-    place_hexagon_rest_element(3, 3);
-    place_hexagon_rest_element(3, 4);
-    place_hexagon_rest_element(3, 5);
+    place_hexagon_spacer_element(3, 0);
+    place_hexagon_spacer_element(3, 1);
+    place_hexagon_spacer_element(3, 2);
+    place_hexagon_spacer_element(3, 3);
+    place_hexagon_spacer_element(3, 4);
+    place_hexagon_spacer_element(3, 5);
     
-    place_hexagon_rest_element(4, -1);
-    place_hexagon_rest_element(4, 0);
-    place_hexagon_rest_element(4, 1);
-    place_hexagon_rest_element(4, 2);
-    place_hexagon_rest_element(4, 3);
-    place_hexagon_rest_element(4, 4);
+    place_hexagon_spacer_element(4, -1);
+    place_hexagon_spacer_element(4, 0);
+    place_hexagon_spacer_element(4, 1);
+    place_hexagon_spacer_element(4, 2);
+    place_hexagon_spacer_element(4, 3);
+    place_hexagon_spacer_element(4, 4);
     
-    place_hexagon_rest_element(5, -1);
-    place_hexagon_rest_element(5, 0);
-    place_hexagon_rest_element(5, 1);
-    place_hexagon_rest_element(5, 2);
-    place_hexagon_rest_element(5, 3);
-    place_hexagon_rest_element(5, 4);
-    place_hexagon_rest_element(5, 5);
+    place_hexagon_spacer_element(5, -1);
+    place_hexagon_spacer_element(5, 0);
+    place_hexagon_spacer_element(5, 1);
+    place_hexagon_spacer_element(5, 2);
+    place_hexagon_spacer_element(5, 3);
+    place_hexagon_spacer_element(5, 4);
+    place_hexagon_spacer_element(5, 5);
     
-    place_hexagon_rest_element(6, -1);
-    place_hexagon_rest_element(6, 0);
-    place_hexagon_rest_element(6, 1);
-    place_hexagon_rest_element(6, 2);
-    place_hexagon_rest_element(6, 3);
-    place_hexagon_rest_element(6, 4);
+    place_hexagon_spacer_element(6, -1);
+    place_hexagon_spacer_element(6, 0);
+    place_hexagon_spacer_element(6, 1);
+    place_hexagon_spacer_element(6, 2);
+    place_hexagon_spacer_element(6, 3);
+    place_hexagon_spacer_element(6, 4);
 
-    place_hexagon_rest_element(7, 0);
-    place_hexagon_rest_element(7, 1);
-    place_hexagon_rest_element(7, 2);
-    place_hexagon_rest_element(7, 3);
-    place_hexagon_rest_element(7, 4);
-    place_hexagon_rest_element(7, 5);
+    place_hexagon_spacer_element(7, 0);
+    place_hexagon_spacer_element(7, 1);
+    place_hexagon_spacer_element(7, 2);
+    place_hexagon_spacer_element(7, 3);
+    place_hexagon_spacer_element(7, 4);
+    place_hexagon_spacer_element(7, 5);
 
-    place_hexagon_rest_element(8, -1);
-    place_hexagon_rest_element(8, 0);
-    place_hexagon_rest_element(8, 1);
-    place_hexagon_rest_element(8, 2);
-    place_hexagon_rest_element(8, 3);
-    place_hexagon_rest_element(8, 4);
+    place_hexagon_spacer_element(8, -1);
+    place_hexagon_spacer_element(8, 0);
+    place_hexagon_spacer_element(8, 1);
+    place_hexagon_spacer_element(8, 2);
+    place_hexagon_spacer_element(8, 3);
+    place_hexagon_spacer_element(8, 4);
 
-    place_hexagon_rest_element(9, -1);
-    place_hexagon_rest_element(9, 0);
-    place_hexagon_rest_element(9, 1);
-    place_hexagon_rest_element(9, 2);
-    place_hexagon_rest_element(9, 3);
-    place_hexagon_rest_element(9, 4);
+    place_hexagon_spacer_element(9, -1);
+    place_hexagon_spacer_element(9, 0);
+    place_hexagon_spacer_element(9, 1);
+    place_hexagon_spacer_element(9, 2);
+    place_hexagon_spacer_element(9, 3);
+    place_hexagon_spacer_element(9, 4);
 
-    place_hexagon_rest_element(10, -1);
-    place_hexagon_rest_element(10, 0);
-    place_hexagon_rest_element(10, 1);
-    place_hexagon_rest_element(10, 2);
-    place_hexagon_rest_element(10, 3);
-    place_hexagon_rest_element(10, 4);
+    place_hexagon_spacer_element(10, -1);
+    place_hexagon_spacer_element(10, 0);
+    place_hexagon_spacer_element(10, 1);
+    place_hexagon_spacer_element(10, 2);
+    place_hexagon_spacer_element(10, 3);
+    place_hexagon_spacer_element(10, 4);
 
-    place_hexagon_rest_element(11, 0);
-    place_hexagon_rest_element(11, 1);
-    place_hexagon_rest_element(11, 2);
-    place_hexagon_rest_element(11, 3);
-    place_hexagon_rest_element(11, 4);
+    place_hexagon_spacer_element(11, 0);
+    place_hexagon_spacer_element(11, 1);
+    place_hexagon_spacer_element(11, 2);
+    place_hexagon_spacer_element(11, 3);
+    place_hexagon_spacer_element(11, 4);
 
-    place_hexagon_rest_element(12, -1);
-    place_hexagon_rest_element(12, 0);
-    place_hexagon_rest_element(12, 1);
-    place_hexagon_rest_element(12, 2);
-    place_hexagon_rest_element(12, 3);
-    place_hexagon_rest_element(12, 4);
+    place_hexagon_spacer_element(12, -1);
+    place_hexagon_spacer_element(12, 0);
+    place_hexagon_spacer_element(12, 1);
+    place_hexagon_spacer_element(12, 2);
+    place_hexagon_spacer_element(12, 3);
+    place_hexagon_spacer_element(12, 4);
 
-    place_hexagon_rest_element(13, -1);
-    place_hexagon_rest_element(13, 0);
-    place_hexagon_rest_element(13, 1);
-    place_hexagon_rest_element(13, 2);
-    place_hexagon_rest_element(13, 3);
-    place_hexagon_rest_element(13, 4);
-    place_hexagon_rest_element(13, 5);
+    place_hexagon_spacer_element(13, -1);
+    place_hexagon_spacer_element(13, 0);
+    place_hexagon_spacer_element(13, 1);
+    place_hexagon_spacer_element(13, 2);
+    place_hexagon_spacer_element(13, 3);
+    place_hexagon_spacer_element(13, 4);
+    place_hexagon_spacer_element(13, 5);
 
-    place_hexagon_rest_element(14, -1);
-    place_hexagon_rest_element(14, 0);
-    place_hexagon_rest_element(14, 1);
-    place_hexagon_rest_element(14, 2);
-    place_hexagon_rest_element(14, 3);
-    place_hexagon_rest_element(14, 4);
+    place_hexagon_spacer_element(14, -1);
+    place_hexagon_spacer_element(14, 0);
+    place_hexagon_spacer_element(14, 1);
+    place_hexagon_spacer_element(14, 2);
+    place_hexagon_spacer_element(14, 3);
+    place_hexagon_spacer_element(14, 4);
 
-    place_hexagon_rest_element(15, 0);
-    place_hexagon_rest_element(15, 1);
-    place_hexagon_rest_element(15, 2);
-    place_hexagon_rest_element(15, 3);
-    place_hexagon_rest_element(15, 4);
-    place_hexagon_rest_element(15, 5);
+    place_hexagon_spacer_element(15, 0);
+    place_hexagon_spacer_element(15, 1);
+    place_hexagon_spacer_element(15, 2);
+    place_hexagon_spacer_element(15, 3);
+    place_hexagon_spacer_element(15, 4);
+    place_hexagon_spacer_element(15, 5);
 
-    place_hexagon_rest_element(16, -1);
-    place_hexagon_rest_element(16, 0);
-    place_hexagon_rest_element(16, 1);
-    place_hexagon_rest_element(16, 2);
-    place_hexagon_rest_element(16, 3);
-    place_hexagon_rest_element(16, 4);
+    place_hexagon_spacer_element(16, -1);
+    place_hexagon_spacer_element(16, 0);
+    place_hexagon_spacer_element(16, 1);
+    place_hexagon_spacer_element(16, 2);
+    place_hexagon_spacer_element(16, 3);
+    place_hexagon_spacer_element(16, 4);
 
-    place_hexagon_rest_element(17, 0);
-    place_hexagon_rest_element(17, 1);
-    place_hexagon_rest_element(17, 2);
-    place_hexagon_rest_element(17, 3);
-    place_hexagon_rest_element(17, 4);
-    place_hexagon_rest_element(17, 5);
+    place_hexagon_spacer_element(17, 0);
+    place_hexagon_spacer_element(17, 1);
+    place_hexagon_spacer_element(17, 2);
+    place_hexagon_spacer_element(17, 3);
+    place_hexagon_spacer_element(17, 4);
+    place_hexagon_spacer_element(17, 5);
 
-    place_hexagon_rest_element(18, 1);
-    place_hexagon_rest_element(18, 2);
-    place_hexagon_rest_element(18, 3);
-    place_hexagon_rest_element(18, 4);
+    place_hexagon_spacer_element(18, 1);
+    place_hexagon_spacer_element(18, 2);
+    place_hexagon_spacer_element(18, 3);
+    place_hexagon_spacer_element(18, 4);
 
-    place_hexagon_rest_element(19, 3);
-    place_hexagon_rest_element(19, 4);
-    place_hexagon_rest_element(19, 5);
+    place_hexagon_spacer_element(19, 3);
+    place_hexagon_spacer_element(19, 4);
+    place_hexagon_spacer_element(19, 5);
     
     // mounts
-    place_hexagon_rest_element_m3_mount(0, 2);
-    place_hexagon_rest_element_m3_mount(5, -2);
-    place_hexagon_rest_element_m3_mount(5, 6);
-    place_hexagon_rest_element_m3_mount(10, 5);
-    place_hexagon_rest_element_m3_mount(13, -2);
-    place_hexagon_rest_element_m3_mount(15, 6);
-    place_hexagon_rest_element_m3_mount(20, 4);
+    place_hexagon_spacer_element_m3_mount(0, 2);
+    place_hexagon_spacer_element_m3_mount(5, -2);
+    place_hexagon_spacer_element_m3_mount(5, 6);
+    place_hexagon_spacer_element_m3_mount(10, 5);
+    place_hexagon_spacer_element_m3_mount(13, -2);
+    place_hexagon_spacer_element_m3_mount(15, 6);
+    place_hexagon_spacer_element_m3_mount(20, 4);
 }
 
 module place_plain_display_cover(x_pos = 0, y_pos = 0) {
@@ -1179,13 +1025,16 @@ module place_display_pcb(x_pos = 0, y_pos = 0) {
 }
 
 *translate([0, 0, 20])
-*plain_display_cover();
+plain_display_cover();
+
 *plain_display_cover_cut();
+
 *translate([0, 0, -20])
-*place_display_m3_mount_cut();
+place_display_m3_mount_cut();
+
 *display_clock_cover();
 *display_backlight_cover();
 *led_spacer();
-display_pcb();
+*display_pcb();
 
 
