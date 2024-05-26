@@ -285,10 +285,65 @@ module front_side() {
     }
 }
 
+
+
 module put_case_together() {
     front_side();
     translate([32*hex_rad*cos(30), 0])
     rotate([0, 0, 180])
     front_side();
 }
-put_case_together();
+//put_case_together();
+
+module case_front_part0() {
+    color("Green")
+    hull() {
+        place_hexagon_lower_round_edge_element(0, 0);
+        place_hexagon_upper_round_edge_element(0, 11);
+        place_hexagon_lower_round_edge_element(22, 0);
+        place_hexagon_upper_round_edge_element(22, 11);
+    }
+}
+module case_lower_front_part0() {
+    color("Blue")
+    hull() {
+        place_hexagon_lower_round_edge_element(0, -4);
+        translate([0, -2*hex_rad, 0])
+        place_hexagon_upper_round_edge_element(0, 0);
+        place_hexagon_lower_round_edge_element(22, -4);
+        translate([0, -2*hex_rad, 0])
+        place_hexagon_upper_round_edge_element(22, 0);
+    }
+}
+
+module front_side0() {
+    translate([hex_rad, hex_rad, 0])
+    case_front_part0();
+    rotate([60, 0, 0])
+    translate([hex_rad, hex_rad, 0])
+    case_lower_front_part0();
+}
+module put_case_together0() {
+    // front side
+    translate([1, -84*cos(60)-28/2, 0])
+    rotate([60, 0, 0])
+    front_side0();
+    
+    // back side
+    translate([140+1, 0, 0])
+    rotate([0, 0, 180])
+    translate([1, -84*cos(60)-28/2, 0])
+    rotate([60, 0, 0])
+    front_side0();
+    
+    // top side with buttons
+    translate([hex_rad, hex_rad+28/2, 84*cos(30)])
+    case_lower_front_part0();
+    
+    // under carridge
+    translate([hex_rad, -(hex_rad-84/2), -28*cos(30)])
+    rotate([180, 0, 0])
+    case_front_part0();
+    
+}
+put_case_together0();
