@@ -211,6 +211,7 @@ module plain_display_cover() {
     *place_hexagon_cover_element(20, 4);
     
     // mounts
+    /*
     place_hexagon_cover_element_m3_mount(0, 2);
     place_hexagon_cover_element_m3_mount(5, -2);
     place_hexagon_cover_element_m3_mount(5, 6);
@@ -218,6 +219,15 @@ module plain_display_cover() {
     place_hexagon_cover_element_m3_mount(13, -2);
     place_hexagon_cover_element_m3_mount(15, 6);
     place_hexagon_cover_element_m3_mount(20, 4);
+    */
+    // no mounts
+    place_hexagon_cover_element(0, 2);
+    place_hexagon_cover_element(5, -2);
+    place_hexagon_cover_element(5, 6);
+    place_hexagon_cover_element(10, 5);
+    place_hexagon_cover_element(13, -2);
+    place_hexagon_cover_element(15, 6);
+    place_hexagon_cover_element(20, 4);
 }
 
 module plain_display_cover_cut() {
@@ -580,6 +590,7 @@ module display_clock_cover() {
     place_hexagon_cover_element(20, 4);
     
     // mounts
+    /*
     place_hexagon_cover_element_m3_mount(0, 2);
     place_hexagon_cover_element_m3_mount(5, -2);
     place_hexagon_cover_element_m3_mount(5, 6);
@@ -587,6 +598,15 @@ module display_clock_cover() {
     place_hexagon_cover_element_m3_mount(13, -2);
     place_hexagon_cover_element_m3_mount(15, 6);
     place_hexagon_cover_element_m3_mount(20, 4);
+    */
+    // no mounts
+    place_hexagon_cover_element(0, 2);
+    place_hexagon_cover_element(5, -2);
+    place_hexagon_cover_element(5, 6);
+    place_hexagon_cover_element(10, 5);
+    place_hexagon_cover_element(13, -2);
+    place_hexagon_cover_element(15, 6);
+    place_hexagon_cover_element(20, 4);
 }
 
 // - display ------------------
@@ -768,6 +788,7 @@ module display_backlight_cover() {
     place_hexagon_cover_element(20, 4);
     
     // mounts
+    /*
     place_hexagon_cover_element_m3_mount(0, 2);
     place_hexagon_cover_element_m3_mount(5, -2);
     place_hexagon_cover_element_m3_mount(5, 6);
@@ -775,6 +796,15 @@ module display_backlight_cover() {
     place_hexagon_cover_element_m3_mount(13, -2);
     place_hexagon_cover_element_m3_mount(15, 6);
     place_hexagon_cover_element_m3_mount(20, 4);
+    */
+    // no mounts
+    place_hexagon_cover_element(0, 2);
+    place_hexagon_cover_element(5, -2);
+    place_hexagon_cover_element(5, 6);
+    place_hexagon_cover_element(10, 5);
+    place_hexagon_cover_element(13, -2);
+    place_hexagon_cover_element(15, 6);
+    place_hexagon_cover_element(20, 4);
 }
 
 
@@ -1027,12 +1057,12 @@ module place_display_pcb(x_pos = 0, y_pos = 0) {
 *translate([0, 0, 20])
 plain_display_cover();
 
-*plain_display_cover_cut();
+plain_display_cover_cut();
 
 *translate([0, 0, -20])
 place_display_m3_mount_cut();
 
-display_clock_cover();
+*display_clock_cover();
 *display_backlight_cover();
 *led_spacer();
 *display_pcb();

@@ -4,6 +4,7 @@
  * lighthouse case
  */
 use <display.scad>
+use <buttons.scad>
 use <hexagonparts.scad>
 
 hex_rad = 8/2;
@@ -23,33 +24,63 @@ dy_even_factor = 2*hex_rad*cos(30); // see dyeven = n*2*r*cos(30)
 dx_odd_factor = 3/2*hex_rad; // see dxodd = m*3/2*r
 dy_odd_factor = hex_rad*cos(30); // see dyodd = (2n+1)*r*cos(30)
 */
+dx_even_factor = 3/2*hex_rad; // see dxeven = m*3*r
+dy_even_factor = 2*hex_rad*cos(30); // see dyeven = n*2*r*cos(30)
+dx_odd_factor = 3/2*hex_rad; // see dxodd = m*3/2*r
+dy_odd_factor = hex_rad*cos(30); // see dyodd = (2n+1)*r*cos(30)
 
-module stiffener(len1 = 30, loc_res) {
+// - bare side panels -------------------------------------
+module case_bare_wide_side_panel() {
+    //translate([hex_rad, hex_rad, 0])
     hull() {
-        translate([0, 0, 0])
-        rotate([90, 0, 0])
-        cylinder(d = 1, h = len1, $fn = loc_res);
-        translate([0, 0, -1])
-        rotate([90, 0, 0])
-        cylinder(d = 1, h = len1, $fn = loc_res);
+        place_hexagon_lower_edge_element(0, 0);
+        place_hexagon_upper_edge_element(0, 11);
+        place_hexagon_lower_edge_element(22, 0);
+        place_hexagon_upper_edge_element(22, 11);
     }
 }
-module case_front_part(show_display_cover = 1, show_led_spacer = 1, show_pcb = 1, loc_res = 32) {
+
+module case_bare_lower_side_panel() {
+    //translate([hex_rad, hex_rad, 0])
+    hull() {
+        place_hexagon_lower_edge_element(0, -4);
+        translate([0, -2*hex_rad, 0])
+        place_hexagon_upper_edge_element(0, 0);
+        place_hexagon_lower_edge_element(22, -4);
+        translate([0, -2*hex_rad, 0])
+        place_hexagon_upper_edge_element(22, 0);
+    }
+}
+
+module case_bare_wide_base_panel() {
+    //translate([hex_rad, hex_rad, 0])
+    hull() {
+        place_hexagon_lower_edge_element(0, 0);
+        place_hexagon_upper_edge_element(0, 11-2);
+        place_hexagon_lower_edge_element(22, 0);
+        place_hexagon_upper_edge_element(22, 11-2);
+    }
+}
+
+module case_bare_top_panel() {
+    //translate([hex_rad, hex_rad, 0])
+    hull() {
+        place_hexagon_lower_edge_element(0, -2);
+        translate([0, -2*hex_rad, 0])
+        place_hexagon_upper_edge_element(0, 0);
+        place_hexagon_lower_edge_element(22, -2);
+        translate([0, -2*hex_rad, 0])
+        place_hexagon_upper_edge_element(22, 0);
+    }
+}
+
+// - define all side panels ------------------------------------
+module case_display_side_panel(show_display_cover = 1, show_led_spacer = 1, show_pcb = 1, loc_res = 32) {
+    translate([hex_rad, hex_rad, 0])
     color("LightBlue") {
         difference() {
             union() {
-                *hull() {
-                    place_hexagon_edge_element(0, 0);
-                    place_hexagon_edge_element(0, 11);
-                    place_hexagon_edge_element(22, 0);
-                    place_hexagon_edge_element(22, 11);
-                }
-                hull() {
-                    place_hexagon_lower_round_edge_element(0, 0);
-                    place_hexagon_upper_round_edge_element(0, 11);
-                    place_hexagon_lower_round_edge_element(22, 0);
-                    place_hexagon_upper_round_edge_element(22, 11);
-                }
+                case_bare_wide_side_panel();
                 // add decoration
                 translate([0, 0, 0.4]) {
                     place_hexagon_cover_middle_element(0, 2);
@@ -158,34 +189,27 @@ module case_front_part(show_display_cover = 1, show_led_spacer = 1, show_pcb = 1
         }
     }
     if(show_display_cover) {
-        translate([0, 0, 0.4])
+        translate([hex_rad, hex_rad, 0.4])
         place_display_backlight_cover(1, 4);
     }
     if(show_led_spacer) {
         color("LightGreen")
-        translate([0, 0, -6])
+        translate([hex_rad, hex_rad, -6])
         place_led_spacer(1, 4);
     }
     if(show_pcb) {
-        translate([0, 0, -8])
+        translate([hex_rad, hex_rad, -8])
         place_display_pcb(1, 4);
         *place_display_m3_mount_cut(1, 4);
     }
 }
 
-module case_lower_front_part() {
-    // lower edge, 60° folded in
-    //translate([0, -hex_rad, 1/2]) 
-    //rotate([60, 0, 0])
-    //translate([0, hex_rad, -1/2])
-    color("LightBlue") {
+module case_lower_side_panel() {
+    // lower edge, will be 60° folded in
+    translate([hex_rad, hex_rad, 0])
+    color("LightGreen") {
         union() {
-            hull() {
-                place_hexagon_lower_round_edge_element(0, -4);
-                place_hexagon_lower_round_edge_element(0, 0);
-                place_hexagon_lower_round_edge_element(22, -4);
-                place_hexagon_lower_round_edge_element(22, 0);
-            }
+            case_bare_lower_side_panel();
             // add decoration
             translate([0, 0, 0.4]) {
                 place_hexagon_cover_middle_element(0, -2);
@@ -272,78 +296,200 @@ module case_lower_front_part() {
     }
 }
 
-module front_side() {
-    translate([hex_rad, -12*hex_rad*cos(30)-2*hex_rad, 8*hex_rad*cos(30)])
-    rotate([60, 0, 0]) 
-    translate([0, hex_rad, -1/2]) {
-        case_front_part(0, 0, 0);
-        // lower edge, 60° folded in
-        translate([0, -hex_rad, 1/2]) 
-        rotate([60, 0, 0])
-        translate([0, hex_rad, -1/2])
-        case_lower_front_part();
+module case_bottom_base_panel(loc_res = 32) {
+    // this panel will be upside down!
+    translate([hex_rad, hex_rad, 0])
+    color("LightCoral") {
+        difference() {
+            union() {
+                case_bare_wide_base_panel();
+                // 2 mm standoffs
+                translate([0, 0, -2]) {
+                    place_cylinder(1, 1, 8/2, 2);
+                    place_cylinder(1, 9, 8/2, 2);
+                    place_cylinder(11, 1, 8/2, 2);
+                    place_cylinder(11, 9, 8/2, 2);
+                    place_cylinder(21, 1, 8/2, 2);
+                    place_cylinder(21, 9, 8/2, 2);
+                }
+            }
+            // add bottom cut outs
+            translate([0, 0, -1]) {
+                for(n = [2:2:20]) {
+                    place_hexagon_cutout(n, 1);
+                }
+                for(n = [1:1:21]) {
+                    for(m = [2:1:8]) {
+                        place_hexagon_cutout(n, m);
+                    }
+                }
+            }
+            translate([0, 0, -3]) {
+                place_cylinder(1, 1, 3.3/2, 5);
+                place_cylinder(1, 9);
+                place_cylinder(11, 1);
+                place_cylinder(11, 9);
+                place_cylinder(21, 1);
+                place_cylinder(21, 9);
+            }
+            place_cylinder(1, 1, 6/2, 2);
+            place_cylinder(1, 9, 6/2, 2);
+            place_cylinder(11, 1, 6/2, 2);
+            place_cylinder(11, 9, 6/2, 2);
+            place_cylinder(21, 1, 6/2, 2);
+            place_cylinder(21, 9, 6/2, 2);
+        }
     }
 }
+*case_bottom_base_panel();
 
+module case_top_button_panel() {
+    translate([hex_rad, hex_rad, 0])
+    color("Teal") {
+        difference() {
+            union() {
+                case_bare_top_panel();
+                
+                // 2 mm standoffs, mounting points
+                translate([-1*hex_rad, 3/2*hex_rad, -2])
+                difference() {
+                    place_cylinder(3, -2, 5.5/2, 2);
+                    translate([0, 0, -1])
+                    place_cylinder(3, -2, 2.5/2, 4);
+                }
+                translate([hex_rad/2, 3/2*hex_rad, -2])
+                difference() {
+                    place_cylinder(5, -2, 5.5/2, 2);
+                    translate([0, 0, -1])
+                    place_cylinder(5, -2, 2.5/2, 4);
+                }
+                translate([-hex_rad/2, 3/2*hex_rad, -2])
+                difference() {
+                    place_cylinder(17, -2, 5.5/2, 2);
+                    translate([0, 0, -1])
+                    place_cylinder(17, -2, 2.5/2, 4);
+                }
+                translate([+1*hex_rad, 3/2*hex_rad, -2])
+                difference() {
+                    place_cylinder(19, -2, 5.5/2, 2);
+                    translate([0, 0, -1])
+                    place_cylinder(19, -2, 2.5/2, 4);
+                }
+            }
+            // button cut outs
+            translate([0, 3/2*hex_rad, -2]) {
+                place_button_cutout(1, -2);
+                translate([hex_rad, 0, 0])
+                place_button_cutout(3, -2);
+                hull() {
+                    place_button_cutout(7, -2);
+                    place_button_cutout(15, -2);
+                }
+                translate([-hex_rad, 0, 0])
+                place_button_cutout(19, -2);
+                place_button_cutout(21, -2);
+            }
+        }
+        // add buttons
+    }
+}
+case_top_button_panel();
 
+module case_put_side_panels_together() {
+    // display panel
+    case_display_side_panel(0, 0, 0);
+    
+    // lower side panel
+    rotate([60, 0, 0])
+    case_lower_side_panel();
+}
+*case_put_side_panels_together();
 
 module put_case_together() {
-    front_side();
-    translate([32*hex_rad*cos(30), 0])
+    // display side
+    translate([0, -84*cos(60)-14/2, 0])
+    rotate([60, 0, 0])
+    case_put_side_panels_together();
+    
+    // backlight side
+    translate([140, 0, 0])
     rotate([0, 0, 180])
-    front_side();
+    translate([0, -84*cos(60)-14/2, 0])
+    rotate([60, 0, 0])
+    case_put_side_panels_together();
+    
+    // top side with buttons
+    translate([0, +14/2-.1, 84*cos(30)+0.2])
+    case_top_button_panel();
+    
+    // bottom base plate
+    translate([0, -(-70/2), -28*cos(30)+0.2])
+    rotate([180, 0, 0])
+    case_bottom_base_panel();
+    
 }
-//put_case_together();
+*put_case_together();
 
+
+
+
+// - overall much simpler definitions for previews -----------------
+/*
 module case_front_part0() {
     color("Green")
+    translate([hex_rad, hex_rad, 0])
     hull() {
-        place_hexagon_lower_round_edge_element(0, 0);
-        place_hexagon_upper_round_edge_element(0, 11);
-        place_hexagon_lower_round_edge_element(22, 0);
-        place_hexagon_upper_round_edge_element(22, 11);
+        place_hexagon_lower_edge_element(0, 0);
+        place_hexagon_upper_edge_element(0, 11);
+        place_hexagon_lower_edge_element(22, 0);
+        place_hexagon_upper_edge_element(22, 11);
     }
 }
 module case_lower_front_part0() {
     color("Blue")
+    translate([hex_rad, hex_rad, 0])
     hull() {
-        place_hexagon_lower_round_edge_element(0, -4);
+        place_hexagon_lower_edge_element(0, -4);
         translate([0, -2*hex_rad, 0])
-        place_hexagon_upper_round_edge_element(0, 0);
-        place_hexagon_lower_round_edge_element(22, -4);
+        place_hexagon_upper_edge_element(0, 0);
+        place_hexagon_lower_edge_element(22, -4);
         translate([0, -2*hex_rad, 0])
-        place_hexagon_upper_round_edge_element(22, 0);
+        place_hexagon_upper_edge_element(22, 0);
     }
 }
 
+*case_front_part0();
+*case_lower_front_part0();
+
 module front_side0() {
-    translate([hex_rad, hex_rad, 0])
     case_front_part0();
     rotate([60, 0, 0])
-    translate([hex_rad, hex_rad, 0])
     case_lower_front_part0();
 }
+*front_side0();
+
 module put_case_together0() {
     // front side
-    translate([1, -84*cos(60)-28/2, 0])
+    translate([0, -84*cos(60)-28/2, 0])
     rotate([60, 0, 0])
     front_side0();
     
     // back side
-    translate([140+1, 0, 0])
+    translate([140, 0, 0])
     rotate([0, 0, 180])
-    translate([1, -84*cos(60)-28/2, 0])
+    translate([0, -84*cos(60)-28/2, 0])
     rotate([60, 0, 0])
     front_side0();
     
     // top side with buttons
-    translate([hex_rad, hex_rad+28/2, 84*cos(30)])
+    translate([0, +28/2-.1, 84*cos(30)+0.2])
     case_lower_front_part0();
     
     // under carridge
-    translate([hex_rad, -(hex_rad-84/2), -28*cos(30)])
+    translate([0, -(-84/2), -28*cos(30)+0.2])
     rotate([180, 0, 0])
     case_front_part0();
     
 }
 put_case_together0();
+*/
