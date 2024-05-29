@@ -1023,37 +1023,6 @@ module place_led_spacer(x_pos = 0, y_pos = 0) {
     }
 }
 
-module display_pcb(th = 1.6, col = "Green", loc_res = 32) {
-    color(col)
-    difference() {
-        hull() {
-            translate([-2, -25, 0])
-            cylinder(r = 2, h = th, $fn = loc_res);
-            translate([-2, +50, 0])
-            cylinder(r = 2, h = th, $fn = loc_res);
-            translate([+152, -25, 0])
-            cylinder(r = 2, h = th, $fn = loc_res);
-            translate([+152, +50, 0])
-            cylinder(r = 2, h = th, $fn = loc_res);
-        }
-        place_display_m3_mount_cut(0, 0);
-    }
-
-}
-
-module place_display_pcb(x_pos = 0, y_pos = 0) {
-    if((x_pos % 2) == 0) {
-        // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        display_pcb();
-    }
-    else {
-        // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        display_pcb();
-    }
-}
-
 *translate([0, 0, 20])
 plain_display_cover();
 
@@ -1065,4 +1034,3 @@ place_display_m3_mount_cut();
 *display_clock_cover();
 *display_backlight_cover();
 *led_spacer();
-*display_pcb();

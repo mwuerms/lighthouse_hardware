@@ -31,20 +31,20 @@ module place_button(x_pos = 0, y_pos = 0) {
     if((x_pos % 2) == 0) {
         // even column
         translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0]) {
-            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 1);
+            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 0.5);
             hull() {
-                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2.5);
-                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 3);
+                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2);
+                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 2.5);
             }
         }
     }
     else {
         // odd column
         translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0]) {
-            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 1);
+            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 0.5);
             hull() {
-                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2.5);
-                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 3);
+                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2);
+                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 2.5);
             }
         }
     }
@@ -56,18 +56,18 @@ module place_long_button(x_pos = 0, y_pos = 0, x_wid = 1) {
         // even column
         hull() {
             translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 1);
+            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 0.5);
             translate([(x_pos+x_wid)*dx_even_factor, y_pos*dy_even_factor, 0])
-            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 1);
+            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 0.5);
         }
         hull() {
             translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0]) {
-                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2.5);
-                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 3);
+                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2);
+                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 2.5);
             }
             translate([(x_pos+x_wid)*dx_even_factor, y_pos*dy_even_factor, 0]) {
-                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2.5);
-                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 3);
+                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2);
+                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 2.5);
             }
         }
     }
@@ -75,18 +75,18 @@ module place_long_button(x_pos = 0, y_pos = 0, x_wid = 1) {
         // odd column
         hull() {
             translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 1);
+            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 0.5);
             translate([(x_pos+x_wid)*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 1);
+            hexagon_element(hex_rad1 = 12/2, hex_hi1 = 0.5);
         }
         hull() {
             translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0]) {
-                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2.5);
-                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 3);
+                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2);
+                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 2.5);
             }
             translate([(x_pos+x_wid)*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0]) {
-                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2.5);
-                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 3);
+                hexagon_element(hex_rad1 = 10/2, hex_hi1 = 2);
+                hexagon_element(hex_rad1 = 8/2, hex_hi1 = 2.5);
             }
         }
     }
