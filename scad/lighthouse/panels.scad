@@ -7,6 +7,7 @@ use <display.scad>
 use <buttons.scad>
 use <pcbs.scad>
 use <hexagonparts.scad>
+use <m3screw.scad>
 
 hex_rad = 8/2;
 /* calculate hexagon center positions
@@ -86,6 +87,85 @@ module case_bare_top_panel() {
         place_hexagon_upper_edge_element(22, 2);
     }
 }
+
+module panel_side_mount_stiffener60(rad_mount = 0.6/2, wid_mount = 2, len_mount = 6) {
+    // 0°side
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+        translate([0, len_mount, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+    }
+    // 60° side
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+    }
+    // stiffener
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+        translate([0, len_mount, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+    }
+}
+*panel_side_mount_stiffener60();
+
+//0.4, 3, 10
+module panel_side_mount_m3nut_stiffener60(rad_mount = 0.4/2, wid_mount = 3, len_mount = 10) {
+    // 0°side
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+        translate([0, len_mount, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+    }
+    // 60° side
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+    }
+    // stiffener
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+        translate([0, len_mount, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+    }
+    // M3 nut
+    color("Red") {
+    translate([-3, 1.9, -(6.4/2-rad_mount/2)])
+    rotate([0, 90, 0])
+    m3ScrewCut(cut_d = 3.6);
+    translate([rad_mount, 1.9, -(6.4/2-rad_mount/2)])
+    rotate([0, 90, 0])
+    rotate([0, 0, 30])
+    m3NutCut();
+    }
+}
+panel_side_mount_m3nut_stiffener60();
 
 // - define all side panels ------------------------------------
 module case_display_side_panel(show_display_cover = 1, show_led_spacer = 1, show_pcb = 1, loc_res = 32) {
@@ -216,8 +296,7 @@ module case_display_side_panel(show_display_cover = 1, show_led_spacer = 1, show
         }
     }
 }
-
-case_display_side_panel();
+*case_display_side_panel();
 
 module case_lower_side_panel() {
     // lower edge, will be 60° folded in

@@ -43,6 +43,9 @@ module case_put_side_panels_together() {
     // lower side panel
     rotate([60, 0, 0])
     case_lower_side_panel();
+    
+    translate([0, 0.4/2, -0.4])
+    panel_side_mount_stiffener60(0.4, 3, 10); // seems maximum
 }
 case_put_side_panels_together();
 
