@@ -88,85 +88,6 @@ module case_bare_top_panel() {
     }
 }
 
-module panel_side_mount_stiffener60(rad_mount = 0.6/2, wid_mount = 2, len_mount = 6) {
-    // 0°side
-    hull() {
-        translate([0, 0, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, wid_mount);
-        translate([0, len_mount, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, wid_mount);
-    }
-    // 60° side
-    hull() {
-        translate([0, 0, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, wid_mount);
-        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, wid_mount);
-    }
-    // stiffener
-    hull() {
-        translate([0, 0, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, rad_mount);
-        translate([0, len_mount, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, rad_mount);
-        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, rad_mount);
-    }
-}
-*panel_side_mount_stiffener60();
-
-//0.4, 3, 10
-module panel_side_mount_m3nut_stiffener60(rad_mount = 0.4/2, wid_mount = 3, len_mount = 10) {
-    // 0°side
-    hull() {
-        translate([0, 0, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, wid_mount);
-        translate([0, len_mount, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, wid_mount);
-    }
-    // 60° side
-    hull() {
-        translate([0, 0, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, wid_mount);
-        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, wid_mount);
-    }
-    // stiffener
-    hull() {
-        translate([0, 0, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, rad_mount);
-        translate([0, len_mount, 0])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, rad_mount);
-        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
-        rotate([0, 90, 0])
-        place_cylinder(0, 0, rad_mount, rad_mount);
-    }
-    // M3 nut
-    color("Red") {
-    translate([-3, 1.9, -(6.4/2-rad_mount/2)])
-    rotate([0, 90, 0])
-    m3ScrewCut(cut_d = 3.6);
-    translate([rad_mount, 1.9, -(6.4/2-rad_mount/2)])
-    rotate([0, 90, 0])
-    rotate([0, 0, 30])
-    m3NutCut();
-    }
-}
-panel_side_mount_m3nut_stiffener60();
-
 // - define all side panels ------------------------------------
 module case_display_side_panel(show_display_cover = 1, show_led_spacer = 1, show_pcb = 1, loc_res = 32) {
     translate([hex_rad, hex_rad, 0])
@@ -390,52 +311,225 @@ module case_lower_side_panel() {
     }
 }
 
-module case_bottom_base_panel(loc_res = 32) {
-    // this panel will be upside down!
-    translate([hex_rad, hex_rad, 0])
-    color("LightCoral") {
-        difference() {
-            union() {
-                case_bare_wide_base_panel();
-                // 2 mm standoffs
-                translate([0, 0, -2]) {
-                    place_cylinder(1, 1, 8/2, 2);
-                    place_cylinder(1, 9, 8/2, 2);
-                    place_cylinder(11, 1, 8/2, 2);
-                    place_cylinder(11, 9, 8/2, 2);
-                    place_cylinder(21, 1, 8/2, 2);
-                    place_cylinder(21, 9, 8/2, 2);
-                }
-            }
-            // add bottom cut outs
-            translate([0, 0, -1]) {
-                for(n = [2:2:20]) {
-                    place_hexagon_cutout(n, 1);
-                }
-                for(n = [1:1:21]) {
-                    for(m = [2:1:8]) {
-                        place_hexagon_cutout(n, m);
-                    }
-                }
-            }
-            translate([0, 0, -3]) {
-                place_cylinder(1, 1, 3.3/2, 5);
-                place_cylinder(1, 9);
-                place_cylinder(11, 1);
-                place_cylinder(11, 9);
-                place_cylinder(21, 1);
-                place_cylinder(21, 9);
-            }
-            place_cylinder(1, 1, 6/2, 2);
-            place_cylinder(1, 9, 6/2, 2);
-            place_cylinder(11, 1, 6/2, 2);
-            place_cylinder(11, 9, 6/2, 2);
-            place_cylinder(21, 1, 6/2, 2);
-            place_cylinder(21, 9, 6/2, 2);
-        }
+// - side mounts stiffener ------------------
+module panel_side_mount_stiffener60(rad_mount = 0.6/2, wid_mount = 10, len_mount = 6) {
+    // 0°side
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+        translate([0, len_mount, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+    }
+    // 60° side
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+    }
+    // stiffener
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+        translate([0, len_mount, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
     }
 }
-*case_bottom_base_panel();
+*panel_side_mount_stiffener60();
+
+//0.4, 3, 10
+module panel_side_mount_m3insert60(rad_mount = 0.6/2, wid_mount = 4.4, len_mount = 10, show_insert = 1, show_m3_cut = 1, loc_res = 32) {
+    difference() {
+        union() {
+            // full stiffener from 0°side to 60° side
+            hull() {
+                translate([0, 0, 0])
+                rotate([0, 90, 0])
+                place_cylinder(0, 0, rad_mount, wid_mount);
+                translate([0, len_mount, 0])
+                rotate([0, 90, 0])
+                place_cylinder(0, 0, rad_mount, wid_mount);
+                translate([0, 0, 0])
+                rotate([0, 90, 0])
+                place_cylinder(0, 0, rad_mount, wid_mount);
+                translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+                rotate([0, 90, 0])
+                place_cylinder(0, 0, rad_mount, wid_mount);
+            }
+            // material to mount M3 press fit insert
+            translate([0, 3.5/2, -3.5])
+            rotate([0, 90, 0])
+            cylinder(d = 6, h = wid_mount, $fn = loc_res);
+        }
+        // cut M3 press fit insert
+        translate([wid_mount+0.1, 3.5/2, -3.5])
+        rotate([0, 90, 0])
+        pfla_m3_1_insert_cut();
+    }
+    // show M3 press fit insert
+    if(show_insert) {
+        color("LightGreen")
+        translate([wid_mount+0.1, 3.5/2, -3.5])
+        rotate([0, 90, 0])
+        pfla_m3_1_insert();
+    }
+    // show M3 cut
+    if(show_m3_cut) {
+        translate([wid_mount+0.1, 3.5/2, -3.5])
+        rotate([0, 90, 0])
+        pfla_m3_cut(20);
+    }
+}
+*panel_side_mount_m3insert60(show_insert = 1, show_m3_cut = 0);
+
+// - bottom panel --------------------------------------
+module panel_base_mount_m3insert_whole_side_stiffener60(rad_mount = 0.6/2, wid_mount = 140, len_mount = 10, insert_wid = 4.4, show_insert = 1, show_m3_cut = 1, loc_res = 32) {
+    // 60° side
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, wid_mount);
+    }
+    // left + right mount M3 press fit insert + stiffener
+    for(n = [0:1:1])
+    translate([n*(140-insert_wid), 0, 0])
+    difference() {
+        union() {
+            hull() {
+                translate([0, 0, 0])
+                rotate([0, 90, 0])
+                place_cylinder(0, 0, rad_mount, insert_wid);
+                translate([0, len_mount, 0])
+                rotate([0, 90, 0])
+                place_cylinder(0, 0, rad_mount, insert_wid);
+                translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+                rotate([0, 90, 0])
+                place_cylinder(0, 0, rad_mount, insert_wid);
+            }
+            // material to mount M3 press fit insert
+            translate([0, 3.5/2, -3.5])
+            rotate([0, 90, 0])
+            cylinder(d = 6, h = insert_wid, $fn = loc_res);
+        }
+        // cut M3 press fit insert
+        translate([insert_wid+0.1, 3.5/2, -3.5])
+        rotate([0, 90, 0])
+        pfla_m3_1_insert_cut();
+    }
+    // place stiffeners
+    for(n = [1:1:6])
+    translate([n*20, 0, 0])
+    hull() {
+        translate([0, 0, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+        translate([0, 0.2*len_mount, 0])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+        translate([0, -len_mount*cos(60), -len_mount*sin(60)])
+        rotate([0, 90, 0])
+        place_cylinder(0, 0, rad_mount, rad_mount);
+    }
+    
+    // show M3 press fit insert
+    if(show_insert) {
+        // left
+        color("LightGreen")
+        translate([insert_wid+0.1, 3.5/2, -3.5])
+        rotate([0, 90, 0])
+        pfla_m3_1_insert();
+        // right
+        color("LightGreen")
+        translate([140-insert_wid+0.1, 3.5/2, -3.5])
+        rotate([0, 0, 180])
+        rotate([0, 90, 0])
+        pfla_m3_1_insert();
+    }
+    // show M3 cut
+    if(show_m3_cut) {
+        // left
+        translate([insert_wid+0.1, 3.5/2, -3.5])
+        rotate([0, 90, 0])
+        pfla_m3_cut(20);
+        // right
+        translate([140-insert_wid+0.1, 3.5/2, -3.5])
+        rotate([0, 0, 180])
+        rotate([0, 90, 0])
+        pfla_m3_cut(20);
+    }
+}
+
+module case_bottom_base_panel(show_insert = 0, show_m3_cut = 0, show_pcb = 0, loc_res = 32) {
+    // this panel will be upside down!
+    color("LightCoral") {
+        translate([hex_rad, hex_rad, 0]) {
+            difference() {
+                union() {
+                    case_bare_wide_base_panel();
+                    // 2 mm standoffs
+                    translate([0, 0, -2]) {
+                        place_cylinder(1, 1, 8/2, 2);
+                        place_cylinder(1, 9, 8/2, 2);
+                        place_cylinder(11, 1, 8/2, 2);
+                        place_cylinder(11, 9, 8/2, 2);
+                        place_cylinder(21, 1, 8/2, 2);
+                        place_cylinder(21, 9, 8/2, 2);
+                    }
+                }
+                // add bottom cut outs
+                translate([0, 0, -1]) {
+                    for(n = [2:2:20]) {
+                        place_hexagon_cutout(n, 1);
+                    }
+                    for(n = [1:1:21]) {
+                        for(m = [2:1:8]) {
+                            place_hexagon_cutout(n, m);
+                        }
+                    }
+                }
+                // m3 mounts
+                translate([0, 0, -3]) {
+                    place_cylinder(1, 1, 3.3/2, 5);
+                    place_cylinder(1, 9, 3.3/2, 5);
+                    place_cylinder(11, 1, 3.3/2, 5);
+                    place_cylinder(11, 9, 3.3/2, 5);
+                    place_cylinder(21, 1, 3.3/2, 5);
+                    place_cylinder(21, 9, 3.3/2, 5);
+                }
+                place_cylinder(1, 1, 6/2, 2);
+                place_cylinder(1, 9, 6/2, 2);
+                place_cylinder(11, 1, 6/2, 2);
+                place_cylinder(11, 9, 6/2, 2);
+                place_cylinder(21, 1, 6/2, 2);
+                place_cylinder(21, 9, 6/2, 2);
+            }
+        }
+        // these side mounts are already fixed to this panel, so add them here
+        // side mounts to fix to lower side panel
+        translate([0, 0.52, 0.6/2])
+        panel_base_mount_m3insert_whole_side_stiffener60(show_insert = show_insert, show_m3_cut = show_m3_cut);
+        translate([140, 70-0.3, 0.6/2])
+        rotate([0, 0, 180])
+        panel_base_mount_m3insert_whole_side_stiffener60(show_insert = show_insert, show_m3_cut = show_m3_cut);
+    }
+    if(show_pcb) {
+        translate([hex_rad, hex_rad, -(2+1.6)])
+        place_base_pcb();
+    }
+}
+case_bottom_base_panel(show_pcb = 1);
 
 module case_top_button_panel(show_buttons = 1, show_pcb = 1) {
     translate([hex_rad, hex_rad, 0]) 

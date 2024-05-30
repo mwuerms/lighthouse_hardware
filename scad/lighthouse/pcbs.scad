@@ -102,8 +102,6 @@ module place_button_pcb(x_pos = 0, y_pos = 0) {
 
 *place_button_pcb(0, 0);
 
-
-
 module display_pcb(th1 = 1.6, col = "ForestGreen", loc_res = 32) {
     color(col)
     difference() {
@@ -138,4 +136,44 @@ module place_display_pcb(x_pos = 0, y_pos = 0) {
     }
 }
 
-place_display_pcb();
+*place_display_pcb();
+
+module base_pcb(th1 = 1.6, col = "ForestGreen", loc_res = 32) {
+    color(col)
+    difference() {
+        hull() {
+            translate([hex_rad, 0, 0])
+            place_cylinder(0, 0, 2, th1);
+            translate([hex_rad, 0, 0])
+            place_cylinder(0, 9, 2, th1);
+            translate([-hex_rad, 0, 0])
+            place_cylinder(22, 0, 2, th1);
+            translate([-hex_rad, 0, 0])
+            place_cylinder(22, 9, 2, th1);
+        }
+        // M3 holes
+        translate([0, 0, -1]) {
+            place_cylinder(1, 1, 3.3/2, 5);
+            place_cylinder(1, 9, 3.3/2, 5);
+            place_cylinder(11, 1, 3.3/2, 5);
+            place_cylinder(11, 9, 3.3/2, 5);
+            place_cylinder(21, 1, 3.3/2, 5);
+            place_cylinder(21, 9, 3.3/2, 5);
+        }
+    }
+}
+
+module place_base_pcb(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        base_pcb();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        base_pcb();
+    }
+}
+
+place_base_pcb();
