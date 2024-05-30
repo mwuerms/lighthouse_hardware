@@ -47,12 +47,14 @@ module button_pcb(th1 = 1.6) {
     difference() {
         union() {
             hull() {
+                translate([hex_rad, 0, 0])
                 place_cylinder(0, 0, 2, th1);
                 // needs some cheating, dont know why
-                translate([0, -0.6*hex_rad, 0])
+                translate([hex_rad, -0.6*hex_rad, 0])
                 place_cylinder(0, 1, 2, th1);
+                translate([-hex_rad, 0, 0])
                 place_cylinder(22, 0, 2, th1);
-                translate([0, -0.6*hex_rad, 0])
+                translate([-hex_rad, -0.6*hex_rad, 0])
                 place_cylinder(22, 1, 2, th1);
             }
         }
@@ -100,7 +102,7 @@ module place_button_pcb(x_pos = 0, y_pos = 0) {
     }
 }
 
-*place_button_pcb(0, 0);
+place_button_pcb(0, 0);
 
 module display_pcb(th1 = 1.6, col = "ForestGreen", loc_res = 32) {
     color(col)
@@ -176,4 +178,4 @@ module place_base_pcb(x_pos = 0, y_pos = 0) {
     }
 }
 
-place_base_pcb();
+*place_base_pcb();
