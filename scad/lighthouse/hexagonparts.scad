@@ -309,7 +309,7 @@ module place_hexagon_cover_element_m3_mount_cut(x_pos = 0, y_pos = 0) {
         hexagon_cover_element_m3_mount_cut(hex_rad1 = hex_rad);
     }
 }
-module hexagon_spacer_element(hex_rad1 = 10/2, hex_hi = 6, wallth = 0.5, hex_res = 6) {
+module hexagon_spacer_element(hex_rad1 = 10/2, hex_hi = 6.4, wallth = 0.5, hex_res = 6) {
     difference() {
         cylinder(r = hex_rad1 + (wallth/2), h = hex_hi, $fn = hex_res);
         translate([0, 0, -1])
@@ -363,3 +363,19 @@ module place_hexagon_spacer_element_m3_mount(x_pos = 0, y_pos = 0) {
     }
 }
 
+module hexagon_spacer_element_filled(hex_rad1 = 10/2, hex_hi = 5, wallth = 0.5, hex_res = 6) {
+    cylinder(r = hex_rad1 + (wallth/2), h = hex_hi, $fn = hex_res);
+}
+
+module place_hexagon_spacer_element_filled(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        hexagon_spacer_element_filled(hex_rad1 = 6/2);
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        hexagon_spacer_element_filled(hex_rad1 = 6/2);
+    }
+}

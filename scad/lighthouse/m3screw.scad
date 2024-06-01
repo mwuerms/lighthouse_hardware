@@ -16,17 +16,21 @@ module m3SinkHeadCut(len = 4, loc_res = 32) {
     translate([0, 0, 2])
     cylinder(d = 6.6, h = len, $fn = loc_res);
 }
+*m3SinkHeadCut();
+
 module m3CylinderHeadCut(len = 4, loc_res = 32) {
     translate([0, 0, 0])
     cylinder(d = 6, h = len, $fn = loc_res);
 }
+*m3CylinderHeadCut();
 
 module m3ScrewSinkHeadCut(len = 4, loc_res = 32) {
     translate([0, 0, 0])
-    m3ScrewCut(len, loc_res);
+    m3ScrewCut(len = len, loc_res);
     translate([0, 0, len])
-    m3SinkHeadCut(len, loc_res);
+    m3SinkHeadCut(len = len, loc_res);
 }
+m3ScrewSinkHeadCut();
 
 module m3NutCut() {
     translate([0, 0, 0])
@@ -50,7 +54,7 @@ module m3CylinderHeadScewNutCut(len = 10, loc_res = 32) {
 
 *m3SinkHeadScewNutCut(20);
 *m3CylinderHeadScewNutCut(15);
-*m3ScrewSinkHeadCut(10);
+
 
 // M3 press-fit insert "PFLA-M3-1"
 module pfla_m3_1_insert(len = 10, m3_dia = 3.2, loc_res = 32) {
@@ -71,7 +75,7 @@ module pfla_m3_1_insert(len = 10, m3_dia = 3.2, loc_res = 32) {
     }
 }
 
-pfla_m3_1_insert();
+*pfla_m3_1_insert();
 
 module pfla_m3_1_insert_cut(len = 10, m3_dia = 3.2, loc_res = 32) {
     // m3 cut
@@ -82,11 +86,11 @@ module pfla_m3_1_insert_cut(len = 10, m3_dia = 3.2, loc_res = 32) {
     cylinder(d = 4, h = 5.3, $fn = loc_res); // cut dia: 3.96mm, cut depth: 5.24 mm
 }
 
-pfla_m3_1_insert_cut();
+*pfla_m3_1_insert_cut();
 
 module pfla_m3_cut(len = 10, m3_dia = 3.2, loc_res = 32) {
     // only m3 cut
     translate([0, 0, -(len)])
     cylinder(d = m3_dia, h = len+1, $fn = loc_res);
 }
-pfla_m3_cut();
+*pfla_m3_cut();

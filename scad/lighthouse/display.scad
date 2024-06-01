@@ -7,7 +7,7 @@
  */
 
 use <hexagonparts.scad>
-
+use <m3screw.scad>
 
 hex_rad = 8/2;
 /* calculate hexagon center positions
@@ -1023,10 +1023,59 @@ module place_led_spacer(x_pos = 0, y_pos = 0) {
     }
 }
 
+module led_spacer_mount_element() {
+    difference() {
+        place_hexagon_spacer_element_filled(0, 0);
+        translate([0, 0, 5])
+        pfla_m3_1_insert_cut();
+    }
+    translate([0, 0, 4.6])
+    cylinder(d = 5, h = 0.4, $fn = 32);
+    translate([0, 0, 5])
+    cylinder(d = 2.8, h = 0.2, $fn = 32);
+}
+
+module place_led_spacer_mount_element(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        led_spacer_mount_element();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        led_spacer_mount_element();
+    }
+}
+
+module led_spacer_mount() {
+    // mounts
+    place_led_spacer_mount_element(0, 2);
+    place_led_spacer_mount_element(5, -2);
+    place_led_spacer_mount_element(5, 6);
+    place_led_spacer_mount_element(10, 5);
+    place_led_spacer_mount_element(13, -2);
+    place_led_spacer_mount_element(15, 6);
+    place_led_spacer_mount_element(20, 4);
+}
+
+module place_led_spacer_mount(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, -5])
+        led_spacer_mount();
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, -5])
+        led_spacer_mount();
+    }
+}
+
 *translate([0, 0, 20])
 plain_display_cover();
 
-plain_display_cover_cut();
+*plain_display_cover_cut();
 
 *translate([0, 0, -20])
 place_display_m3_mount_cut();
@@ -1034,3 +1083,4 @@ place_display_m3_mount_cut();
 *display_clock_cover();
 *display_backlight_cover();
 *led_spacer();
+place_led_spacer_mount();

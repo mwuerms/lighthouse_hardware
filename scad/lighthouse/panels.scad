@@ -215,9 +215,14 @@ module case_display_side_panel(show_display_cover = 1, show_led_spacer = 1, show
         translate([hex_rad, hex_rad, -8]) {
             place_display_pcb(1, 4);
         }
+        color("Red")
+        translate([hex_rad, hex_rad, 0]) {    
+            // mounts
+            place_led_spacer_mount(1, 4);
+        }
     }
 }
-*case_display_side_panel();
+case_display_side_panel(1, 1, 1);
 
 module case_lower_side_panel() {
     // lower edge, will be 60° folded in
@@ -680,7 +685,228 @@ module case_top_button_panel(show_insert = 0, show_m3_cut = 0, show_buttons = 1,
     }
     
 }
-case_top_button_panel();
+*case_top_button_panel();
+
+module side_panel_hex_element(r1 = 1, h1 = 1) {
+    rotate([0, 90, 0])
+    rotate([0, 0, 30])
+    cylinder(r = r1, h = h1, $fn = 6);
+}
+//hexagon_element(hex_rad1 = r1, hex_hi1 = h1);
+module case_side_panel() {
+    translate([-1, 0, 0]) {
+        difference() {
+            union() {
+                hull() {
+                    translate([0, +14/2, 84*cos(30)])
+                    side_panel_hex_element();
+                    translate([0, -14/2, 84*cos(30)])
+                    side_panel_hex_element();
+                    translate([0, +(84*cos(60)+14/2), 0])
+                    side_panel_hex_element();
+                    translate([0, -(84*cos(60)+14/2), 0])
+                    side_panel_hex_element();
+                    translate([0, -(-70/2), -28*cos(30)+0.2])
+                    side_panel_hex_element();
+                    translate([0, +(-70/2), -28*cos(30)+0.2])
+                    side_panel_hex_element();
+                }
+                hull() {
+                    translate([0, +14/2, 84*cos(30)]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                    translate([0, -14/2, 84*cos(30)]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                }
+                hull() {
+                    translate([0, +14/2, 84*cos(30)]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                    translate([0, +(84*cos(60)+14/2), 0]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                }
+                hull() {
+                    translate([0, +(84*cos(60)+14/2), 0]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                    translate([0, +(70/2), -28*cos(30)+0.2]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                }
+                hull() {
+                    translate([0, +(70/2), -28*cos(30)+0.2]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                    translate([0, -(70/2), -28*cos(30)+0.2]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                }
+                hull() {
+                    translate([0, -(70/2), -28*cos(30)+0.2]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                    translate([0, -(84*cos(60)+14/2), 0]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                }
+                hull() {
+                    translate([0, -(84*cos(60)+14/2), 0]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                    translate([0, -14/2, 84*cos(30)]) {
+                        side_panel_hex_element();
+                        translate([-0.2, 0, 0])
+                        side_panel_hex_element(r1 = 1/2, h1 = 1.2);
+                    }
+                }
+                translate([0.6, 0, 0])
+                rotate([0, -90, 0]) 
+                rotate([0, 0, 30]) {
+                    place_hexagon_cover_middle_element(0, -1);
+                    place_hexagon_cover_middle_element(0, 1);                
+                    place_hexagon_cover_middle_element(1, 1);
+                    place_hexagon_cover_middle_element(1, 0);
+                    place_hexagon_cover_middle_element(-1, 1);
+                    place_hexagon_cover_middle_element(-1, 0);
+                    
+                    place_hexagon_cover_middle_element(0, 2);
+                    place_hexagon_cover_middle_element(-1, 3);
+                    place_hexagon_cover_middle_element(-2, 1);
+                    place_hexagon_cover_middle_element(-3, 0);
+                    place_hexagon_cover_middle_element(2, 2);
+                    place_hexagon_cover_middle_element(0, 3);
+
+                    place_hexagon_cover_middle_element(0, 4);
+                    place_hexagon_cover_middle_element(0, 5);
+                    place_hexagon_cover_middle_element(1, 3);
+                    place_hexagon_cover_middle_element(2, 3);
+                    place_hexagon_cover_middle_element(3, 4);
+                    place_hexagon_cover_middle_element(4, 3);
+                    place_hexagon_cover_middle_element(5, 2);
+                    place_hexagon_cover_middle_element(4, 4);
+                    place_hexagon_cover_middle_element(4, 5);
+                    place_hexagon_cover_middle_element(2, 5);
+                    place_hexagon_cover_middle_element(2, 4);
+                    place_hexagon_cover_middle_element(1, 5);
+                    place_hexagon_cover_middle_element(1, 6);
+                    
+                    place_hexagon_cover_middle_element(-3, 2);
+                    place_hexagon_cover_middle_element(-4, 0);
+                    place_hexagon_cover_middle_element(-4, -1);
+                    place_hexagon_cover_middle_element(-2, 2);
+                    place_hexagon_cover_middle_element(-1, 5);
+                    place_hexagon_cover_middle_element(-2, 3);
+                    
+                    place_hexagon_cover_middle_element(-4, -2);
+                    place_hexagon_cover_middle_element(-3, -3);
+                    place_hexagon_cover_middle_element(-3, -2);
+                    place_hexagon_cover_middle_element(-2, -2);
+                    place_hexagon_cover_middle_element(-3, -1);
+                    place_hexagon_cover_middle_element(-1, -1);
+                    place_hexagon_cover_middle_element(-4, -4);
+                    place_hexagon_cover_middle_element(-4, -5);
+                    place_hexagon_cover_middle_element(-3, -4);
+                    place_hexagon_cover_middle_element(-5, -1);
+                    place_hexagon_cover_middle_element(-5, -2);
+                    place_hexagon_cover_middle_element(-5, -3);
+                    place_hexagon_cover_middle_element(-2, -5);
+                    
+                    place_hexagon_cover_middle_element(3, 2);
+                    place_hexagon_cover_middle_element(4, 2);
+                    place_hexagon_cover_middle_element(6, 2);
+                    place_hexagon_cover_middle_element(7, 1);
+                    place_hexagon_cover_middle_element(6, 1);
+                    place_hexagon_cover_middle_element(5, 1);
+                    place_hexagon_cover_middle_element(4, 1);
+                    place_hexagon_cover_middle_element(3, 1);
+                    place_hexagon_cover_middle_element(3, 6);
+                    place_hexagon_cover_middle_element(6, -1);
+                    place_hexagon_cover_middle_element(5, 0);
+                    place_hexagon_cover_middle_element(5, -1);
+                    place_hexagon_cover_middle_element(5, -2);
+                    place_hexagon_cover_middle_element(5, -3);
+                    place_hexagon_cover_middle_element(5, -5);
+                    place_hexagon_cover_middle_element(6, -3);
+                    place_hexagon_cover_middle_element(4, -1);
+                    place_hexagon_cover_middle_element(4, -3);
+                    place_hexagon_cover_middle_element(3, -1);
+                    place_hexagon_cover_middle_element(2, -1);
+                    place_hexagon_cover_middle_element(1, -2);
+                    place_hexagon_cover_middle_element(0, -2);
+                    place_hexagon_cover_middle_element(0, -3);
+                    place_hexagon_cover_middle_element(1, -3);
+                    place_hexagon_cover_middle_element(2, -2);
+                    place_hexagon_cover_middle_element(2, -3);
+                    place_hexagon_cover_middle_element(2, -4);
+                    place_hexagon_cover_middle_element(2, -5);
+                    place_hexagon_cover_middle_element(3, -2);
+                    place_hexagon_cover_middle_element(4, -4);
+                    place_hexagon_cover_middle_element(4, -5);
+                    place_hexagon_cover_middle_element(7, -2);
+                    place_hexagon_cover_middle_element(7, -3);
+                    place_hexagon_cover_middle_element(7, 0);
+                    place_hexagon_cover_middle_element(7, -4);
+                    place_hexagon_cover_middle_element(7, -5);
+                    place_hexagon_cover_middle_element(8, -1);
+                    place_hexagon_cover_middle_element(8, -3);
+                    place_hexagon_cover_middle_element(8, -4);
+                    place_hexagon_cover_middle_element(9, -4);
+                    place_hexagon_cover_middle_element(9, -2);
+                    place_hexagon_cover_middle_element(9, -5);
+                    place_hexagon_cover_middle_element(10, -4);
+                    place_hexagon_cover_middle_element(0, -4);
+                }
+            }
+            // M3 cuts
+            translate([0, 0, 84*cos(30)-3.4])
+            translate([6, 0, 0])
+            rotate([0, -90, 0])
+            m3ScrewSinkHeadCut();
+            translate([0, +(84*cos(60)+14/2-4.2), 0.2])
+            translate([6, 0, 0])
+            rotate([0, -90, 0])
+            m3ScrewSinkHeadCut();
+            translate([0, -(84*cos(60)+14/2-4.2), -0.2])
+            translate([6, 0, 0])
+            rotate([0, -90, 0])
+            m3ScrewSinkHeadCut();
+            translate([0, -(70/2-2.1), -(28*cos(30)+0.2-3.6)])
+            translate([6, 0, 0])
+            rotate([0, -90, 0])
+            m3ScrewSinkHeadCut();
+            translate([0, +(70/2-2.3), -(28*cos(30)+0.2-3.6)])
+            translate([6, 0, 0])
+            rotate([0, -90, 0])
+            m3ScrewSinkHeadCut();
+        }
+    }
+}
+
+*case_side_panel();
 
 // - overall much simpler definitions for previews -----------------
 /*

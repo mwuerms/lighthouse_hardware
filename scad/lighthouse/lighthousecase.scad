@@ -46,9 +46,9 @@ module case_put_side_panels_together() {
     
     // side mounts are added parts, so put them here
     // side mounts to fix lower side panel
-    translate([0, 0.2, -0.6/2])
+    translate([1, 0.2, -0.6/2])
     panel_side_mount_m3insert60(show_insert = 0, show_m3_cut = 1);
-    translate([140, 0.2, -0.6/2])
+    translate([140-1, 0.2, -0.6/2])
     rotate([0, 0, 180])
     rotate([-60, 0, 0])
     panel_side_mount_m3insert60(show_insert = 0, show_m3_cut = 1);    
@@ -74,12 +74,20 @@ module put_case_together() {
     
     // top side with buttons
     translate([0, -14/2, 84*cos(30)+0.2])
-    case_top_button_panel();
+    case_top_button_panel(show_insert = 1, show_m3_cut = 1);
     
     // bottom base plate
     translate([0, -(-70/2), -28*cos(30)+0.2])
     rotate([180, 0, 0])
-    case_bottom_base_panel(show_pcb = 1);
+    case_bottom_base_panel(show_insert = 1, show_m3_cut = 1, show_pcb = 1);
     
 }
+*difference() {
+    put_case_together();
+    translate([4, -80, -40])
+    cube([160, 160, 160]);
+}
+translate([-1, 0, 0])
+case_side_panel();
+
 put_case_together();
