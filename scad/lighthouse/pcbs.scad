@@ -67,7 +67,26 @@ module button_pcb(th1 = 1.6) {
         place_cylinder(17, 0, 3.3/2, 4);
         translate([+1*hex_rad, 3/2*hex_rad, -1])
         place_cylinder(19, 0, 3.3/2, 4);
+        
+        // minimal holes, to show, where the buttons will be
+        translate([0, 3/2*hex_rad, -1])
+        place_cylinder(1, 0, 1/2, 10);
+        translate([hex_rad, 3/2*hex_rad, -1])
+        place_cylinder(3, 0, 1/2, 4);
+        
+        translate([hex_rad/2, 3/2*hex_rad, -1])
+        place_cylinder(7, 0, 1/2, 4);
+        translate([hex_rad/2, 0.6*hex_rad, -1])
+        place_cylinder(10, 0, 1/2, 4);
+        translate([hex_rad/2, 3/2*hex_rad, -1])
+        place_cylinder(13, 0, 1/2, 4);
+        
+        translate([-hex_rad, 3/2*hex_rad, -1])
+        place_cylinder(19, 0, 1/2, 4);
+        translate([0, 3/2*hex_rad, -1])
+        place_cylinder(21, 0, 1/2, 4);
     }
+    /*
     // add electronics
     translate([0, 3/2*hex_rad, th1])
     place_buttonPTS526(1, 0);
@@ -85,6 +104,7 @@ module button_pcb(th1 = 1.6) {
     place_buttonPTS526(19, 0);
     translate([0, 3/2*hex_rad, th1])
     place_buttonPTS526(21, 0);
+    */
 }
 
 *button_pcb();
