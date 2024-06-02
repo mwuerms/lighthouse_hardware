@@ -316,6 +316,15 @@ module hexagon_spacer_element(hex_rad1 = 10/2, hex_hi = 6.4, wallth = 0.5, hex_r
         cylinder(r = hex_rad1 - (wallth/2), h = hex_hi+2, $fn = hex_res);
     }
 }
+*hexagon_spacer_element();
+
+module hexagon_spacer_element_mark_center() {
+    translate([-1/2, -0.2/2, 0])
+    cube([1, 0.2, 0.2]);
+    translate([-0.2/2, -1/2, 0])
+    cube([0.2, 1, 0.2]);
+}
+hexagon_spacer_element_mark_center();
 
 module hexagon_spacer_element_led2427_cut(hex_rad1 = 10/2, hex_hi = 6, wallth = 0.5, hex_res = 6) {
     difference() {
@@ -327,17 +336,25 @@ module hexagon_spacer_element_led2427_cut(hex_rad1 = 10/2, hex_hi = 6, wallth = 
     }
 }
 
-module place_hexagon_spacer_element(x_pos = 0, y_pos = 0) {
+module place_hexagon_spacer_element(x_pos = 0, y_pos = 0, mark_center = 0) {
     if((x_pos % 2) == 0) {
         // even column
-        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        hexagon_spacer_element(hex_rad1 = hex_rad);
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0]) {
+            hexagon_spacer_element(hex_rad1 = hex_rad);
+            if(mark_center) {
+                hexagon_spacer_element_mark_center();
+            }
+        }
         //hexagon_spacer_element_led2427_cut(hex_rad1 = hex_rad);
     }
     else {
         // odd column
-        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        hexagon_spacer_element(hex_rad1 = hex_rad);
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0]) {
+            hexagon_spacer_element(hex_rad1 = hex_rad);
+            if(mark_center) {
+                hexagon_spacer_element_mark_center();
+            }
+        }
         //hexagon_spacer_element_led2427_cut(hex_rad1 = hex_rad);
     }
 }

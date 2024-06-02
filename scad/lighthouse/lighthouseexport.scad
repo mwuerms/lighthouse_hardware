@@ -12,7 +12,7 @@ use <pcbs.scad>
 
 *case_display_side_panel(0, 0, 0); // 3d print 2 x
 *plain_display_cover(); // 3d print 2 x
-*led_spacer(); // 3d print 2 x
+*led_spacer(0); // 3d print 2 x
 *led_spacer_mount_element(); // 3d print 2 x 7
 *case_lower_side_panel(); // 3d print 2 x
 *panel_side_mount_stiffener60();// 3d print approx 2 x 3 (I don't know yet)

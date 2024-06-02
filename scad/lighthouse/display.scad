@@ -809,131 +809,131 @@ module display_backlight_cover() {
 
 
 // - spacer ---------------------------
-module led_spacer() {
-    place_hexagon_spacer_element(1, 1);
-    place_hexagon_spacer_element(1, 2);
-    place_hexagon_spacer_element(1, 3);
+module led_spacer(mark_center = 1) {
+    place_hexagon_spacer_element(1, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(1, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(1, 3, mark_center = mark_center);
     
-    place_hexagon_spacer_element(2, 0);
-    place_hexagon_spacer_element(2, 1);
-    place_hexagon_spacer_element(2, 2);
-    place_hexagon_spacer_element(2, 3);
-    place_hexagon_spacer_element(2, 4);
+    place_hexagon_spacer_element(2, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(2, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(2, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(2, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(2, 4, mark_center = mark_center);
     
-    place_hexagon_spacer_element(3, 0);
-    place_hexagon_spacer_element(3, 1);
-    place_hexagon_spacer_element(3, 2);
-    place_hexagon_spacer_element(3, 3);
-    place_hexagon_spacer_element(3, 4);
-    place_hexagon_spacer_element(3, 5);
+    place_hexagon_spacer_element(3, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(3, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(3, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(3, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(3, 4, mark_center = mark_center);
+    place_hexagon_spacer_element(3, 5, mark_center = mark_center);
     
-    place_hexagon_spacer_element(4, -1);
-    place_hexagon_spacer_element(4, 0);
-    place_hexagon_spacer_element(4, 1);
-    place_hexagon_spacer_element(4, 2);
-    place_hexagon_spacer_element(4, 3);
-    place_hexagon_spacer_element(4, 4);
+    place_hexagon_spacer_element(4, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(4, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(4, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(4, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(4, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(4, 4, mark_center = mark_center);
     
-    place_hexagon_spacer_element(5, -1);
-    place_hexagon_spacer_element(5, 0);
-    place_hexagon_spacer_element(5, 1);
-    place_hexagon_spacer_element(5, 2);
-    place_hexagon_spacer_element(5, 3);
-    place_hexagon_spacer_element(5, 4);
-    place_hexagon_spacer_element(5, 5);
+    place_hexagon_spacer_element(5, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(5, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(5, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(5, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(5, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(5, 4, mark_center = mark_center);
+    place_hexagon_spacer_element(5, 5, mark_center = mark_center);
     
-    place_hexagon_spacer_element(6, -1);
-    place_hexagon_spacer_element(6, 0);
-    place_hexagon_spacer_element(6, 1);
-    place_hexagon_spacer_element(6, 2);
-    place_hexagon_spacer_element(6, 3);
-    place_hexagon_spacer_element(6, 4);
+    place_hexagon_spacer_element(6, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(6, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(6, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(6, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(6, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(6, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(7, 0);
-    place_hexagon_spacer_element(7, 1);
-    place_hexagon_spacer_element(7, 2);
-    place_hexagon_spacer_element(7, 3);
-    place_hexagon_spacer_element(7, 4);
-    place_hexagon_spacer_element(7, 5);
+    place_hexagon_spacer_element(7, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(7, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(7, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(7, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(7, 4, mark_center = mark_center);
+    place_hexagon_spacer_element(7, 5, mark_center = mark_center);
 
-    place_hexagon_spacer_element(8, -1);
-    place_hexagon_spacer_element(8, 0);
-    place_hexagon_spacer_element(8, 1);
-    place_hexagon_spacer_element(8, 2);
-    place_hexagon_spacer_element(8, 3);
-    place_hexagon_spacer_element(8, 4);
+    place_hexagon_spacer_element(8, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(8, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(8, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(8, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(8, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(8, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(9, -1);
-    place_hexagon_spacer_element(9, 0);
-    place_hexagon_spacer_element(9, 1);
-    place_hexagon_spacer_element(9, 2);
-    place_hexagon_spacer_element(9, 3);
-    place_hexagon_spacer_element(9, 4);
+    place_hexagon_spacer_element(9, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(9, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(9, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(9, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(9, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(9, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(10, -1);
-    place_hexagon_spacer_element(10, 0);
-    place_hexagon_spacer_element(10, 1);
-    place_hexagon_spacer_element(10, 2);
-    place_hexagon_spacer_element(10, 3);
-    place_hexagon_spacer_element(10, 4);
+    place_hexagon_spacer_element(10, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(10, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(10, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(10, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(10, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(10, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(11, 0);
-    place_hexagon_spacer_element(11, 1);
-    place_hexagon_spacer_element(11, 2);
-    place_hexagon_spacer_element(11, 3);
-    place_hexagon_spacer_element(11, 4);
+    place_hexagon_spacer_element(11, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(11, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(11, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(11, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(11, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(12, -1);
-    place_hexagon_spacer_element(12, 0);
-    place_hexagon_spacer_element(12, 1);
-    place_hexagon_spacer_element(12, 2);
-    place_hexagon_spacer_element(12, 3);
-    place_hexagon_spacer_element(12, 4);
+    place_hexagon_spacer_element(12, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(12, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(12, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(12, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(12, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(12, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(13, -1);
-    place_hexagon_spacer_element(13, 0);
-    place_hexagon_spacer_element(13, 1);
-    place_hexagon_spacer_element(13, 2);
-    place_hexagon_spacer_element(13, 3);
-    place_hexagon_spacer_element(13, 4);
-    place_hexagon_spacer_element(13, 5);
+    place_hexagon_spacer_element(13, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(13, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(13, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(13, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(13, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(13, 4, mark_center = mark_center);
+    place_hexagon_spacer_element(13, 5, mark_center = mark_center);
 
-    place_hexagon_spacer_element(14, -1);
-    place_hexagon_spacer_element(14, 0);
-    place_hexagon_spacer_element(14, 1);
-    place_hexagon_spacer_element(14, 2);
-    place_hexagon_spacer_element(14, 3);
-    place_hexagon_spacer_element(14, 4);
+    place_hexagon_spacer_element(14, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(14, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(14, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(14, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(14, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(14, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(15, 0);
-    place_hexagon_spacer_element(15, 1);
-    place_hexagon_spacer_element(15, 2);
-    place_hexagon_spacer_element(15, 3);
-    place_hexagon_spacer_element(15, 4);
-    place_hexagon_spacer_element(15, 5);
+    place_hexagon_spacer_element(15, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(15, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(15, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(15, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(15, 4, mark_center = mark_center);
+    place_hexagon_spacer_element(15, 5, mark_center = mark_center);
 
-    place_hexagon_spacer_element(16, -1);
-    place_hexagon_spacer_element(16, 0);
-    place_hexagon_spacer_element(16, 1);
-    place_hexagon_spacer_element(16, 2);
-    place_hexagon_spacer_element(16, 3);
-    place_hexagon_spacer_element(16, 4);
+    place_hexagon_spacer_element(16, -1, mark_center = mark_center);
+    place_hexagon_spacer_element(16, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(16, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(16, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(16, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(16, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(17, 0);
-    place_hexagon_spacer_element(17, 1);
-    place_hexagon_spacer_element(17, 2);
-    place_hexagon_spacer_element(17, 3);
-    place_hexagon_spacer_element(17, 4);
-    place_hexagon_spacer_element(17, 5);
+    place_hexagon_spacer_element(17, 0, mark_center = mark_center);
+    place_hexagon_spacer_element(17, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(17, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(17, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(17, 4, mark_center = mark_center);
+    place_hexagon_spacer_element(17, 5, mark_center = mark_center);
 
-    place_hexagon_spacer_element(18, 1);
-    place_hexagon_spacer_element(18, 2);
-    place_hexagon_spacer_element(18, 3);
-    place_hexagon_spacer_element(18, 4);
+    place_hexagon_spacer_element(18, 1, mark_center = mark_center);
+    place_hexagon_spacer_element(18, 2, mark_center = mark_center);
+    place_hexagon_spacer_element(18, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(18, 4, mark_center = mark_center);
 
-    place_hexagon_spacer_element(19, 3);
-    place_hexagon_spacer_element(19, 4);
-    place_hexagon_spacer_element(19, 5);
+    place_hexagon_spacer_element(19, 3, mark_center = mark_center);
+    place_hexagon_spacer_element(19, 4, mark_center = mark_center);
+    place_hexagon_spacer_element(19, 5, mark_center = mark_center);
     
     // mounts
     place_hexagon_spacer_element_m3_mount(0, 2);
@@ -1014,12 +1014,25 @@ module place_led_spacer(x_pos = 0, y_pos = 0) {
     if((x_pos % 2) == 0) {
         // even column
         translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
-        led_spacer();
+        led_spacer(mark_center = 0);
     }
     else {
         // odd column
         translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
-        led_spacer();
+        led_spacer(mark_center = 0);
+    }
+}
+
+module place_led_spacer_mark_center(x_pos = 0, y_pos = 0) {
+    if((x_pos % 2) == 0) {
+        // even column
+        translate([x_pos*dx_even_factor, y_pos*dy_even_factor, 0])
+        led_spacer(mark_center = 1);
+    }
+    else {
+        // odd column
+        translate([x_pos*dx_odd_factor, (2*y_pos-1)*dy_odd_factor, 0])
+        led_spacer(mark_center = 1);
     }
 }
 
@@ -1082,5 +1095,7 @@ place_display_m3_mount_cut();
 
 *display_clock_cover();
 *display_backlight_cover();
-*led_spacer();
-place_led_spacer_mount();
+*led_spacer(0);
+*place_led_spacer_mount();
+
+*place_led_spacer();
