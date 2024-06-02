@@ -1094,7 +1094,7 @@ plain_display_cover();
 place_display_m3_mount_cut();
 
 *display_clock_cover();
-*display_backlight_cover();
+display_backlight_cover();
 *led_spacer(0);
 *place_led_spacer_mount();
 
