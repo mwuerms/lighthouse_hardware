@@ -209,7 +209,7 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 86.36) (xy -59.69 88.9)
+			(xy 105.41 86.36) (xy 105.41 88.9)
 		)
 		(stroke
 			(width 0)
@@ -219,7 +219,7 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 58.42) (xy -59.69 55.88)
+			(xy 105.41 58.42) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -229,7 +229,7 @@
 	)
 	(wire
 		(pts
-			(xy -3.81 81.28) (xy -3.81 83.82)
+			(xy 161.29 81.28) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
@@ -239,7 +239,7 @@
 	)
 	(wire
 		(pts
-			(xy -3.81 43.18) (xy -3.81 45.72)
+			(xy 161.29 43.18) (xy 161.29 45.72)
 		)
 		(stroke
 			(width 0)
@@ -249,7 +249,7 @@
 	)
 	(wire
 		(pts
-			(xy -72.39 78.74) (xy -72.39 76.2)
+			(xy 92.71 78.74) (xy 92.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -259,7 +259,17 @@
 	)
 	(wire
 		(pts
-			(xy -91.44 53.34) (xy -91.44 50.8)
+			(xy 231.14 66.04) (xy 231.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d387b-cbae-453b-8713-98afb7be1f2c")
+	)
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 73.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -279,7 +289,27 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 55.88) (xy 21.59 58.42)
+			(xy 162.56 104.14) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c1e241-950a-41fa-b571-5f8bfe3004ea")
+	)
+	(wire
+		(pts
+			(xy 205.74 91.44) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08382f73-7127-4761-a123-b21913c96a92")
+	)
+	(wire
+		(pts
+			(xy 186.69 55.88) (xy 186.69 58.42)
 		)
 		(stroke
 			(width 0)
@@ -289,7 +319,7 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 53.34) (xy -25.4 50.8)
+			(xy 139.7 53.34) (xy 139.7 50.8)
 		)
 		(stroke
 			(width 0)
@@ -309,7 +339,17 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 68.58) (xy 21.59 71.12)
+			(xy 162.56 114.3) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fdd2ce6-d931-4b30-9617-7bc97af83aba")
+	)
+	(wire
+		(pts
+			(xy 186.69 68.58) (xy 186.69 71.12)
 		)
 		(stroke
 			(width 0)
@@ -319,13 +359,33 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 45.72) (xy -59.69 43.18)
+			(xy 231.14 53.34) (xy 231.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105a7084-ac18-476a-9edf-28c63956f008")
+	)
+	(wire
+		(pts
+			(xy 105.41 45.72) (xy 105.41 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "148d5357-284d-4fd8-acc1-7abc77ebb286")
+	)
+	(wire
+		(pts
+			(xy 205.74 55.88) (xy 205.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158619e6-8b7e-44ae-91de-ca7012dad15c")
 	)
 	(wire
 		(pts
@@ -349,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 91.44) (xy 21.59 88.9)
+			(xy 186.69 91.44) (xy 186.69 88.9)
 		)
 		(stroke
 			(width 0)
@@ -359,7 +419,17 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 83.82) (xy 8.89 81.28)
+			(xy 231.14 55.88) (xy 231.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0d712d-ff53-44c6-82be-2f17c9683af3")
+	)
+	(wire
+		(pts
+			(xy 173.99 83.82) (xy 173.99 81.28)
 		)
 		(stroke
 			(width 0)
@@ -369,7 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy -116.84 78.74) (xy -116.84 76.2)
+			(xy 48.26 78.74) (xy 48.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -379,7 +449,7 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 58.42) (xy -104.14 55.88)
+			(xy 60.96 58.42) (xy 60.96 55.88)
 		)
 		(stroke
 			(width 0)
@@ -389,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 35.56) (xy -104.14 38.1)
+			(xy 60.96 35.56) (xy 60.96 38.1)
 		)
 		(stroke
 			(width 0)
@@ -399,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 78.74) (xy 21.59 76.2)
+			(xy 186.69 78.74) (xy 186.69 76.2)
 		)
 		(stroke
 			(width 0)
@@ -419,7 +489,7 @@
 	)
 	(wire
 		(pts
-			(xy -116.84 66.04) (xy -116.84 63.5)
+			(xy 48.26 66.04) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -449,7 +519,17 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 96.52) (xy -104.14 93.98)
+			(xy 92.71 104.14) (xy 92.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31164197-57a8-4569-a6dc-a960b5dfda95")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.52) (xy 60.96 93.98)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 55.88) (xy -46.99 58.42)
+			(xy 118.11 55.88) (xy 118.11 58.42)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 86.36) (xy -104.14 88.9)
+			(xy 60.96 86.36) (xy 60.96 88.9)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +559,7 @@
 	)
 	(polyline
 		(pts
-			(xy -12.7 25.4) (xy -12.7 99.06)
+			(xy 152.4 25.4) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +569,7 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 60.96) (xy -59.69 63.5)
+			(xy 105.41 60.96) (xy 105.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -499,7 +579,7 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 86.36) (xy 8.89 88.9)
+			(xy 173.99 86.36) (xy 173.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +589,7 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 71.12) (xy -59.69 68.58)
+			(xy 105.41 71.12) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +599,7 @@
 	)
 	(wire
 		(pts
-			(xy -72.39 43.18) (xy -72.39 45.72)
+			(xy 92.71 43.18) (xy 92.71 45.72)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +619,17 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 73.66) (xy -104.14 76.2)
+			(xy 73.66 104.14) (xy 73.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3d0928-4c0a-4e3d-aabd-289d951d1ac9")
+	)
+	(wire
+		(pts
+			(xy 60.96 73.66) (xy 60.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 81.28) (xy 21.59 83.82)
+			(xy 186.69 81.28) (xy 186.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -569,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 91.44) (xy -25.4 88.9)
+			(xy 139.7 91.44) (xy 139.7 88.9)
 		)
 		(stroke
 			(width 0)
@@ -589,6 +679,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 91.44) (xy 231.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d725ba3-d6b0-42e8-ab9f-8fedc70e7f4b")
+	)
+	(wire
+		(pts
 			(xy 96.52 180.34) (xy 105.41 180.34)
 		)
 		(stroke
@@ -599,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy -116.84 55.88) (xy -116.84 58.42)
+			(xy 48.26 55.88) (xy 48.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -609,13 +709,33 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 81.28) (xy -46.99 83.82)
+			(xy 118.11 81.28) (xy 118.11 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f058a0e-a1e1-422d-a16d-573bf40801ba")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d8f70f-8c29-48bc-a73f-c1ce7716e747")
+	)
+	(wire
+		(pts
+			(xy 205.74 43.18) (xy 205.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4347119a-b553-4635-9aec-844e7e9935b8")
 	)
 	(wire
 		(pts
@@ -629,7 +749,17 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 66.04) (xy -46.99 63.5)
+			(xy 73.66 114.3) (xy 73.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d110d3-7279-43d8-9c65-8453060caa6d")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 118.11 63.5)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 78.74) (xy -46.99 76.2)
+			(xy 118.11 78.74) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -659,6 +789,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 104.14) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd7c244-0514-4b47-ac57-9150d0d4b45c")
+	)
+	(wire
+		(pts
 			(xy 58.42 157.48) (xy 58.42 168.91)
 		)
 		(stroke
@@ -669,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy -116.84 81.28) (xy -116.84 83.82)
+			(xy 48.26 81.28) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 66.04) (xy -25.4 63.5)
+			(xy 139.7 66.04) (xy 139.7 63.5)
 		)
 		(stroke
 			(width 0)
@@ -729,13 +869,43 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 83.82) (xy -104.14 81.28)
+			(xy 205.74 78.74) (xy 205.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5605fa28-fcb3-435f-87f9-805905c88313")
+	)
+	(wire
+		(pts
+			(xy 60.96 83.82) (xy 60.96 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "56bd3521-a0e9-4f55-b092-10d7adfa1ff9")
+	)
+	(wire
+		(pts
+			(xy 218.44 58.42) (xy 218.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d9b0d9-441c-4d24-89ab-8782e7f6ce87")
+	)
+	(wire
+		(pts
+			(xy 181.61 114.3) (xy 181.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dd1e92-65c3-4101-b923-e26f1b61c910")
 	)
 	(wire
 		(pts
@@ -749,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy -91.44 78.74) (xy -91.44 76.2)
+			(xy 73.66 78.74) (xy 73.66 76.2)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 73.66) (xy 8.89 76.2)
+			(xy 173.99 73.66) (xy 173.99 76.2)
 		)
 		(stroke
 			(width 0)
@@ -777,9 +947,29 @@
 		)
 		(uuid "58f9ff16-43c8-47ed-92e2-9394606ebbfc")
 	)
+	(wire
+		(pts
+			(xy 218.44 96.52) (xy 218.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a97102b-cc29-478f-98b8-900ee365a8f4")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b42fc02-87c1-45cd-b468-54d951b1fe9d")
+	)
 	(polyline
 		(pts
-			(xy -12.7 99.06) (xy -116.84 99.06)
+			(xy 152.4 99.06) (xy 48.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -809,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy -72.39 53.34) (xy -72.39 50.8)
+			(xy 92.71 53.34) (xy 92.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -829,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy -3.81 68.58) (xy -3.81 71.12)
+			(xy 161.29 68.58) (xy 161.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 78.74) (xy -25.4 76.2)
+			(xy 139.7 78.74) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 71.12) (xy 8.89 68.58)
+			(xy 173.99 71.12) (xy 173.99 68.58)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 35.56) (xy 8.89 38.1)
+			(xy 173.99 35.56) (xy 173.99 38.1)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +1079,17 @@
 	)
 	(wire
 		(pts
-			(xy -116.84 43.18) (xy -116.84 45.72)
+			(xy 218.44 71.12) (xy 218.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bd6973-b446-4fa0-8697-d8deb212ecef")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 48.26 45.72)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 91.44) (xy -46.99 88.9)
+			(xy 118.11 91.44) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy -91.44 66.04) (xy -91.44 63.5)
+			(xy 73.66 66.04) (xy 73.66 63.5)
 		)
 		(stroke
 			(width 0)
@@ -949,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 35.56) (xy -59.69 38.1)
+			(xy 105.41 35.56) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -959,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 48.26) (xy 8.89 50.8)
+			(xy 173.99 48.26) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -969,13 +1169,23 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 45.72) (xy 8.89 43.18)
+			(xy 173.99 45.72) (xy 173.99 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80d6a482-552e-4bb3-aeec-5468e9dcd5f7")
+	)
+	(wire
+		(pts
+			(xy 205.74 53.34) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818241d6-f014-47e9-a39a-2c5afa672eb2")
 	)
 	(wire
 		(pts
@@ -989,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 53.34) (xy -46.99 50.8)
+			(xy 118.11 53.34) (xy 118.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -999,7 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy -91.44 55.88) (xy -91.44 58.42)
+			(xy 73.66 55.88) (xy 73.66 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1009,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 60.96) (xy 8.89 63.5)
+			(xy 173.99 60.96) (xy 173.99 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy -91.44 68.58) (xy -91.44 71.12)
+			(xy 73.66 68.58) (xy 73.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy -91.44 91.44) (xy -91.44 88.9)
+			(xy 73.66 91.44) (xy 73.66 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1289,7 @@
 	)
 	(polyline
 		(pts
-			(xy -116.84 116.84) (xy 99.06 116.84)
+			(xy 48.26 119.38) (xy 264.16 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1099,13 +1309,23 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 96.52) (xy 8.89 93.98)
+			(xy 173.99 96.52) (xy 173.99 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "90ea2e25-4459-473e-bb3d-a65095e15066")
+	)
+	(wire
+		(pts
+			(xy 218.44 45.72) (xy 218.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91654e8e-9bf4-43ec-b6ec-2bb0c19b3d30")
 	)
 	(wire
 		(pts
@@ -1116,6 +1336,26 @@
 			(type default)
 		)
 		(uuid "91f93309-9c0d-47b7-a9e6-18004996eba5")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928f2a2e-c8e6-457a-9801-82cd3181ead6")
+	)
+	(wire
+		(pts
+			(xy 208.28 114.3) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d6c04e-ecd8-4044-b143-bfa541618a9f")
 	)
 	(wire
 		(pts
@@ -1139,7 +1379,7 @@
 	)
 	(polyline
 		(pts
-			(xy -116.84 99.06) (xy -116.84 116.84)
+			(xy 48.26 99.06) (xy 48.26 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1149,7 +1389,27 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 43.18) (xy -25.4 45.72)
+			(xy 231.14 68.58) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdbc301-99d7-4885-a8c0-cb446dff4f61")
+	)
+	(wire
+		(pts
+			(xy 181.61 104.14) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d17983b-d8ad-411a-8a1b-f8cdd1e2161e")
+	)
+	(wire
+		(pts
+			(xy 139.7 43.18) (xy 139.7 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1159,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 55.88) (xy -25.4 58.42)
+			(xy 139.7 55.88) (xy 139.7 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 53.34) (xy 21.59 50.8)
+			(xy 186.69 53.34) (xy 186.69 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1179,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 43.18) (xy 21.59 45.72)
+			(xy 186.69 43.18) (xy 186.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy -72.39 91.44) (xy -72.39 88.9)
+			(xy 92.71 91.44) (xy 92.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1199,7 +1459,17 @@
 	)
 	(wire
 		(pts
-			(xy -3.81 53.34) (xy -3.81 50.8)
+			(xy 231.14 43.18) (xy 231.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91d22b8-cf42-4251-b880-1f77ff29ebd6")
+	)
+	(wire
+		(pts
+			(xy 161.29 53.34) (xy 161.29 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1209,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 83.82) (xy -59.69 81.28)
+			(xy 105.41 83.82) (xy 105.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy -116.84 91.44) (xy -116.84 88.9)
+			(xy 48.26 91.44) (xy 48.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy -3.81 66.04) (xy -3.81 63.5)
+			(xy 161.29 66.04) (xy 161.29 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1249,13 +1519,23 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 96.52) (xy -59.69 93.98)
+			(xy 105.41 96.52) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5d0bf42-3596-479e-8c47-315e79700dcd")
+	)
+	(wire
+		(pts
+			(xy 231.14 81.28) (xy 231.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78256ff-9715-48f9-be39-b8706e8b6577")
 	)
 	(wire
 		(pts
@@ -1269,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 60.96) (xy -104.14 63.5)
+			(xy 60.96 60.96) (xy 60.96 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1289,6 +1569,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 78.74) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba8c2f2-ac75-47b8-a6c2-ea458779e781")
+	)
+	(wire
+		(pts
 			(xy 125.73 168.91) (xy 134.62 168.91)
 		)
 		(stroke
@@ -1299,7 +1589,17 @@
 	)
 	(wire
 		(pts
-			(xy -3.81 78.74) (xy -3.81 76.2)
+			(xy 205.74 66.04) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf983cc1-5dcc-4053-882f-b9244f00c05f")
+	)
+	(wire
+		(pts
+			(xy 161.29 78.74) (xy 161.29 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1319,6 +1619,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 104.14) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d9697e-c801-456b-9213-4f9ee31f8fc5")
+	)
+	(wire
+		(pts
+			(xy 205.74 68.58) (xy 205.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c765bed0-026c-4aeb-9e3d-4387413fe148")
+	)
+	(wire
+		(pts
 			(xy 110.49 157.48) (xy 120.65 157.48)
 		)
 		(stroke
@@ -1329,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy -3.81 91.44) (xy -3.81 88.9)
+			(xy 161.29 91.44) (xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 45.72) (xy -104.14 43.18)
+			(xy 60.96 45.72) (xy 60.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1679,7 @@
 	)
 	(wire
 		(pts
-			(xy -116.84 53.34) (xy -116.84 50.8)
+			(xy 48.26 53.34) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 66.04) (xy 21.59 63.5)
+			(xy 186.69 66.04) (xy 186.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1699,17 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 73.66) (xy -59.69 76.2)
+			(xy 205.74 81.28) (xy 205.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03a2cb5-da0f-4b47-8dc5-01a83d2b833e")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 105.41 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +1719,7 @@
 	)
 	(wire
 		(pts
-			(xy 8.89 58.42) (xy 8.89 55.88)
+			(xy 173.99 58.42) (xy 173.99 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +1739,7 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 68.58) (xy -25.4 71.12)
+			(xy 139.7 68.58) (xy 139.7 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1419,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy -72.39 66.04) (xy -72.39 63.5)
+			(xy 92.71 66.04) (xy 92.71 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 68.58) (xy -46.99 71.12)
+			(xy 118.11 68.58) (xy 118.11 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1769,7 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 43.18) (xy -46.99 45.72)
+			(xy 118.11 43.18) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy -72.39 81.28) (xy -72.39 83.82)
+			(xy 92.71 81.28) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +1789,17 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 71.12) (xy -104.14 68.58)
+			(xy 92.71 114.3) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e72fbc-9939-406d-a4ed-19d29120339b")
+	)
+	(wire
+		(pts
+			(xy 60.96 71.12) (xy 60.96 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1469,7 +1809,17 @@
 	)
 	(wire
 		(pts
-			(xy -91.44 81.28) (xy -91.44 83.82)
+			(xy 218.44 83.82) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6402502-b07f-4006-9c8c-b6ab762f1a4d")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.28) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy -91.44 43.18) (xy -91.44 45.72)
+			(xy 73.66 43.18) (xy 73.66 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy -104.14 48.26) (xy -104.14 50.8)
+			(xy 60.96 48.26) (xy 60.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy -72.39 68.58) (xy -72.39 71.12)
+			(xy 92.71 68.58) (xy 92.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 81.28) (xy -25.4 83.82)
+			(xy 139.7 81.28) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy -59.69 48.26) (xy -59.69 50.8)
+			(xy 105.41 48.26) (xy 105.41 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy -3.81 55.88) (xy -3.81 58.42)
+			(xy 161.29 55.88) (xy 161.29 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy -72.39 55.88) (xy -72.39 58.42)
+			(xy 92.71 55.88) (xy 92.71 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy -116.84 68.58) (xy -116.84 71.12)
+			(xy 48.26 68.58) (xy 48.26 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1587,9 +1937,9 @@
 		)
 		(uuid "ff9cf8d0-0ab3-4d2f-8273-e9d2ac23ec0f")
 	)
-	(text "C3-5"
+	(text "C3-13"
 		(exclude_from_sim no)
-		(at 50.292 41.656 90)
+		(at 215.392 41.656 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1599,7 +1949,7 @@
 	)
 	(text "C2-1"
 		(exclude_from_sim no)
-		(at -107.188 91.948 90)
+		(at 57.912 91.948 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1607,9 +1957,9 @@
 		)
 		(uuid "065f48cf-dbc9-4853-bc29-b3286a8ec71f")
 	)
-	(text "C5-3"
+	(text "C5-11"
 		(exclude_from_sim no)
-		(at -49.276 109.728 90)
+		(at 115.824 109.728 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1617,9 +1967,9 @@
 		)
 		(uuid "0b62dd2d-f78c-4c0a-9630-da96285b453e")
 	)
-	(text "C3-6"
+	(text "C3-14"
 		(exclude_from_sim no)
-		(at 50.4743 53.5939 90)
+		(at 215.5743 53.5939 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1629,7 +1979,7 @@
 	)
 	(text "CA"
 		(exclude_from_sim no)
-		(at -129.794 29.718 0)
+		(at 81.28 32.004 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1639,7 +1989,7 @@
 	)
 	(text "C3-5"
 		(exclude_from_sim no)
-		(at -62.738 41.656 90)
+		(at 102.362 41.656 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1649,7 +1999,7 @@
 	)
 	(text "C3-6"
 		(exclude_from_sim no)
-		(at -62.5557 53.5939 90)
+		(at 102.5443 53.5939 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1657,9 +2007,9 @@
 		)
 		(uuid "185af631-94a0-4269-9a6e-263634de3bb0")
 	)
-	(text "C4-5"
+	(text "C4-13"
 		(exclude_from_sim no)
-		(at 62.484 86.868 90)
+		(at 227.584 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1669,7 +2019,7 @@
 	)
 	(text "C1-15"
 		(exclude_from_sim no)
-		(at 5.842 66.548 90)
+		(at 170.942 66.548 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1679,7 +2029,7 @@
 	)
 	(text "C2-10"
 		(exclude_from_sim no)
-		(at 18.542 49.276 90)
+		(at 183.642 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,9 +2037,9 @@
 		)
 		(uuid "24a3080b-acf7-4bf2-8bcd-147fe57963bd")
 	)
-	(text "C3-8"
+	(text "C3-16"
 		(exclude_from_sim no)
-		(at 50.292 79.248 90)
+		(at 215.392 79.248 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1699,7 +2049,7 @@
 	)
 	(text "CB"
 		(exclude_from_sim no)
-		(at 25.908 28.194 0)
+		(at 248.92 49.784 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1709,7 +2059,7 @@
 	)
 	(text "C4-5"
 		(exclude_from_sim no)
-		(at -50.546 86.868 90)
+		(at 114.554 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1717,9 +2067,9 @@
 		)
 		(uuid "377335f8-97f3-4d9d-8e60-6fca12ef290a")
 	)
-	(text "C4-3"
+	(text "C4-11"
 		(exclude_from_sim no)
-		(at 62.6663 61.2139 90)
+		(at 227.7663 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,7 +2079,7 @@
 	)
 	(text "C1-13"
 		(exclude_from_sim no)
-		(at 5.842 41.656 90)
+		(at 170.942 41.656 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1739,7 +2089,7 @@
 	)
 	(text "C1-8"
 		(exclude_from_sim no)
-		(at -107.188 79.248 90)
+		(at 57.912 79.248 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1749,7 +2099,7 @@
 	)
 	(text "C2-2"
 		(exclude_from_sim no)
-		(at -94.488 49.276 90)
+		(at 70.612 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1759,7 +2109,7 @@
 	)
 	(text "C4-4"
 		(exclude_from_sim no)
-		(at -50.546 74.168 90)
+		(at 114.554 74.168 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1767,9 +2117,9 @@
 		)
 		(uuid "40c332b3-aabf-4e6c-8b33-b4e5ef34a5a8")
 	)
-	(text "C3-4"
+	(text "C3-12"
 		(exclude_from_sim no)
-		(at 37.084 86.868 90)
+		(at 202.184 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1779,7 +2129,7 @@
 	)
 	(text "C1-14"
 		(exclude_from_sim no)
-		(at 6.0243 53.5939 90)
+		(at 171.1243 53.5939 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1789,7 +2139,7 @@
 	)
 	(text "C1-10"
 		(exclude_from_sim no)
-		(at -7.1837 61.2139 90)
+		(at 157.9163 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1808,9 +2158,9 @@
 		)
 		(uuid "4b170269-599b-462a-83ef-1abc084865b3")
 	)
-	(text "C4-2"
+	(text "C4-10"
 		(exclude_from_sim no)
-		(at 62.992 49.276 90)
+		(at 228.092 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1820,7 +2170,7 @@
 	)
 	(text "C3-3"
 		(exclude_from_sim no)
-		(at -75.946 74.168 90)
+		(at 89.154 74.168 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1830,7 +2180,7 @@
 	)
 	(text "C2-11"
 		(exclude_from_sim no)
-		(at 18.2163 61.2139 90)
+		(at 183.3163 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1838,9 +2188,9 @@
 		)
 		(uuid "54464dc5-3dfe-4171-8222-94dd13b5dc84")
 	)
-	(text "C5-5"
+	(text "C5-13"
 		(exclude_from_sim no)
-		(at -5.588 110.236 90)
+		(at 159.512 110.236 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1850,7 +2200,7 @@
 	)
 	(text "C4-1"
 		(exclude_from_sim no)
-		(at -62.738 91.948 90)
+		(at 102.362 91.948 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1860,7 +2210,7 @@
 	)
 	(text "C1-1"
 		(exclude_from_sim no)
-		(at -119.888 49.276 90)
+		(at 45.212 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1870,7 +2220,7 @@
 	)
 	(text "C4-3"
 		(exclude_from_sim no)
-		(at -50.3637 61.2139 90)
+		(at 114.7363 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1880,7 +2230,7 @@
 	)
 	(text "C2-4"
 		(exclude_from_sim no)
-		(at -94.488 74.422 90)
+		(at 70.612 74.422 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1890,7 +2240,7 @@
 	)
 	(text "numeric display: red LEDs\n  9*4 = 36\n+ 4*5 = 20\n+ 1*7 =  7\ntotal: 63 LEDs\n0805MIL: 2012 metric: 150080RS75000\n1206MIL: 599-0210-007F"
 		(exclude_from_sim no)
-		(at 62.484 -12.192 0)
+		(at 17.526 24.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1901,7 +2251,7 @@
 	)
 	(text "C1-7"
 		(exclude_from_sim no)
-		(at -107.188 66.548 90)
+		(at 57.912 66.548 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1909,9 +2259,9 @@
 		)
 		(uuid "6abd4ac5-24db-48f4-8279-32abbe23a8f2")
 	)
-	(text "C3-7"
+	(text "C3-15"
 		(exclude_from_sim no)
-		(at 50.292 66.548 90)
+		(at 215.392 66.548 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1921,7 +2271,7 @@
 	)
 	(text "C1-11"
 		(exclude_from_sim no)
-		(at -7.366 74.168 90)
+		(at 157.734 74.168 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,7 +2281,7 @@
 	)
 	(text "C1-4"
 		(exclude_from_sim no)
-		(at -120.396 86.868 90)
+		(at 44.704 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,7 +2291,7 @@
 	)
 	(text "C3-2"
 		(exclude_from_sim no)
-		(at -75.7637 61.2139 90)
+		(at 89.3363 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1951,7 +2301,7 @@
 	)
 	(text "C3-8"
 		(exclude_from_sim no)
-		(at -62.738 79.248 90)
+		(at 102.362 79.248 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,7 +2311,7 @@
 	)
 	(text "C1-9"
 		(exclude_from_sim no)
-		(at -6.858 49.276 90)
+		(at 158.242 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1971,7 +2321,7 @@
 	)
 	(text "C5-2"
 		(exclude_from_sim no)
-		(at -28.7737 61.2139 90)
+		(at 136.3263 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1979,9 +2329,9 @@
 		)
 		(uuid "77a65430-d3f0-417e-8364-bb43d33d3a44")
 	)
-	(text "C3-3"
+	(text "C3-11"
 		(exclude_from_sim no)
-		(at 37.084 74.168 90)
+		(at 202.184 74.168 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1989,9 +2339,9 @@
 		)
 		(uuid "7be09f34-cfd3-404c-9f51-c13b9a0769ce")
 	)
-	(text "C4-4"
+	(text "C4-12"
 		(exclude_from_sim no)
-		(at 62.484 74.168 90)
+		(at 227.584 74.168 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1999,9 +2349,9 @@
 		)
 		(uuid "84ee250c-5410-4dcd-9a99-87b4613ccc85")
 	)
-	(text "C4-1"
+	(text "C4-9"
 		(exclude_from_sim no)
-		(at 50.292 91.948 90)
+		(at 215.392 91.948 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2011,7 +2361,7 @@
 	)
 	(text "C2-13"
 		(exclude_from_sim no)
-		(at 18.034 86.868 90)
+		(at 183.134 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2021,7 +2371,7 @@
 	)
 	(text "C1-16"
 		(exclude_from_sim no)
-		(at 5.842 79.248 90)
+		(at 170.942 79.248 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2031,7 +2381,7 @@
 	)
 	(text "C3-7"
 		(exclude_from_sim no)
-		(at -62.738 66.548 90)
+		(at 102.362 66.548 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2041,7 +2391,7 @@
 	)
 	(text "C3-1"
 		(exclude_from_sim no)
-		(at -75.438 49.276 90)
+		(at 89.662 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2051,7 +2401,7 @@
 	)
 	(text "C1-6"
 		(exclude_from_sim no)
-		(at -107.0057 53.5939 90)
+		(at 58.0943 53.5939 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2061,7 +2411,7 @@
 	)
 	(text "C1-12"
 		(exclude_from_sim no)
-		(at -7.366 86.868 90)
+		(at 157.734 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2071,7 +2421,7 @@
 	)
 	(text "C2-9"
 		(exclude_from_sim no)
-		(at 5.842 91.948 90)
+		(at 170.942 91.948 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2081,7 +2431,7 @@
 	)
 	(text "C2-3"
 		(exclude_from_sim no)
-		(at -94.8137 61.2139 90)
+		(at 70.2863 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2089,9 +2439,9 @@
 		)
 		(uuid "a9346de9-776e-4831-a3a5-891856b4d850")
 	)
-	(text "C5-1"
+	(text "C5-9"
 		(exclude_from_sim no)
-		(at -94.488 110.236 90)
+		(at 70.612 110.236 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2099,9 +2449,9 @@
 		)
 		(uuid "a98f02e0-21fb-45fe-a9d4-8d5a41e9b3dc")
 	)
-	(text "C5-4"
+	(text "C5-12"
 		(exclude_from_sim no)
-		(at -28.956 109.728 90)
+		(at 136.144 109.728 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2111,7 +2461,7 @@
 	)
 	(text "C2-12"
 		(exclude_from_sim no)
-		(at 18.034 74.168 90)
+		(at 183.134 74.168 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2119,9 +2469,9 @@
 		)
 		(uuid "ad524d41-fe85-4b19-a2d4-effee729a90a")
 	)
-	(text "C5-2"
+	(text "C5-10"
 		(exclude_from_sim no)
-		(at -75.7637 109.4739 90)
+		(at 89.3363 109.4739 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2131,7 +2481,7 @@
 	)
 	(text "C5-4"
 		(exclude_from_sim no)
-		(at -28.956 86.868 90)
+		(at 136.144 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2139,9 +2489,9 @@
 		)
 		(uuid "b0b39e8d-af56-4b95-9ce6-8e83053ff945")
 	)
-	(text "C5-6"
+	(text "C5-14"
 		(exclude_from_sim no)
-		(at 13.1363 109.4739 90)
+		(at 178.2363 109.4739 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2149,9 +2499,9 @@
 		)
 		(uuid "c90b6959-6b3a-4bc5-b56e-dfc434dae456")
 	)
-	(text "C5-7"
+	(text "C5-15"
 		(exclude_from_sim no)
-		(at 39.624 109.728 90)
+		(at 204.724 109.728 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2159,9 +2509,9 @@
 		)
 		(uuid "cce48087-6a5c-474b-a795-ae9db815aeab")
 	)
-	(text "C3-2"
+	(text "C3-10"
 		(exclude_from_sim no)
-		(at 37.2663 61.2139 90)
+		(at 202.3663 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2171,7 +2521,7 @@
 	)
 	(text "C5-1"
 		(exclude_from_sim no)
-		(at -28.448 49.276 90)
+		(at 136.652 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2179,9 +2529,9 @@
 		)
 		(uuid "d4210713-9739-49d5-8d02-3dab35ba406a")
 	)
-	(text "C3-1"
+	(text "C3-9"
 		(exclude_from_sim no)
-		(at 37.592 49.276 90)
+		(at 202.692 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2191,7 +2541,7 @@
 	)
 	(text "C3-4"
 		(exclude_from_sim no)
-		(at -75.946 86.868 90)
+		(at 89.154 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2201,7 +2551,7 @@
 	)
 	(text "C1-3"
 		(exclude_from_sim no)
-		(at -120.396 74.168 90)
+		(at 44.704 74.168 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2211,7 +2561,7 @@
 	)
 	(text "C5-3"
 		(exclude_from_sim no)
-		(at -28.956 74.168 90)
+		(at 136.144 74.168 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2221,7 +2571,7 @@
 	)
 	(text "C1-2"
 		(exclude_from_sim no)
-		(at -120.2137 61.2139 90)
+		(at 44.8863 61.2139 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2231,7 +2581,7 @@
 	)
 	(text "C1-5"
 		(exclude_from_sim no)
-		(at -107.188 41.656 90)
+		(at 57.912 41.656 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2241,7 +2591,7 @@
 	)
 	(text "C4-2"
 		(exclude_from_sim no)
-		(at -50.038 49.276 90)
+		(at 115.062 49.276 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2251,7 +2601,7 @@
 	)
 	(text "C2-5"
 		(exclude_from_sim no)
-		(at -94.996 86.868 90)
+		(at 70.104 86.868 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2261,7 +2611,7 @@
 	)
 	(global_label "CA2"
 		(shape input)
-		(at -91.44 78.74 180)
+		(at 73.66 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2271,271 +2621,7 @@
 		)
 		(uuid "0170d6e7-c59e-4f70-84fb-cd8b32557402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -97.9933 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA5"
-		(shape input)
-		(at -91.44 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01fa118b-a18c-4954-b8f9-0d5f640722f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -97.9933 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA4"
-		(shape input)
-		(at -46.99 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0570a994-f918-4f61-8014-a7f22b5ad316")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -53.5433 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CB6"
-		(shape input)
-		(at 21.59 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "06f5fbe4-ef31-4329-8dc8-c2798b4f97d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA1"
-		(shape input)
-		(at -104.14 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09ea96a1-d983-4eac-9dff-b0172e924681")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA2"
-		(shape input)
-		(at -46.99 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0cfe5422-6d10-4a59-87f3-0f30e3464232")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -53.5433 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA3"
-		(shape input)
-		(at -59.69 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1054781c-4ff1-4993-b655-e3548533a78b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CB1"
-		(shape input)
-		(at -3.81 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10b1139e-448d-4f0c-9e33-275d4cf1a0b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.5447 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA3"
-		(shape input)
-		(at -72.39 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15e7892d-a0e2-4d9e-8b9a-697fcbfa5e35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -78.9433 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA1"
-		(shape input)
-		(at -116.84 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "166b4262-242f-4e33-bd83-bd99b066cdc1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -123.3933 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA2"
-		(shape input)
-		(at -91.44 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16aabe9d-6e9d-46f9-a306-7c9c430d6f23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -97.9933 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CB1"
-		(shape input)
-		(at 8.89 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a54be87-f6b5-4a90-ba2f-1f6af6187e8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA4"
-		(shape input)
-		(at -91.44 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1aa5d122-d2e1-4def-8e3f-478cd14ba524")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -97.9933 55.88 0)
+			(at 67.1067 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2633,7 @@
 	)
 	(global_label "CB4"
 		(shape input)
-		(at -3.81 68.58 180)
+		(at 231.14 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2555,9 +2641,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1b567b02-c190-4328-80a5-14e17d8aed96")
+		(uuid "0196eb34-f35f-47ae-9529-dce9a1cd4d19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.5447 68.58 0)
+			(at 224.4053 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,9 +2653,9 @@
 			)
 		)
 	)
-	(global_label "CA2"
+	(global_label "CA5"
 		(shape input)
-		(at -116.84 43.18 180)
+		(at 73.66 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2577,9 +2663,75 @@
 			)
 			(justify right)
 		)
-		(uuid "1decaf4d-e3b3-4458-adf5-fc226bde375c")
+		(uuid "01fa118b-a18c-4954-b8f9-0d5f640722f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -123.3933 43.18 0)
+			(at 67.1067 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA4"
+		(shape input)
+		(at 118.11 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0570a994-f918-4f61-8014-a7f22b5ad316")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.5567 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB6"
+		(shape input)
+		(at 186.69 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06f5fbe4-ef31-4329-8dc8-c2798b4f97d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.9553 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 205.74 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "086128d7-ac10-4f95-a0a1-bee0864e65cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0053 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2743,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -104.14 83.82 180)
+		(at 60.96 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2599,9 +2751,53 @@
 			)
 			(justify right)
 		)
-		(uuid "228cd98c-48e7-401d-9d19-2b8475a9a5d2")
+		(uuid "09ea96a1-d983-4eac-9dff-b0172e924681")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 83.82 0)
+			(at 54.4067 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 218.44 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cf933a2-6cb9-435b-9f14-3340a46cad88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA2"
+		(shape input)
+		(at 118.11 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cfe5422-6d10-4a59-87f3-0f30e3464232")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.5567 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2809,7 @@
 	)
 	(global_label "CA3"
 		(shape input)
-		(at -116.84 55.88 180)
+		(at 105.41 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2621,9 +2817,53 @@
 			)
 			(justify right)
 		)
-		(uuid "2b5ac99c-8c38-4ca1-b825-6f71f7544f10")
+		(uuid "1054781c-4ff1-4993-b655-e3548533a78b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -123.3933 55.88 0)
+			(at 98.8567 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB1"
+		(shape input)
+		(at 161.29 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10b1139e-448d-4f0c-9e33-275d4cf1a0b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.5553 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB9"
+		(shape input)
+		(at 218.44 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12f8fdfd-2b56-495f-bf0b-4e30741f1680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2875,315 @@
 	)
 	(global_label "CB5"
 		(shape input)
-		(at 21.59 68.58 180)
+		(at 139.7 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "148f3b43-ff00-46b4-b0cd-ad1a3159fbe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.9653 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 162.56 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15574db7-2a7e-47e7-a417-044d74991593")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.8253 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA3"
+		(shape input)
+		(at 92.71 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15e7892d-a0e2-4d9e-8b9a-697fcbfa5e35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.1567 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA1"
+		(shape input)
+		(at 48.26 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "166b4262-242f-4e33-bd83-bd99b066cdc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7067 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA2"
+		(shape input)
+		(at 73.66 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16aabe9d-6e9d-46f9-a306-7c9c430d6f23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1067 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 205.74 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1856f638-88c3-4ff9-be0c-4071f6e3b01f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0053 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB1"
+		(shape input)
+		(at 173.99 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a54be87-f6b5-4a90-ba2f-1f6af6187e8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.2553 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA4"
+		(shape input)
+		(at 73.66 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1aa5d122-d2e1-4def-8e3f-478cd14ba524")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1067 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB4"
+		(shape input)
+		(at 161.29 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b567b02-c190-4328-80a5-14e17d8aed96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.5553 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA2"
+		(shape input)
+		(at 48.26 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1decaf4d-e3b3-4458-adf5-fc226bde375c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7067 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 92.71 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20d1e07a-6205-4fb8-af2e-3a19657f1679")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.9753 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 205.74 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22421d6b-d037-42e7-8778-88ec6996f624")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0053 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA1"
+		(shape input)
+		(at 60.96 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "228cd98c-48e7-401d-9d19-2b8475a9a5d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.4067 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA3"
+		(shape input)
+		(at 48.26 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b5ac99c-8c38-4ca1-b825-6f71f7544f10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7067 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 186.69 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2645,7 +3193,7 @@
 		)
 		(uuid "2e2165b2-3dd3-4a23-bd78-565656297ce9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 68.58 0)
+			(at 179.9553 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +3227,7 @@
 	)
 	(global_label "CA4"
 		(shape input)
-		(at -59.69 96.52 180)
+		(at 105.41 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2689,7 +3237,7 @@
 		)
 		(uuid "329db240-c4c8-4b78-b03d-1e2bcd1cfef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 96.52 0)
+			(at 98.8567 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +3249,7 @@
 	)
 	(global_label "CB3"
 		(shape input)
-		(at -3.81 55.88 180)
+		(at 161.29 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2711,7 +3259,7 @@
 		)
 		(uuid "35ff164b-02f2-4db5-aaa1-c21d8c8494e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.5447 55.88 0)
+			(at 154.5553 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +3271,7 @@
 	)
 	(global_label "CA4"
 		(shape input)
-		(at -25.4 81.28 180)
+		(at 139.7 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2733,7 +3281,7 @@
 		)
 		(uuid "3785d2e9-1644-47da-ab6d-78ac98ce0d5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -31.9533 81.28 0)
+			(at 133.1467 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +3293,7 @@
 	)
 	(global_label "CA4"
 		(shape input)
-		(at -46.99 53.34 180)
+		(at 118.11 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2755,7 +3303,7 @@
 		)
 		(uuid "38fd4db3-e5e4-41ee-8aa8-12446d7e9c3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -53.5433 53.34 0)
+			(at 111.5567 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3315,7 @@
 	)
 	(global_label "CA5"
 		(shape input)
-		(at -46.99 68.58 180)
+		(at 118.11 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2777,7 +3325,7 @@
 		)
 		(uuid "3c9d83fa-94ff-45f6-9898-2bba4a9d1b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -53.5433 68.58 0)
+			(at 111.5567 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3337,7 @@
 	)
 	(global_label "CB1"
 		(shape input)
-		(at 8.89 71.12 180)
+		(at 173.99 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2799,7 +3347,7 @@
 		)
 		(uuid "3d16901f-c483-4c3b-a094-4119a2a2ed20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 71.12 0)
+			(at 167.2553 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,9 +3379,53 @@
 			)
 		)
 	)
+	(global_label "CB4"
+		(shape input)
+		(at 231.14 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e42aacb-368c-408c-b94e-973be754d045")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4053 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 205.74 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40e18073-0738-4f1a-a09d-bc5fd140d25b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0053 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CB3"
 		(shape input)
-		(at 21.59 43.18 180)
+		(at 186.69 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2843,7 +3435,7 @@
 		)
 		(uuid "4103e0b2-07ab-4c63-81db-0e6b1e68f63b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 43.18 0)
+			(at 179.9553 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +3447,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -116.84 91.44 180)
+		(at 48.26 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2865,7 +3457,29 @@
 		)
 		(uuid "43f8408e-6ddc-4382-88f8-d658b3de34b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -123.3933 91.44 0)
+			(at 41.7067 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB4"
+		(shape input)
+		(at 205.74 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44020863-cb14-4fc1-942d-d9c958f86c08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0053 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +3491,7 @@
 	)
 	(global_label "CA9"
 		(shape input)
-		(at -59.69 73.66 180)
+		(at 105.41 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2887,7 +3501,29 @@
 		)
 		(uuid "4a15e9a3-94db-40ee-8508-a58b9e5fe293")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 73.66 0)
+			(at 98.8567 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 231.14 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ad58d90-4d5b-4f5a-b743-61a1f13bbd4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4053 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +3535,7 @@
 	)
 	(global_label "CA4"
 		(shape input)
-		(at -116.84 68.58 180)
+		(at 48.26 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2909,7 +3545,29 @@
 		)
 		(uuid "4d2cbe10-d5fc-498c-ae33-26d3de45e226")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -123.3933 68.58 0)
+			(at 41.7067 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB6"
+		(shape input)
+		(at 218.44 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d70afd1-48f0-47c8-ae35-bb3a9408caef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3579,7 @@
 	)
 	(global_label "CB7"
 		(shape input)
-		(at 8.89 48.26 180)
+		(at 173.99 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2931,7 +3589,7 @@
 		)
 		(uuid "51089eb4-c125-4e14-8ac4-cf65641ead01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 48.26 0)
+			(at 167.2553 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +3601,7 @@
 	)
 	(global_label "CA5"
 		(shape input)
-		(at -116.84 81.28 180)
+		(at 48.26 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2953,7 +3611,29 @@
 		)
 		(uuid "519be05d-a1cf-4015-b1b9-a1fac41e8866")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -123.3933 81.28 0)
+			(at 41.7067 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB7"
+		(shape input)
+		(at 181.61 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54aba1a5-bc06-4add-9379-2e11a6db50aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.8753 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3645,7 @@
 	)
 	(global_label "CB1"
 		(shape input)
-		(at -3.81 78.74 180)
+		(at 161.29 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2975,7 +3655,7 @@
 		)
 		(uuid "58311b8b-682c-403c-bdaa-356dd7efd915")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.5447 78.74 0)
+			(at 154.5553 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3689,7 @@
 	)
 	(global_label "CA3"
 		(shape input)
-		(at -46.99 55.88 180)
+		(at 118.11 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3019,7 +3699,7 @@
 		)
 		(uuid "5f4f7c9e-743a-4623-a282-af16187db403")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -53.5433 55.88 0)
+			(at 111.5567 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3711,7 @@
 	)
 	(global_label "CA8"
 		(shape input)
-		(at -59.69 60.96 180)
+		(at 105.41 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3041,7 +3721,7 @@
 		)
 		(uuid "61fb7b06-43f6-4528-819e-d82925239f92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 60.96 0)
+			(at 98.8567 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3733,7 @@
 	)
 	(global_label "CB2"
 		(shape input)
-		(at 21.59 53.34 180)
+		(at 186.69 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3063,7 +3743,29 @@
 		)
 		(uuid "6283ba2c-d209-4597-8b3f-a2066265b10c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 53.34 0)
+			(at 179.9553 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB7"
+		(shape input)
+		(at 218.44 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "663f0e82-4e5c-4ab7-8691-a25c40bc78c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3777,29 @@
 	)
 	(global_label "CB1"
 		(shape input)
-		(at 8.89 86.36 180)
+		(at 205.74 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "666204ac-c808-4443-add4-6e4f02363733")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0053 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB1"
+		(shape input)
+		(at 173.99 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3085,7 +3809,51 @@
 		)
 		(uuid "6821b6a4-74cb-4cdb-8cf0-b9d16bf5c5db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 86.36 0)
+			(at 167.2553 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 208.28 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68ff8d6c-356b-47a8-98ac-af4294f493ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.5453 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB2"
+		(shape input)
+		(at 205.74 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d085f7c-9e58-4c85-b59d-ba182450583c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0053 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3865,7 @@
 	)
 	(global_label "CB9"
 		(shape input)
-		(at 8.89 73.66 180)
+		(at 173.99 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3107,7 +3875,29 @@
 		)
 		(uuid "6e13f3a4-802f-4e94-b181-57a24bebb612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 73.66 0)
+			(at 167.2553 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB6"
+		(shape input)
+		(at 162.56 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7333b803-386d-4d4d-9949-a1a43f5cbebc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.8253 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +3909,7 @@
 	)
 	(global_label "CB2"
 		(shape input)
-		(at 8.89 96.52 180)
+		(at 173.99 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3129,7 +3919,29 @@
 		)
 		(uuid "73af38d0-5de6-4bd8-881f-47d04775254a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 96.52 0)
+			(at 167.2553 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB8"
+		(shape input)
+		(at 208.28 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7665550a-922c-4024-af7c-9c937a2e6a93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.5453 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3953,7 @@
 	)
 	(global_label "CA3"
 		(shape input)
-		(at -25.4 68.58 180)
+		(at 139.7 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3151,7 +3963,7 @@
 		)
 		(uuid "76a11c68-14ea-4b7c-9b5a-7c43ee87d4f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -31.9533 68.58 0)
+			(at 133.1467 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3975,7 @@
 	)
 	(global_label "CA5"
 		(shape input)
-		(at -25.4 91.44 180)
+		(at 139.7 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3173,7 +3985,7 @@
 		)
 		(uuid "7837ea51-9cdd-4e86-b8df-3ce09da222c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -31.9533 91.44 0)
+			(at 133.1467 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3997,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -72.39 43.18 180)
+		(at 92.71 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3195,7 +4007,7 @@
 		)
 		(uuid "78427e34-db7d-45d1-8523-e961171382eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -78.9433 43.18 0)
+			(at 86.1567 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +4019,7 @@
 	)
 	(global_label "CB2"
 		(shape input)
-		(at 21.59 78.74 180)
+		(at 186.69 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3217,7 +4029,7 @@
 		)
 		(uuid "787f5192-af82-4a1a-a684-efc90dde6d26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 78.74 0)
+			(at 179.9553 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +4041,7 @@
 	)
 	(global_label "CA6"
 		(shape input)
-		(at -46.99 81.28 180)
+		(at 118.11 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3239,7 +4051,7 @@
 		)
 		(uuid "7bdaf01f-010f-4688-90ee-ebc8bbef6abe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -53.5433 81.28 0)
+			(at 111.5567 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +4063,7 @@
 	)
 	(global_label "CB2"
 		(shape input)
-		(at 21.59 91.44 180)
+		(at 186.69 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3261,7 +4073,7 @@
 		)
 		(uuid "7c1435da-c4df-4e1c-a137-2f0a71d0176d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 91.44 0)
+			(at 179.9553 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +4085,7 @@
 	)
 	(global_label "CA3"
 		(shape input)
-		(at -59.69 71.12 180)
+		(at 105.41 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3283,7 +4095,7 @@
 		)
 		(uuid "7d2ca20b-d7ca-4bba-9eca-a0d8e571cc2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 71.12 0)
+			(at 98.8567 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +4107,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -104.14 86.36 180)
+		(at 60.96 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3305,7 +4117,7 @@
 		)
 		(uuid "7eb7d434-cafe-4e3b-bcba-87510c6d7ead")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 86.36 0)
+			(at 54.4067 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +4129,7 @@
 	)
 	(global_label "CA4"
 		(shape input)
-		(at -72.39 68.58 180)
+		(at 92.71 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3327,7 +4139,7 @@
 		)
 		(uuid "7ee1d0e6-12de-4956-b4b8-23f52d6cf880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -78.9433 68.58 0)
+			(at 86.1567 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +4151,7 @@
 	)
 	(global_label "CA5"
 		(shape input)
-		(at -25.4 66.04 180)
+		(at 139.7 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3349,7 +4161,7 @@
 		)
 		(uuid "7f6c082f-8180-42b5-8a0d-95517796c288")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -31.9533 66.04 0)
+			(at 133.1467 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +4173,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -116.84 53.34 180)
+		(at 48.26 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3371,7 +4183,7 @@
 		)
 		(uuid "86f76939-9ea3-4e96-8f95-7924bbbda630")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -123.3933 53.34 0)
+			(at 41.7067 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +4195,7 @@
 	)
 	(global_label "CA4"
 		(shape input)
-		(at -46.99 66.04 180)
+		(at 118.11 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3393,7 +4205,7 @@
 		)
 		(uuid "8b64eca6-3578-4727-8c90-415b56f76bc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -53.5433 66.04 0)
+			(at 111.5567 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +4217,7 @@
 	)
 	(global_label "CA5"
 		(shape input)
-		(at -25.4 53.34 180)
+		(at 139.7 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3415,7 +4227,7 @@
 		)
 		(uuid "8c527d32-3928-4faf-a9cb-ce6971edd4c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -31.9533 53.34 0)
+			(at 133.1467 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +4261,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -25.4 43.18 180)
+		(at 139.7 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3459,7 +4271,7 @@
 		)
 		(uuid "91083b14-2ae4-4562-b388-282c5c9d1d6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -31.9533 43.18 0)
+			(at 133.1467 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +4283,7 @@
 	)
 	(global_label "CA5"
 		(shape input)
-		(at -25.4 78.74 180)
+		(at 139.7 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3481,7 +4293,7 @@
 		)
 		(uuid "910bded7-e01d-4a53-a4f9-90d27f87d5ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -31.9533 78.74 0)
+			(at 133.1467 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +4305,7 @@
 	)
 	(global_label "CB2"
 		(shape input)
-		(at -3.81 43.18 180)
+		(at 161.29 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3503,7 +4315,7 @@
 		)
 		(uuid "92348500-b153-472b-891c-09d3a175f9f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.5447 43.18 0)
+			(at 154.5553 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +4327,7 @@
 	)
 	(global_label "CA9"
 		(shape input)
-		(at -104.14 73.66 180)
+		(at 60.96 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3525,7 +4337,7 @@
 		)
 		(uuid "92818acb-28c4-4625-b553-482bb667de43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 73.66 0)
+			(at 54.4067 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +4349,7 @@
 	)
 	(global_label "CA2"
 		(shape input)
-		(at -104.14 96.52 180)
+		(at 60.96 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3547,7 +4359,7 @@
 		)
 		(uuid "9484ac0a-3c5c-4e78-80eb-b39168f0890a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 96.52 0)
+			(at 54.4067 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +4371,7 @@
 	)
 	(global_label "CA3"
 		(shape input)
-		(at -59.69 45.72 180)
+		(at 105.41 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3569,7 +4381,29 @@
 		)
 		(uuid "94bdd162-e17f-4924-ba4d-eda417888d79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 45.72 0)
+			(at 98.8567 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB4"
+		(shape input)
+		(at 231.14 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9645a447-c13b-43c4-a3df-0adf854c82c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4053 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +4415,7 @@
 	)
 	(global_label "CA3"
 		(shape input)
-		(at -91.44 43.18 180)
+		(at 73.66 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3591,7 +4425,29 @@
 		)
 		(uuid "986fe3b7-5989-4389-b17c-05a7f0bbb022")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -97.9933 43.18 0)
+			(at 67.1067 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB8"
+		(shape input)
+		(at 218.44 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98a7dad9-8458-44a0-b508-ce1f75f7a031")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +4459,7 @@
 	)
 	(global_label "CA2"
 		(shape input)
-		(at -91.44 91.44 180)
+		(at 73.66 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3613,7 +4469,7 @@
 		)
 		(uuid "9a085249-0af4-4b3c-b409-53c8f14255a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -97.9933 91.44 0)
+			(at 67.1067 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +4481,7 @@
 	)
 	(global_label "CB1"
 		(shape input)
-		(at -3.81 53.34 180)
+		(at 161.29 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3635,7 +4491,7 @@
 		)
 		(uuid "9dc4bd0d-4638-4123-b637-c7642cec3e9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.5447 53.34 0)
+			(at 154.5553 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +4503,7 @@
 	)
 	(global_label "CA6"
 		(shape input)
-		(at -59.69 35.56 180)
+		(at 105.41 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3657,7 +4513,29 @@
 		)
 		(uuid "a02a7c23-bb38-46d2-840a-5db6708fc7ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 35.56 0)
+			(at 98.8567 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB4"
+		(shape input)
+		(at 218.44 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2133630-1a15-4731-a960-895b905d4db6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +4547,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -59.69 86.36 180)
+		(at 105.41 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3679,7 +4557,7 @@
 		)
 		(uuid "a71d71c0-1ae9-4e8d-9d8c-e9d60621c6c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 86.36 0)
+			(at 98.8567 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +4569,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -104.14 71.12 180)
+		(at 60.96 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3701,7 +4579,7 @@
 		)
 		(uuid "a9284927-d479-4376-9b0b-b69a8dd083c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 71.12 0)
+			(at 54.4067 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +4591,7 @@
 	)
 	(global_label "CA2"
 		(shape input)
-		(at -72.39 55.88 180)
+		(at 92.71 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3723,7 +4601,7 @@
 		)
 		(uuid "ababfc7a-5b3d-45f0-83a4-8764581ffb66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -78.9433 55.88 0)
+			(at 86.1567 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +4613,7 @@
 	)
 	(global_label "CB1"
 		(shape input)
-		(at 8.89 58.42 180)
+		(at 173.99 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3745,51 +4623,7 @@
 		)
 		(uuid "acbf701a-5a6b-4f69-b0c6-5482eb7b7585")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA4"
-		(shape input)
-		(at -46.99 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae740b34-836e-4ed3-8ba7-c8a892ddc9b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -53.5433 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA2"
-		(shape input)
-		(at -91.44 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aeafdf0f-ef4c-4dab-8204-313b3607db48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -97.9933 66.04 0)
+			(at 167.2553 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +4635,7 @@
 	)
 	(global_label "CB6"
 		(shape input)
-		(at 8.89 35.56 180)
+		(at 231.14 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3809,9 +4643,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b41953fd-a043-43db-9cd2-96684e3d4350")
+		(uuid "ad51da00-1223-43a5-a539-a7e1563f3eb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 35.56 0)
+			(at 224.4053 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,9 +4655,9 @@
 			)
 		)
 	)
-	(global_label "CA8"
+	(global_label "CA4"
 		(shape input)
-		(at -104.14 60.96 180)
+		(at 118.11 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3831,53 +4665,9 @@
 			)
 			(justify right)
 		)
-		(uuid "bc67a273-7c5a-44ca-a07f-4a2e77c29fac")
+		(uuid "ae740b34-836e-4ed3-8ba7-c8a892ddc9b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA6"
-		(shape input)
-		(at -91.44 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bcf18140-23b9-4fd9-a2d0-dd29779975f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -97.9933 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA6"
-		(shape input)
-		(at -104.14 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be483b92-c819-422b-b993-5bfffc8e5c4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 35.56 0)
+			(at 111.5567 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +4679,161 @@
 	)
 	(global_label "CA2"
 		(shape input)
-		(at -25.4 55.88 180)
+		(at 73.66 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aeafdf0f-ef4c-4dab-8204-313b3607db48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1067 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB1"
+		(shape input)
+		(at 73.66 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3e92b06-93af-4616-9b90-24089f33a408")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.9253 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB6"
+		(shape input)
+		(at 173.99 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b41953fd-a043-43db-9cd2-96684e3d4350")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.2553 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 181.61 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b41e6e7d-da09-41e2-ad66-c6ae54bad1bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.8753 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA8"
+		(shape input)
+		(at 60.96 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc67a273-7c5a-44ca-a07f-4a2e77c29fac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.4067 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA6"
+		(shape input)
+		(at 73.66 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcf18140-23b9-4fd9-a2d0-dd29779975f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1067 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA6"
+		(shape input)
+		(at 60.96 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be483b92-c819-422b-b993-5bfffc8e5c4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.4067 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA2"
+		(shape input)
+		(at 139.7 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3899,7 +4843,7 @@
 		)
 		(uuid "c1aba81f-a101-40c1-b6c1-8755b1cc7e67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -31.9533 55.88 0)
+			(at 133.1467 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +4855,7 @@
 	)
 	(global_label "CA3"
 		(shape input)
-		(at -72.39 91.44 180)
+		(at 92.71 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3921,7 +4865,7 @@
 		)
 		(uuid "c2e9c018-e0ae-46e8-adf6-8273ee22e222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -78.9433 91.44 0)
+			(at 86.1567 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +4899,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -104.14 45.72 180)
+		(at 60.96 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3965,7 +4909,73 @@
 		)
 		(uuid "c74944b1-43ea-4d4c-b69b-7a0d783009ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 45.72 0)
+			(at 54.4067 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 205.74 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca0e8f4b-2de7-4e8f-98b4-ad7ac92f4110")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.0053 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 218.44 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caed8ace-6675-4088-9f8d-c9799ab32fb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 218.44 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc73b3f1-cc38-40b6-b4fb-d7b16ee95c22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +4987,7 @@
 	)
 	(global_label "CA7"
 		(shape input)
-		(at -104.14 48.26 180)
+		(at 60.96 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3987,7 +4997,7 @@
 		)
 		(uuid "ccbb56e0-3a98-41ed-9706-4e3b6e8558c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -110.6933 48.26 0)
+			(at 54.4067 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +5009,7 @@
 	)
 	(global_label "CA3"
 		(shape input)
-		(at -72.39 66.04 180)
+		(at 92.71 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4009,7 +5019,51 @@
 		)
 		(uuid "ccfcc83d-cdae-4413-ab86-9d25422af830")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -78.9433 66.04 0)
+			(at 86.1567 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB4"
+		(shape input)
+		(at 139.7 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd62168b-d71e-4c2d-9efc-76a9c395ad4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.9653 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 73.66 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ceb003e0-af33-4f28-b4ad-a64bd4dd5042")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.9253 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +5075,7 @@
 	)
 	(global_label "CB1"
 		(shape input)
-		(at 8.89 83.82 180)
+		(at 173.99 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4031,7 +5085,51 @@
 		)
 		(uuid "cf029f7e-ff84-4fd2-8867-628f287242fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 83.82 0)
+			(at 167.2553 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB2"
+		(shape input)
+		(at 92.71 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfd5c6af-fe7d-4f92-a658-5850eb8bbb02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.9753 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 231.14 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d011302c-da4f-4d75-a1b5-ca2f2885516e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4053 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +5141,7 @@
 	)
 	(global_label "CA7"
 		(shape input)
-		(at -59.69 48.26 180)
+		(at 105.41 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4053,7 +5151,7 @@
 		)
 		(uuid "d62a7e1a-a7a5-4247-94df-504c8be61a7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 48.26 0)
+			(at 98.8567 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +5185,7 @@
 	)
 	(global_label "CA1"
 		(shape input)
-		(at -116.84 78.74 180)
+		(at 48.26 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4097,7 +5195,7 @@
 		)
 		(uuid "dc0d49b6-4aa2-45da-946d-72a44ece3064")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -123.3933 78.74 0)
+			(at 41.7067 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +5207,7 @@
 	)
 	(global_label "CB8"
 		(shape input)
-		(at 8.89 60.96 180)
+		(at 173.99 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4119,7 +5217,29 @@
 		)
 		(uuid "dd765e12-4f78-432a-8413-be5a5e08ff57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.1553 60.96 0)
+			(at 167.2553 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 218.44 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e30097db-7f3a-4669-b789-a80425af8c81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,31 +5271,9 @@
 			)
 		)
 	)
-	(global_label "CA3"
-		(shape input)
-		(at -72.39 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e709c832-0070-48d6-8970-8dc051284b61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -78.9433 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CB5"
 		(shape input)
-		(at -3.81 81.28 180)
+		(at 119.38 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4183,75 +5281,9 @@
 			)
 			(justify right)
 		)
-		(uuid "eb77ea9b-312b-4349-ab68-bc9262b5cead")
+		(uuid "e6342d80-7d00-46bb-9a0b-882eddd69f08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.5447 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA5"
-		(shape input)
-		(at -72.39 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ebc1d34b-dfc2-4f8d-9f12-78ae71dbf76f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -78.9433 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CA3"
-		(shape input)
-		(at -59.69 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1cab134-d8ca-43af-b2ef-4d076051fe35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -66.2433 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CB2"
-		(shape input)
-		(at 21.59 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8d11fb4-cdfb-457d-ab02-4b41a1f3a535")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 66.04 0)
+			(at 112.6453 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +5295,7 @@
 	)
 	(global_label "CB1"
 		(shape input)
-		(at -3.81 66.04 180)
+		(at 218.44 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4271,9 +5303,141 @@
 			)
 			(justify right)
 		)
-		(uuid "fac5ad9b-0b1f-41a3-843f-cf1fd3e22f7c")
+		(uuid "e6c32cdd-57dd-46e1-9e00-c83cfe52e287")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.5447 66.04 0)
+			(at 211.7053 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA3"
+		(shape input)
+		(at 92.71 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e709c832-0070-48d6-8970-8dc051284b61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.1567 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB3"
+		(shape input)
+		(at 119.38 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8504484-a8d3-489e-823e-ed3768ab3fb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.6453 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB5"
+		(shape input)
+		(at 161.29 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb77ea9b-312b-4349-ab68-bc9262b5cead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.5553 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA5"
+		(shape input)
+		(at 92.71 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebc1d34b-dfc2-4f8d-9f12-78ae71dbf76f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.1567 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CA3"
+		(shape input)
+		(at 105.41 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1cab134-d8ca-43af-b2ef-4d076051fe35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.8567 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB2"
+		(shape input)
+		(at 231.14 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3ff41d6-e090-4c45-b716-f8a1c5f47b76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4053 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +5449,73 @@
 	)
 	(global_label "CB4"
 		(shape input)
-		(at 21.59 55.88 180)
+		(at 231.14 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5529054-872d-4b8e-ac7b-b6135f4d0758")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4053 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB2"
+		(shape input)
+		(at 186.69 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8d11fb4-cdfb-457d-ab02-4b41a1f3a535")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.9553 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB1"
+		(shape input)
+		(at 161.29 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fac5ad9b-0b1f-41a3-843f-cf1fd3e22f7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.5553 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CB4"
+		(shape input)
+		(at 186.69 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4295,7 +5525,7 @@
 		)
 		(uuid "fdba8b4c-1818-4932-9da4-ece65edfb164")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 55.88 0)
+			(at 179.9553 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,16 +5537,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 53.34 91.44 90)
+		(at 218.44 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04f47af4-f21c-409f-8d45-a61f1c097497")
 		(property "Reference" "D52"
-			(at 57.15 90.1064 90)
+			(at 222.25 90.1064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +5554,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 57.15 92.6464 90)
+			(at 222.25 92.6464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,8 +5562,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 91.44 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 218.44 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 91.44 90)
+			(at 218.44 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +5581,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 53.34 91.44 0)
+			(at 218.44 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,15 +5606,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 8.89 53.34 90)
+		(at 173.99 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "070204ea-15b4-4b9f-9751-b0ad470d5605")
 		(property "Reference" "D36"
-			(at 11.43 52.0064 90)
+			(at 176.53 52.0064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +5624,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 11.43 54.5464 0)
+			(at 176.53 54.5464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,8 +5632,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 8.89 53.34 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 173.99 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +5642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 8.89 53.34 90)
+			(at 173.99 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +5651,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 8.89 53.34 0)
+			(at 173.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +5700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 137.16 191.77 90)
 			(effects
 				(font
@@ -4514,7 +5744,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 66.04 86.36 90)
+		(at 231.14 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4522,7 +5752,7 @@
 		(dnp no)
 		(uuid "1683263b-bb34-4953-a5a2-47efe2f3c390")
 		(property "Reference" "D56"
-			(at 68.58 85.0264 90)
+			(at 233.68 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +5761,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 68.58 87.5664 90)
+			(at 233.68 87.5664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,8 +5769,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 231.14 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +5779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 86.36 90)
+			(at 231.14 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +5788,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 66.04 86.36 0)
+			(at 231.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,15 +5813,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -72.39 60.96 90)
+		(at 92.71 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "169b898f-9ccb-406b-8bc3-3ec56eef61ee")
 		(property "Reference" "D15"
-			(at -69.85 59.6264 90)
+			(at 95.25 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +5831,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -69.85 62.1664 0)
+			(at 95.25 62.1664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,8 +5839,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -72.39 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 92.71 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -72.39 60.96 90)
+			(at 92.71 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +5858,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -72.39 60.96 0)
+			(at 92.71 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,15 +5883,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -3.81 48.26 90)
+		(at 161.29 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1ebbab5e-cc4f-42e2-9838-d331e6761e9e")
 		(property "Reference" "D31"
-			(at -1.27 46.9264 90)
+			(at 163.83 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +5901,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -1.27 49.4664 0)
+			(at 163.83 49.4664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,8 +5909,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -3.81 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 161.29 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +5919,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -3.81 48.26 90)
+			(at 161.29 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +5928,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -3.81 48.26 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,15 +5953,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -45.72 109.22 90)
+		(at 119.38 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1ee652da-9d02-4ad5-89b9-7083593308f5")
 		(property "Reference" "D59"
-			(at -43.18 107.8864 90)
+			(at 121.92 107.8864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +5971,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -43.18 110.4264 90)
+			(at 121.92 110.4264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,8 +5979,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -45.72 109.22 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 119.38 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +5989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -45.72 109.22 90)
+			(at 119.38 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,7 +5998,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -45.72 109.22 0)
+			(at 119.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,15 +6023,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 8.89 91.44 90)
+		(at 173.99 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1f3d736c-f0bb-48e2-ae6e-dea3b41e0120")
 		(property "Reference" "D39"
-			(at 11.43 90.1064 90)
+			(at 176.53 90.1064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +6041,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 11.43 92.6464 0)
+			(at 176.53 92.6464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,8 +6049,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 8.89 91.44 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 173.99 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +6059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 8.89 91.44 90)
+			(at 173.99 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +6068,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 8.89 91.44 0)
+			(at 173.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +6117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 107.95 168.91 90)
 			(effects
 				(font
@@ -4951,7 +6185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 123.19 168.91 90)
 			(effects
 				(font
@@ -5019,7 +6253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 137.16 146.05 90)
 			(effects
 				(font
@@ -5087,7 +6321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 107.95 134.62 90)
 			(effects
 				(font
@@ -5131,15 +6365,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -91.44 48.26 90)
+		(at 73.66 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "255b12de-9cf5-494a-8474-23edd4506461")
 		(property "Reference" "D10"
-			(at -88.9 46.9264 90)
+			(at 76.2 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +6383,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -88.9 49.4664 0)
+			(at 76.2 49.4664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,8 +6391,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -91.44 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 73.66 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +6401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -91.44 48.26 90)
+			(at 73.66 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +6410,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -91.44 48.26 0)
+			(at 73.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +6435,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 66.04 73.66 90)
+		(at 231.14 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5208,7 +6443,7 @@
 		(dnp no)
 		(uuid "26d04039-7292-49d8-85a4-7d7b32fd006b")
 		(property "Reference" "D55"
-			(at 68.58 72.3264 90)
+			(at 233.68 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +6452,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 68.58 74.8664 90)
+			(at 233.68 74.8664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,8 +6460,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 231.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +6470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 73.66 90)
+			(at 231.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +6479,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 66.04 73.66 0)
+			(at 231.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,15 +6504,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -104.14 91.44 90)
+		(at 60.96 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2efd0e27-51ac-43cb-a5a0-46e32c46c0fe")
 		(property "Reference" "D9"
-			(at -101.6 90.1064 90)
+			(at 63.5 90.1064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +6522,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -101.6 92.6464 0)
+			(at 63.5 92.6464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,8 +6530,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -104.14 91.44 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 60.96 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +6540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -104.14 91.44 90)
+			(at 60.96 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +6549,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -104.14 91.44 0)
+			(at 60.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,15 +6574,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 16.51 109.22 90)
+		(at 181.61 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2f402ae3-3bdf-4741-9628-0dc10a50aa7a")
 		(property "Reference" "D62"
-			(at 19.05 107.8864 90)
+			(at 184.15 107.8864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +6592,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 19.05 110.4264 90)
+			(at 184.15 110.4264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,8 +6600,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 16.51 109.22 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 181.61 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +6610,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 109.22 90)
+			(at 181.61 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +6619,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 16.51 109.22 0)
+			(at 181.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,15 +6644,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -46.99 73.66 90)
+		(at 118.11 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "356e4411-db3a-48b0-a4ce-ff098e4025ea")
 		(property "Reference" "D25"
-			(at -44.45 72.3264 90)
+			(at 120.65 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +6662,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -44.45 74.8664 0)
+			(at 120.65 74.8664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,8 +6670,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -46.99 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 118.11 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +6680,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -46.99 73.66 90)
+			(at 118.11 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +6689,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -46.99 73.66 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,15 +6714,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -116.84 86.36 90)
+		(at 48.26 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "38f31183-6d18-4d6d-8d6c-ec09d5c5799d")
 		(property "Reference" "D4"
-			(at -114.3 85.0264 90)
+			(at 50.8 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +6732,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -114.3 87.5664 0)
+			(at 50.8 87.5664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,8 +6740,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -116.84 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 48.26 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +6750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -116.84 86.36 90)
+			(at 48.26 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +6759,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -116.84 86.36 0)
+			(at 48.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 123.19 157.48 90)
 			(effects
 				(font
@@ -5613,15 +6852,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -59.69 53.34 90)
+		(at 105.41 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3b813a22-2fee-406b-a3a9-11924a0087ba")
 		(property "Reference" "D19"
-			(at -57.15 52.0064 90)
+			(at 107.95 52.0064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +6870,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -57.15 54.5464 0)
+			(at 107.95 54.5464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,8 +6878,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -59.69 53.34 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 105.41 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +6888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -59.69 53.34 90)
+			(at 105.41 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +6897,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -59.69 53.34 0)
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,15 +6922,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -3.81 86.36 90)
+		(at 161.29 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3ddc254d-c2e0-47a8-8efd-22bf4310f7eb")
 		(property "Reference" "D34"
-			(at -1.27 85.0264 90)
+			(at 163.83 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +6940,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -1.27 87.5664 0)
+			(at 163.83 87.5664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,8 +6948,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -3.81 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 161.29 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +6958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -3.81 86.36 90)
+			(at 161.29 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +6967,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -3.81 86.36 0)
+			(at 161.29 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,15 +6992,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -91.44 86.36 90)
+		(at 73.66 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4145b550-78aa-4524-b22b-9bf60c2b6516")
 		(property "Reference" "D13"
-			(at -88.9 85.0264 90)
+			(at 76.2 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +7010,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -88.9 87.5664 0)
+			(at 76.2 87.5664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,8 +7018,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -91.44 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 73.66 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +7028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -91.44 86.36 90)
+			(at 73.66 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +7037,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -91.44 86.36 0)
+			(at 73.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,15 +7062,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -25.4 48.26 90)
+		(at 139.7 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "439f6af0-666f-4928-8c97-9e5799f6692e")
 		(property "Reference" "D27"
-			(at -22.86 46.9264 90)
+			(at 142.24 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +7080,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -22.86 49.4664 90)
+			(at 142.24 49.4664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,8 +7088,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -25.4 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 139.7 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +7098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -25.4 48.26 90)
+			(at 139.7 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +7107,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -25.4 48.26 0)
+			(at 139.7 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,15 +7132,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 21.59 73.66 90)
+		(at 186.69 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4d49d69e-79f3-4128-a3de-fc05b400d56a")
 		(property "Reference" "D42"
-			(at 24.13 72.3264 90)
+			(at 189.23 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +7150,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 24.13 74.8664 0)
+			(at 189.23 74.8664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,8 +7158,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 21.59 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 186.69 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +7168,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 73.66 90)
+			(at 186.69 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +7177,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 21.59 73.66 0)
+			(at 186.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +7226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 123.19 180.34 90)
 			(effects
 				(font
@@ -6026,16 +7270,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 53.34 66.04 90)
+		(at 218.44 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "576a52b2-d76c-4491-beed-d0cc8e4148bf")
 		(property "Reference" "D50"
-			(at 57.15 64.7064 90)
+			(at 222.25 64.7064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +7287,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 57.15 67.2464 90)
+			(at 222.25 67.2464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,8 +7295,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 66.04 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 218.44 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +7305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 66.04 90)
+			(at 218.44 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +7314,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 53.34 66.04 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,15 +7339,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -3.81 73.66 90)
+		(at 161.29 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "59405f29-d6eb-44ab-81e3-f571d121e48b")
 		(property "Reference" "D33"
-			(at -1.27 72.3264 90)
+			(at 163.83 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +7357,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -1.27 74.8664 0)
+			(at 163.83 74.8664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,8 +7365,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -3.81 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 161.29 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +7375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -3.81 73.66 90)
+			(at 161.29 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +7384,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -3.81 73.66 0)
+			(at 161.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,15 +7409,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -104.14 78.74 90)
+		(at 60.96 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "595e1d33-134c-4259-8f10-09aff2a9c122")
 		(property "Reference" "D8"
-			(at -101.6 77.4064 90)
+			(at 63.5 77.4064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +7427,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -101.6 79.9464 0)
+			(at 63.5 79.9464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,8 +7435,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -104.14 78.74 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 60.96 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +7445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -104.14 78.74 90)
+			(at 60.96 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +7454,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -104.14 78.74 0)
+			(at 60.96 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +7503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 107.95 157.48 90)
 			(effects
 				(font
@@ -6326,7 +7571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 66.04 134.62 90)
 			(effects
 				(font
@@ -6370,7 +7615,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 66.04 60.96 90)
+		(at 231.14 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6378,7 +7623,7 @@
 		(dnp no)
 		(uuid "5da8ac28-5267-451b-84b6-088c5b197df8")
 		(property "Reference" "D54"
-			(at 68.58 59.6264 90)
+			(at 233.68 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +7632,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 68.58 62.1664 90)
+			(at 233.68 62.1664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,8 +7640,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 231.14 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +7650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 60.96 90)
+			(at 231.14 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +7659,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 66.04 60.96 0)
+			(at 231.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +7708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 123.19 146.05 90)
 			(effects
 				(font
@@ -6507,15 +7752,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -72.39 86.36 90)
+		(at 92.71 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "60bdd240-d7da-40ad-82bd-a97bb00f49f1")
 		(property "Reference" "D17"
-			(at -69.85 85.0264 90)
+			(at 95.25 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +7770,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -69.85 87.5664 0)
+			(at 95.25 87.5664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,8 +7778,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -72.39 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 92.71 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +7788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -72.39 86.36 90)
+			(at 92.71 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +7797,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -72.39 86.36 0)
+			(at 92.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 80.01 168.91 90)
 			(effects
 				(font
@@ -6668,7 +7914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 66.04 180.34 90)
 			(effects
 				(font
@@ -6712,15 +7958,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 43.18 109.22 90)
+		(at 208.28 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "689546a8-a5aa-4b92-b6d4-7444940aa948")
 		(property "Reference" "D63"
-			(at 45.72 107.8864 90)
+			(at 210.82 107.8864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +7976,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 45.72 110.4264 90)
+			(at 210.82 110.4264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,8 +7984,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.18 109.22 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 208.28 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +7994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 109.22 90)
+			(at 208.28 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +8003,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 43.18 109.22 0)
+			(at 208.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,15 +8028,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -72.39 109.22 90)
+		(at 92.71 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6911baba-6984-4b5f-a3cd-5c8c5070ccab")
 		(property "Reference" "D58"
-			(at -69.85 107.8864 90)
+			(at 95.25 107.8864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6798,7 +8046,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -69.85 110.4264 90)
+			(at 95.25 110.4264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,8 +8054,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -72.39 109.22 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 92.71 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +8064,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -72.39 109.22 90)
+			(at 92.71 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +8073,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -72.39 109.22 0)
+			(at 92.71 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,15 +8098,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -2.54 109.22 90)
+		(at 162.56 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "69f99f4e-4c9c-4134-bb76-15ba89cd122f")
 		(property "Reference" "D61"
-			(at 0 107.8864 90)
+			(at 165.1 107.8864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +8116,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 0 110.4264 90)
+			(at 165.1 110.4264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,8 +8124,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -2.54 109.22 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 162.56 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +8134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -2.54 109.22 90)
+			(at 162.56 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +8143,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -2.54 109.22 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +8192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 80.01 180.34 90)
 			(effects
 				(font
@@ -7011,7 +8260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 66.04 191.77 90)
 			(effects
 				(font
@@ -7055,15 +8304,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -104.14 40.64 90)
+		(at 60.96 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "73d6d886-f7fb-47b9-b97e-bfc204e82011")
 		(property "Reference" "D5"
-			(at -101.6 39.3064 90)
+			(at 63.5 39.3064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +8322,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -101.6 41.8464 0)
+			(at 63.5 41.8464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,8 +8330,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -104.14 40.64 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 60.96 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +8340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -104.14 40.64 90)
+			(at 60.96 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +8349,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -104.14 40.64 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +8398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 93.98 134.62 90)
 			(effects
 				(font
@@ -7192,15 +8442,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -116.84 60.96 90)
+		(at 48.26 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7530e299-24a2-4d1d-832d-4827c7aa1be4")
 		(property "Reference" "D2"
-			(at -114.3 59.6264 90)
+			(at 50.8 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +8460,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -114.3 62.1664 0)
+			(at 50.8 62.1664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,8 +8468,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -116.84 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 48.26 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +8478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -116.84 60.96 90)
+			(at 48.26 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +8487,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -116.84 60.96 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +8536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 137.16 134.62 90)
 			(effects
 				(font
@@ -7329,15 +8580,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -104.14 53.34 90)
+		(at 60.96 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7944f8ad-0d42-41c4-9cc2-898b15395111")
 		(property "Reference" "D6"
-			(at -101.6 52.0064 90)
+			(at 63.5 52.0064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +8598,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -101.6 54.5464 0)
+			(at 63.5 54.5464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,8 +8606,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -104.14 53.34 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 60.96 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +8616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -104.14 53.34 90)
+			(at 60.96 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +8625,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -104.14 53.34 0)
+			(at 60.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,7 +8674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 137.16 180.34 90)
 			(effects
 				(font
@@ -7466,15 +8718,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -72.39 48.26 90)
+		(at 92.71 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7bfa7e42-d18c-4e39-a1ce-7bc834327068")
 		(property "Reference" "D14"
-			(at -69.85 46.9264 90)
+			(at 95.25 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +8736,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -69.85 49.4664 0)
+			(at 95.25 49.4664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,8 +8744,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -72.39 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 92.71 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,7 +8754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -72.39 48.26 90)
+			(at 92.71 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +8763,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -72.39 48.26 0)
+			(at 92.71 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,15 +8788,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -72.39 73.66 90)
+		(at 92.71 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7e96b524-f954-4a57-9815-764289679093")
 		(property "Reference" "D16"
-			(at -69.85 72.3264 90)
+			(at 95.25 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +8806,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -69.85 74.8664 0)
+			(at 95.25 74.8664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,8 +8814,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -72.39 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 92.71 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +8824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -72.39 73.66 90)
+			(at 92.71 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +8833,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -72.39 73.66 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,15 +8858,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 8.89 78.74 90)
+		(at 173.99 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7ee67ee1-6c67-4af0-9af2-fd677c09b581")
 		(property "Reference" "D38"
-			(at 11.43 77.4064 90)
+			(at 176.53 77.4064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +8876,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 11.43 79.9464 0)
+			(at 176.53 79.9464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,8 +8884,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 8.89 78.74 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 173.99 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +8894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 8.89 78.74 90)
+			(at 173.99 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +8903,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 8.89 78.74 0)
+			(at 173.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +8952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 93.98 157.48 90)
 			(effects
 				(font
@@ -7741,15 +8996,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -116.84 48.26 90)
+		(at 48.26 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "80f145d8-fc79-4dff-83a6-3b8ca94395a4")
 		(property "Reference" "D1"
-			(at -114.3 46.9264 90)
+			(at 50.8 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +9014,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -114.3 49.4664 0)
+			(at 50.8 49.4664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,8 +9022,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -116.84 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 48.26 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,7 +9032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -116.84 48.26 90)
+			(at 48.26 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +9041,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -116.84 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +9090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 107.95 191.77 90)
 			(effects
 				(font
@@ -7878,15 +9134,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -104.14 66.04 90)
+		(at 60.96 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "830f2e18-1a47-4d5f-a77f-a82f78094eb3")
 		(property "Reference" "D7"
-			(at -101.6 64.7064 90)
+			(at 63.5 64.7064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +9152,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -101.6 67.2464 0)
+			(at 63.5 67.2464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,8 +9160,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -104.14 66.04 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 60.96 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +9170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -104.14 66.04 90)
+			(at 60.96 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +9179,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -104.14 66.04 0)
+			(at 60.96 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,15 +9204,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -59.69 78.74 90)
+		(at 105.41 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8654f150-0fa3-4ca6-a144-75a1d16d030c")
 		(property "Reference" "D21"
-			(at -55.88 77.4064 90)
+			(at 109.22 77.4064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +9222,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -55.88 79.9464 0)
+			(at 109.22 79.9464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,8 +9230,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -59.69 78.74 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 105.41 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,7 +9240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -59.69 78.74 90)
+			(at 105.41 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,7 +9249,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -59.69 78.74 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +9298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 80.01 146.05 90)
 			(effects
 				(font
@@ -8084,15 +9342,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -46.99 86.36 90)
+		(at 118.11 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8e7946d6-7441-4b72-8559-0e738295e2ca")
 		(property "Reference" "D26"
-			(at -44.45 85.0264 90)
+			(at 120.65 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +9360,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -44.45 87.5664 0)
+			(at 120.65 87.5664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,8 +9368,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -46.99 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 118.11 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +9378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -46.99 86.36 90)
+			(at 118.11 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +9387,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -46.99 86.36 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,15 +9412,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 21.59 48.26 90)
+		(at 186.69 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8e9a5388-f393-47d7-b357-6e61d1dc83cf")
 		(property "Reference" "D40"
-			(at 24.13 46.9264 90)
+			(at 189.23 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +9430,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 24.13 49.4664 0)
+			(at 189.23 49.4664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,8 +9438,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 21.59 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 186.69 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +9448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 48.26 90)
+			(at 186.69 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +9457,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 21.59 48.26 0)
+			(at 186.69 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +9506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 137.16 168.91 90)
 			(effects
 				(font
@@ -8290,15 +9550,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 8.89 40.64 90)
+		(at 173.99 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "95ff0d85-affc-4851-a9fa-80e005a3e330")
 		(property "Reference" "D35"
-			(at 11.43 39.3064 90)
+			(at 176.53 39.3064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +9568,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 11.43 41.8464 0)
+			(at 176.53 41.8464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,8 +9576,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 8.89 40.64 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 173.99 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +9586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 8.89 40.64 90)
+			(at 173.99 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +9595,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 8.89 40.64 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +9620,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 66.04 48.26 90)
+		(at 231.14 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8367,7 +9628,7 @@
 		(dnp no)
 		(uuid "9787e14d-d58d-4229-b5cd-d20dddbe1c9c")
 		(property "Reference" "D53"
-			(at 68.58 46.9264 90)
+			(at 233.68 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,7 +9637,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 68.58 49.4664 90)
+			(at 233.68 49.4664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,8 +9645,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 231.14 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8394,7 +9655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 48.26 90)
+			(at 231.14 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8403,7 +9664,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 66.04 48.26 0)
+			(at 231.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,16 +9689,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 53.34 40.64 90)
+		(at 218.44 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "991e856f-ea76-4fa8-9ab3-9fcf77fd39fe")
 		(property "Reference" "D48"
-			(at 57.15 39.3064 90)
+			(at 222.25 39.3064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +9706,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 57.15 41.8464 90)
+			(at 222.25 41.8464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,8 +9714,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 40.64 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 218.44 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +9724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 40.64 90)
+			(at 218.44 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +9733,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 53.34 40.64 0)
+			(at 218.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,15 +9758,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -59.69 91.44 90)
+		(at 105.41 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9bc67719-d247-4332-8867-eed0757f8a3c")
 		(property "Reference" "D22"
-			(at -55.88 90.1064 90)
+			(at 109.22 90.1064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,7 +9776,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -55.88 92.6464 0)
+			(at 109.22 92.6464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,8 +9784,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -59.69 91.44 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 105.41 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +9794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -59.69 91.44 90)
+			(at 105.41 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8542,7 +9803,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -59.69 91.44 0)
+			(at 105.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 123.19 191.77 90)
 			(effects
 				(font
@@ -8635,7 +9896,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 40.64 60.96 90)
+		(at 205.74 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8643,7 +9904,7 @@
 		(dnp no)
 		(uuid "a2ccf61d-7d19-4af8-8f8c-989227d8fc6a")
 		(property "Reference" "D45"
-			(at 43.18 59.6264 90)
+			(at 208.28 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +9913,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 43.18 62.1664 90)
+			(at 208.28 62.1664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,8 +9921,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 205.74 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +9931,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 60.96 90)
+			(at 205.74 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +9940,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 40.64 60.96 0)
+			(at 205.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,15 +9965,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 8.89 66.04 90)
+		(at 173.99 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a30b3e72-8bd7-4a46-837e-8f951be3c5ad")
 		(property "Reference" "D37"
-			(at 11.43 64.7064 90)
+			(at 176.53 64.7064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +9983,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 11.43 67.2464 0)
+			(at 176.53 67.2464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,8 +9991,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 8.89 66.04 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 173.99 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,7 +10001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 8.89 66.04 90)
+			(at 173.99 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +10010,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 8.89 66.04 0)
+			(at 173.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 80.01 157.48 90)
 			(effects
 				(font
@@ -8841,15 +10103,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -91.44 60.96 90)
+		(at 73.66 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a9f0d2f1-f2f9-4b4b-81f0-79f7722f9b45")
 		(property "Reference" "D11"
-			(at -88.9 59.6264 90)
+			(at 76.2 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +10121,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -88.9 62.1664 0)
+			(at 76.2 62.1664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,8 +10129,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -91.44 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 73.66 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +10139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -91.44 60.96 90)
+			(at 73.66 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +10148,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -91.44 60.96 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,16 +10173,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 53.34 78.74 90)
+		(at 218.44 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae5867ef-6c88-44c7-8d50-0467df642bbf")
 		(property "Reference" "D51"
-			(at 57.15 77.4064 90)
+			(at 222.25 77.4064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +10190,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 57.15 79.9464 90)
+			(at 222.25 79.9464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,8 +10198,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 78.74 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 218.44 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +10208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 78.74 90)
+			(at 218.44 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +10217,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 53.34 78.74 0)
+			(at 218.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +10266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 93.98 146.05 90)
 			(effects
 				(font
@@ -9048,15 +10310,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -46.99 48.26 90)
+		(at 118.11 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b085aad2-bc3c-412b-a80d-af70cc024650")
 		(property "Reference" "D23"
-			(at -44.45 46.9264 90)
+			(at 120.65 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +10328,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -44.45 49.4664 0)
+			(at 120.65 49.4664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,8 +10336,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -46.99 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 118.11 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +10346,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -46.99 48.26 90)
+			(at 118.11 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +10355,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -46.99 48.26 0)
+			(at 118.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,15 +10380,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -25.4 60.96 90)
+		(at 139.7 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b0c8966e-fafc-476a-9fba-401c05dfa48b")
 		(property "Reference" "D28"
-			(at -22.86 59.6264 90)
+			(at 142.24 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,7 +10398,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -22.86 62.1664 90)
+			(at 142.24 62.1664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,8 +10406,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -25.4 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 139.7 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +10416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -25.4 60.96 90)
+			(at 139.7 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9161,7 +10425,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -25.4 60.96 0)
+			(at 139.7 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +10450,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 53.34 53.34 90)
+		(at 218.44 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9194,7 +10458,7 @@
 		(dnp no)
 		(uuid "b662684e-bbf3-4dd4-8625-b5092adfce96")
 		(property "Reference" "D49"
-			(at 55.88 52.0064 90)
+			(at 220.98 52.0064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +10467,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 55.88 54.5464 90)
+			(at 220.98 54.5464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,8 +10475,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 53.34 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 218.44 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,7 +10485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 53.34 90)
+			(at 218.44 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +10494,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 53.34 53.34 0)
+			(at 218.44 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9279,7 +10543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 80.01 191.77 90)
 			(effects
 				(font
@@ -9347,7 +10611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 107.95 180.34 90)
 			(effects
 				(font
@@ -9391,15 +10655,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -3.81 60.96 90)
+		(at 161.29 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c2f4f7ed-aa34-48ba-9ab5-5b973e6cdddb")
 		(property "Reference" "D32"
-			(at -1.27 59.6264 90)
+			(at 163.83 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9408,7 +10673,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -1.27 62.1664 0)
+			(at 163.83 62.1664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,8 +10681,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -3.81 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 161.29 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,7 +10691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -3.81 60.96 90)
+			(at 161.29 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,7 +10700,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -3.81 60.96 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +10749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 93.98 180.34 90)
 			(effects
 				(font
@@ -9552,7 +10817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 66.04 168.91 90)
 			(effects
 				(font
@@ -9620,7 +10885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 93.98 191.77 90)
 			(effects
 				(font
@@ -9664,15 +10929,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -25.4 86.36 90)
+		(at 139.7 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cabbd46e-1791-4207-8050-eaddad8fb5fe")
 		(property "Reference" "D30"
-			(at -22.86 85.0264 90)
+			(at 142.24 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +10947,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -22.86 87.5664 90)
+			(at 142.24 87.5664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,8 +10955,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -25.4 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 139.7 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,7 +10965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -25.4 86.36 90)
+			(at 139.7 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9708,7 +10974,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -25.4 86.36 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +11023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 107.95 146.05 90)
 			(effects
 				(font
@@ -9801,15 +11067,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -91.44 109.22 90)
+		(at 73.66 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "caef8004-e328-4b43-8029-2e319e86898e")
 		(property "Reference" "D57"
-			(at -88.9 107.8864 90)
+			(at 76.2 107.8864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +11085,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -88.9 110.4264 90)
+			(at 76.2 110.4264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,8 +11093,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -91.44 109.22 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 73.66 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +11103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -91.44 109.22 90)
+			(at 73.66 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +11112,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -91.44 109.22 0)
+			(at 73.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,15 +11137,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -25.4 73.66 90)
+		(at 139.7 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d8114232-bbca-4400-be2a-ab61383fc2bf")
 		(property "Reference" "D29"
-			(at -22.86 72.3264 90)
+			(at 142.24 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +11155,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -22.86 74.8664 90)
+			(at 142.24 74.8664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,8 +11163,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -25.4 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 139.7 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +11173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -25.4 73.66 90)
+			(at 139.7 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +11182,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -25.4 73.66 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +11207,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 40.64 86.36 90)
+		(at 205.74 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9947,7 +11215,7 @@
 		(dnp no)
 		(uuid "d8923303-bc34-427a-87f0-408447877023")
 		(property "Reference" "D47"
-			(at 43.18 85.0264 90)
+			(at 208.28 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,7 +11224,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 43.18 87.5664 90)
+			(at 208.28 87.5664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,8 +11232,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 205.74 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9974,7 +11242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 86.36 90)
+			(at 205.74 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9983,7 +11251,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 40.64 86.36 0)
+			(at 205.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,15 +11276,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -59.69 40.64 90)
+		(at 105.41 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "da0d9913-083f-489d-bc18-9615149aaeaa")
 		(property "Reference" "D18"
-			(at -55.88 39.3064 90)
+			(at 109.22 39.3064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +11294,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -55.88 41.8464 0)
+			(at 109.22 41.8464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,8 +11302,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -59.69 40.64 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 105.41 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +11312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -59.69 40.64 90)
+			(at 105.41 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +11321,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -59.69 40.64 0)
+			(at 105.41 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +11346,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 40.64 48.26 90)
+		(at 205.74 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10085,7 +11354,7 @@
 		(dnp no)
 		(uuid "de336cd9-6453-4027-b7d7-deabcb0e4fdb")
 		(property "Reference" "D44"
-			(at 43.18 46.9264 90)
+			(at 208.28 46.9264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +11363,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 43.18 49.4664 90)
+			(at 208.28 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,8 +11371,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 48.26 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 205.74 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10112,7 +11381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 48.26 90)
+			(at 205.74 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +11390,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 40.64 48.26 0)
+			(at 205.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,15 +11415,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -46.99 60.96 90)
+		(at 118.11 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e1dc99e6-d412-4903-b6c6-b84dc001d872")
 		(property "Reference" "D24"
-			(at -44.45 59.6264 90)
+			(at 120.65 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +11433,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -44.45 62.1664 0)
+			(at 120.65 62.1664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,8 +11441,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -46.99 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 118.11 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +11451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -46.99 60.96 90)
+			(at 118.11 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +11460,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -46.99 60.96 0)
+			(at 118.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +11509,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 93.98 168.91 90)
 			(effects
 				(font
@@ -10307,7 +11577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 66.04 146.05 90)
 			(effects
 				(font
@@ -10375,7 +11645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 137.16 157.48 90)
 			(effects
 				(font
@@ -10419,15 +11689,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -116.84 73.66 90)
+		(at 48.26 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e8233a42-1a41-41d2-b4b5-867d7fd07fb3")
 		(property "Reference" "D3"
-			(at -114.3 72.3264 90)
+			(at 50.8 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +11707,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -114.3 74.8664 0)
+			(at 50.8 74.8664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,8 +11715,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -116.84 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 48.26 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10454,7 +11725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -116.84 73.66 90)
+			(at 48.26 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +11734,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -116.84 73.66 0)
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10488,7 +11759,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 40.64 73.66 90)
+		(at 205.74 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10496,7 +11767,7 @@
 		(dnp no)
 		(uuid "eb2d07be-31e8-405c-bce4-54a03e050748")
 		(property "Reference" "D46"
-			(at 43.18 72.3264 90)
+			(at 208.28 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,7 +11776,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 43.18 74.8664 90)
+			(at 208.28 74.8664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10513,8 +11784,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 205.74 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +11794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 73.66 90)
+			(at 205.74 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +11803,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 40.64 73.66 0)
+			(at 205.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,15 +11828,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -25.4 109.22 90)
+		(at 139.7 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ecafa498-5fa7-44fc-a3ee-a8f76bc96744")
 		(property "Reference" "D60"
-			(at -22.86 107.8864 90)
+			(at 142.24 107.8864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +11846,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -22.86 110.4264 90)
+			(at 142.24 110.4264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,8 +11854,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -25.4 109.22 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 139.7 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +11864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -25.4 109.22 90)
+			(at 139.7 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +11873,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -25.4 109.22 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,15 +11898,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 21.59 60.96 90)
+		(at 186.69 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f04cd357-ec79-483a-b6ea-6ef7c2d99b04")
 		(property "Reference" "D41"
-			(at 24.13 59.6264 90)
+			(at 189.23 59.6264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +11916,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 24.13 62.1664 0)
+			(at 189.23 62.1664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10651,8 +11924,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 21.59 60.96 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 186.69 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,7 +11934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 60.96 90)
+			(at 186.69 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,7 +11943,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 21.59 60.96 0)
+			(at 186.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +11992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 80.01 134.62 90)
 			(effects
 				(font
@@ -10763,15 +12036,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -91.44 73.66 90)
+		(at 73.66 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f503254d-af25-4a58-a9b3-dce736cb9cc0")
 		(property "Reference" "D12"
-			(at -88.9 72.3264 90)
+			(at 76.2 72.3264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +12054,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -88.9 74.8664 0)
+			(at 76.2 74.8664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,8 +12062,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -91.44 73.66 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 73.66 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +12072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -91.44 73.66 90)
+			(at 73.66 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10807,7 +12081,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -91.44 73.66 0)
+			(at 73.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10856,7 +12130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 66.04 157.48 90)
 			(effects
 				(font
@@ -10924,7 +12198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 123.19 134.62 90)
 			(effects
 				(font
@@ -10968,15 +12242,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 21.59 86.36 90)
+		(at 186.69 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f88d5fd9-4f5f-47a3-b31f-64e4a0bc77f9")
 		(property "Reference" "D43"
-			(at 24.13 85.0264 90)
+			(at 189.23 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,7 +12260,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at 24.13 87.5664 0)
+			(at 189.23 87.5664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,8 +12268,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 21.59 86.36 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 186.69 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +12278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 86.36 90)
+			(at 186.69 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +12287,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 21.59 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11037,15 +12312,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at -59.69 66.04 90)
+		(at 105.41 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f9ad4c7e-5733-4393-b60f-c86702dce2ea")
 		(property "Reference" "D20"
-			(at -55.88 64.7064 90)
+			(at 109.22 64.7064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,7 +12330,7 @@
 			)
 		)
 		(property "Value" "1206MIL"
-			(at -55.88 67.2464 0)
+			(at 109.22 67.2464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,8 +12338,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at -59.69 66.04 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 105.41 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11072,7 +12348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -59.69 66.04 90)
+			(at 105.41 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,7 +12357,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at -59.69 66.04 0)
+			(at 105.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
