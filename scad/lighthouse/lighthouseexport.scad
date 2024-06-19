@@ -41,3 +41,10 @@ use <pcbs.scad>
 *projection() place_display_pcb(); 
 *projection() place_button_pcb();
 *projection() place_base_pcb();
+
+*projection() case_display_side_panel(0, 0, 0);
+*projection() plain_display_cover();
+*projection() case_lower_side_panel();
+*projection() case_bottom_base_panel();
+*projection() case_top_button_panel(show_insert = 0, show_m3_cut = 0, show_buttons = 0, show_pcb = 0);
+*projection() rotate([0, 90, 0]) case_side_panel();
