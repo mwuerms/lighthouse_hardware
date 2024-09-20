@@ -51,3 +51,12 @@ buoy will be soldered together using wire only, no pcb for this.
 just a collection of (maybe) useful links
 
 - [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+
+# ideas
+
+- add many sensors like
+  - microphone, analyze snoring
+- add memory/flash to log
+  - sensor values
+  - events
+  - errors, ...
