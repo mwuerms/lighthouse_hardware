@@ -1720,6 +1720,191 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_1"
+				(arc
+					(start -0.254 0.508)
+					(mid -1.651 0.9912)
+					(end -3.048 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "lighthouse:TPS61176RTER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2070,6 +2255,126 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2190,7 +2495,7 @@
 				)
 			)
 		)
-		(symbol "power:+BATT"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2207,7 +2512,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+BATT"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2233,7 +2538,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2242,7 +2547,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power battery"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2251,7 +2556,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+BATT_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2289,7 +2594,7 @@
 					)
 				)
 			)
-			(symbol "+BATT_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2480,12 +2785,6 @@
 		(uuid "6dda7f46-1686-43d5-9e22-75d04698d3d7")
 	)
 	(junction
-		(at 55.88 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76054237-bbae-41c8-9593-97d6e1f0388d")
-	)
-	(junction
 		(at 83.82 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2502,12 +2801,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96a755ba-2c05-42e0-ae43-d166ebd13774")
-	)
-	(junction
-		(at 55.88 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8053b53-7179-4c32-ad33-4e9fda224e78")
 	)
 	(junction
 		(at 144.78 127)
@@ -2564,16 +2857,16 @@
 		(uuid "d9c033cd-08cf-49fc-9b21-b7b5ac79fe9d")
 	)
 	(junction
+		(at 71.12 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dad9822c-770a-4a86-8687-3752691f2f3c")
+	)
+	(junction
 		(at 78.74 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df886f17-d5f3-433c-9284-85e9a89312f8")
-	)
-	(junction
-		(at 71.12 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb5c2215-1711-480e-a17d-8d691dd64d67")
 	)
 	(junction
 		(at 96.52 38.1)
@@ -2584,6 +2877,10 @@
 	(no_connect
 		(at 50.8 60.96)
 		(uuid "0e9beaad-6869-4e7b-b6cc-34c42449fde1")
+	)
+	(no_connect
+		(at 50.8 63.5)
+		(uuid "37bca076-d35e-4bd1-a386-ace2a589813d")
 	)
 	(no_connect
 		(at 50.8 58.42)
@@ -2731,16 +3028,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 55.88 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19a2bdf9-2057-4696-9386-f66f22654849")
-	)
-	(wire
-		(pts
 			(xy 121.92 76.2) (xy 125.73 76.2)
 		)
 		(stroke
@@ -2818,6 +3105,16 @@
 			(type default)
 		)
 		(uuid "2c6217ad-2d34-49c0-8ffc-48da8a09ed3f")
+	)
+	(wire
+		(pts
+			(xy 50.8 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed1f1d0-722d-4f4f-a993-f4d879e62037")
 	)
 	(wire
 		(pts
@@ -2911,16 +3208,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 43.18) (xy 55.88 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40444a23-f6bd-4618-9e41-482bc4672a74")
-	)
-	(wire
-		(pts
 			(xy 134.62 152.4) (xy 134.62 154.94)
 		)
 		(stroke
@@ -2961,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 59.69 35.56)
+			(xy 50.8 35.56) (xy 54.61 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2988,16 +3275,6 @@
 			(type default)
 		)
 		(uuid "4ee512c2-f43e-45a0-99ad-fc79707c89eb")
-	)
-	(wire
-		(pts
-			(xy 50.8 40.64) (xy 63.5 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "504ac998-16fc-430d-a757-d00fdc5ff7a5")
 	)
 	(wire
 		(pts
@@ -3081,6 +3358,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 30.48) (xy 64.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5967cf2b-1d6b-48a6-82ea-d73118a5d0a0")
+	)
+	(wire
+		(pts
 			(xy 116.84 172.72) (xy 119.38 172.72)
 		)
 		(stroke
@@ -3131,16 +3418,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 30.48) (xy 63.5 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "681c9511-2baa-4202-bafc-94f544cf1730")
-	)
-	(wire
-		(pts
 			(xy 83.82 82.55) (xy 86.36 82.55)
 		)
 		(stroke
@@ -3158,6 +3435,16 @@
 			(type default)
 		)
 		(uuid "6d48f9ef-1aa9-428d-aa18-fc3571fa6fd5")
+	)
+	(wire
+		(pts
+			(xy 90.17 20.32) (xy 90.17 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8dbc53-49f4-4cf0-8d2d-f24a6473a896")
 	)
 	(wire
 		(pts
@@ -3251,6 +3538,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 38.1) (xy 59.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8280b0ad-923b-402c-84a5-9a53cba9ad47")
+	)
+	(wire
+		(pts
 			(xy 58.42 152.4) (xy 58.42 55.88)
 		)
 		(stroke
@@ -3281,7 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 35.56) (xy 59.69 30.48)
+			(xy 54.61 30.48) (xy 54.61 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3461,16 +3758,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 43.18) (xy 55.88 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a783a7d1-2aa2-4be2-ab45-765bb5af0988")
-	)
-	(wire
-		(pts
 			(xy 81.28 30.48) (xy 83.82 30.48)
 		)
 		(stroke
@@ -3511,16 +3798,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 55.88 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5714426-2e63-4b31-ba7f-a1fdb702b4aa")
-	)
-	(wire
-		(pts
 			(xy 88.9 78.74) (xy 88.9 82.55)
 		)
 		(stroke
@@ -3531,7 +3808,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 66.04) (xy 55.88 63.5)
+			(xy 55.88 43.18) (xy 55.88 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3581,6 +3858,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 128.27) (xy 49.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96bd9b0-f9a4-410f-904f-d228ec9bef13")
+	)
+	(wire
+		(pts
+			(xy 102.87 20.32) (xy 102.87 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9862f29-0249-4b33-b32f-6a5942663356")
+	)
+	(wire
+		(pts
 			(xy 96.52 27.94) (xy 96.52 30.48)
 		)
 		(stroke
@@ -3588,6 +3885,16 @@
 			(type default)
 		)
 		(uuid "cd9ca55a-f0ff-48ab-a31c-567cb58cfbff")
+	)
+	(wire
+		(pts
+			(xy 36.83 128.27) (xy 36.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0b8e1a-6873-4c16-83b8-e83031cc60e4")
 	)
 	(wire
 		(pts
@@ -3811,6 +4118,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb932c4a-7325-4d36-96b2-c4ab5f30b5c2")
+	)
+	(wire
+		(pts
 			(xy 105.41 127) (xy 119.38 127)
 		)
 		(stroke
@@ -3849,6 +4166,16 @@
 			(justify left)
 		)
 		(uuid "d91793c3-294f-42c3-a645-64bdf2f8009b")
+	)
+	(text "+12.0V\n+5.0V\n+3.3V"
+		(exclude_from_sim no)
+		(at 32.004 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb3066d0-9b69-4178-8624-3f3f6c37cf5a")
 	)
 	(label "SDA"
 		(at 66.04 45.72 0)
@@ -4701,7 +5028,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 63.5 40.64 0)
+		(at 64.77 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4710,7 +5037,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ab8aced-6ce3-4857-b083-07e07b47495b")
 		(property "Reference" "#PWR011"
-			(at 63.5 44.45 0)
+			(at 64.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +5046,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 63.5 35.56 0)
+			(at 64.77 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +5054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 40.64 0)
+			(at 64.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +5063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 40.64 0)
+			(at 64.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +5072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 63.5 40.64 0)
+			(at 64.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,72 +5231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 96.52 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c7a956d-d4a4-4331-8ca8-d4045cff8a61")
-		(property "Reference" "#PWR07"
-			(at 96.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 96.52 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 96.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "905fc72e-4357-4412-a6a4-b2cc5d430807")
-		)
-		(instances
-			(project ""
-				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 43.18 142.24 0)
 		(unit 1)
@@ -5110,72 +5371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 71.12 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2686a551-65fc-4b73-bd6e-8ab0e110c838")
-		(property "Reference" "#PWR08"
-			(at 71.12 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 71.12 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 71.12 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc87f5f3-3be2-480c-ad2d-ad3b355bdb35")
-		)
-		(instances
-			(project "lighthouse_display"
-				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x12_Pin")
 		(at 45.72 48.26 0)
 		(unit 1)
@@ -5201,7 +5396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x12_P1.27mm_Vertical"
+		(property "Footprint" "lighthouse:con_1x12_1.27mm_long_pads"
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -5268,6 +5463,72 @@
 			(project ""
 				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 71.12 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f3ec736-3f5b-4e0d-bef0-2fca33e92368")
+		(property "Reference" "#PWR08"
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbff4a43-ce3c-4f4c-a2b6-cd14aa687b38")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5621,6 +5882,209 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 102.87 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5539f777-f88e-4b6e-ad10-971678b6bc48")
+		(property "Reference" "#PWR015"
+			(at 102.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 102.87 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 102.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf89bb00-7f8e-4332-ac4e-a8722c40609f")
+		)
+		(instances
+			(project ""
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 96.52 24.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b698aab-7a02-46a4-b736-a8e63673feea")
+		(property "Reference" "JP2"
+			(at 96.52 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 96.52 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 96.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 96.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b01204-bdb4-4a2d-b3d3-f327bcfb5ec4")
+		)
+		(pin "2"
+			(uuid "45fb15dd-0a52-4b21-94de-fa4169310b30")
+		)
+		(pin "3"
+			(uuid "4141df29-0787-4bc1-a925-433ed28022cf")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 54.61 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ecf34c7-8cc3-4a5b-9d86-0d73562c04f4")
+		(property "Reference" "#PWR07"
+			(at 54.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 54.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 54.61 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dedb74d6-cef3-4400-9f5c-b4ccbc87c304")
+		)
+		(instances
+			(project ""
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 135.89 180)
 		(unit 1)
@@ -5685,6 +6149,77 @@
 			(project "lighthouse_display"
 				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 43.18 133.35 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65652a20-3df9-4e8e-b1af-44bc338d758c")
+		(property "Reference" "JP1"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 43.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1230fcc5-3154-45d1-ab09-a09147b6e5e8")
+		)
+		(pin "2"
+			(uuid "5834ddcc-4fe7-4859-bb7d-b631a2956096")
+		)
+		(pin "3"
+			(uuid "3324ff8b-8056-456f-9b1a-941023aaad72")
+		)
+		(instances
+			(project ""
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6571,17 +7106,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 63.5 30.48 0)
+		(lib_id "power:+5V")
+		(at 59.69 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6e7e2d6-f5df-4946-85e4-cdca67301a66")
+		(uuid "b4cbfeb2-fa3f-4262-ab13-d3137dedf0ab")
 		(property "Reference" "#PWR012"
-			(at 63.5 34.29 0)
+			(at 59.69 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,8 +7124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 63.5 25.4 0)
+		(property "Value" "+5V"
+			(at 59.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +7133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +7142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,8 +7150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 63.5 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +7160,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "93701b50-3341-4e6a-ab61-4f494b9b01df")
+			(uuid "3ee5ad23-513a-4cdb-a2ee-b920358c092c")
 		)
 		(instances
 			(project "lighthouse_display"
@@ -6991,7 +7526,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 43.18 137.16 0)
+		(at 36.83 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7000,7 +7535,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1dc02f8-af59-4f19-aa4f-cc191c0fea17")
 		(property "Reference" "#PWR014"
-			(at 43.18 140.97 0)
+			(at 36.83 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,7 +7544,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 43.18 132.08 0)
+			(at 36.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,7 +7552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 137.16 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 137.16 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 43.18 137.16 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,6 +7654,138 @@
 			(project "lighthouse_display"
 				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 90.17 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e89bfc29-f340-4765-97e7-f569b1fdf15e")
+		(property "Reference" "#PWR016"
+			(at 90.17 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 90.17 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 90.17 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "715e514f-156d-4b76-b6aa-c32615be028e")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f23f2d79-7ef0-4bf3-a6ae-c93ffc8fa38e")
+		(property "Reference" "#PWR017"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "009b1c11-f8f3-496d-9acd-d73bb0052823")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
