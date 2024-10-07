@@ -4177,6 +4177,28 @@
 		)
 		(uuid "eb3066d0-9b69-4178-8624-3f3f6c37cf5a")
 	)
+	(label "IS_REXT"
+		(at 91.44 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19caf1f1-c756-4cc0-ae48-a1ca244fe88c")
+	)
+	(label "IS_FILT"
+		(at 90.17 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2189dcd9-5bb1-4f67-a379-dd7426000699")
+	)
 	(label "SDA"
 		(at 66.04 45.72 0)
 		(fields_autoplaced yes)
@@ -4188,6 +4210,50 @@
 		)
 		(uuid "46f0ba40-e763-4d60-a425-7a4000b6c6fc")
 	)
+	(label "TPS_SW"
+		(at 119.38 138.43 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47b535e5-2332-4730-84ed-69d041bd301f")
+	)
+	(label "IS_IN"
+		(at 90.17 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "501d1145-10de-447a-9012-33f065b13c3f")
+	)
+	(label "TPS_LDO"
+		(at 71.12 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d586134-157a-40b8-b58a-ab41c15a8a7b")
+	)
+	(label "TPS_VIN"
+		(at 76.2 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67263e93-54cd-4f9d-8e12-c53a9b68458e")
+	)
 	(label "SCL"
 		(at 66.04 48.26 0)
 		(fields_autoplaced yes)
@@ -4198,6 +4264,39 @@
 			(justify left bottom)
 		)
 		(uuid "6b51cf7f-d655-46aa-b9de-2e79da6ae601")
+	)
+	(label "TPS_COMP"
+		(at 58.42 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc86285-8e1f-4345-b5fd-1d604666a38c")
+	)
+	(label "TPS_ISET"
+		(at 81.28 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "759abe4e-7fad-4d9e-9ff2-1a28e1d38df5")
+	)
+	(label "TPS_MODE"
+		(at 48.26 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79407b8b-aa34-42b6-add7-5cd158a3171f")
 	)
 	(label "~{SDB}"
 		(at 66.04 55.88 0)
@@ -4221,6 +4320,17 @@
 		)
 		(uuid "931f7a0f-4554-4d65-96ae-923a8854fec0")
 	)
+	(label "IS_VIN"
+		(at 97.79 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a85bb4b6-f94f-4e1d-a72c-490215e89076")
+	)
 	(label "~{INTB}"
 		(at 66.04 58.42 0)
 		(fields_autoplaced yes)
@@ -4231,6 +4341,28 @@
 			(justify left bottom)
 		)
 		(uuid "b300d517-2ffa-4a86-b2a6-a711be12ddf1")
+	)
+	(label "IS_AD"
+		(at 90.17 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c72ff269-5146-4b1a-b063-ae07e73c1c73")
+	)
+	(label "TPS_FB"
+		(at 121.92 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea495073-ab64-4b20-8b4c-0ab97a8fd56e")
 	)
 	(global_label "WHLED2"
 		(shape input)

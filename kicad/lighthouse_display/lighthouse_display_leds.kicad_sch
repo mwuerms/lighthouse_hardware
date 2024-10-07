@@ -2399,6 +2399,17 @@
 		)
 		(uuid "97a9e375-30db-471c-94a4-6c974308c7ad")
 	)
+	(text "additional unconnected white LEDs"
+		(exclude_from_sim no)
+		(at 209.042 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98915204-082c-4824-a610-df0226873e5f")
+	)
 	(text "C1-6"
 		(exclude_from_sim no)
 		(at 58.0943 53.5939 90)
@@ -5537,6 +5548,74 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
+		(at 243.84 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012df630-5352-4c76-99ce-481e9b72b1c4")
+		(property "Reference" "D105"
+			(at 243.7765 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206MIL"
+			(at 243.7765 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 243.84 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8dfc89e-976c-4bda-bd13-17f2ee129093")
+		)
+		(pin "2"
+			(uuid "26476139-7e8b-4e1f-b4c8-68ec59f59ad5")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
 		(at 218.44 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5669,6 +5748,74 @@
 			(project "lighthouse_display"
 				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
 					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 228.6 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b050def-4d8c-4081-89b2-d5240d935da8")
+		(property "Reference" "D104"
+			(at 228.5365 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206MIL"
+			(at 228.5365 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 228.6 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 228.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb78e33-9aee-41bc-ae3c-d211a283a91e")
+		)
+		(pin "2"
+			(uuid "c2563984-5867-4339-b8bc-b8628b775382")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
+					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -7195,6 +7342,74 @@
 			(project "lighthouse_display"
 				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
 					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 257.81 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5149f11e-e880-4dca-8c57-c2b144dcbca9")
+		(property "Reference" "D106"
+			(at 257.7465 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206MIL"
+			(at 257.7465 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 257.81 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 257.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7438005d-b0a9-4c3a-b9c5-177ec848aa4b")
+		)
+		(pin "2"
+			(uuid "b709af1b-c8a1-46d0-b589-04e013666f78")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
+					(reference "D106")
 					(unit 1)
 				)
 			)
@@ -9342,6 +9557,74 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
+		(at 270.51 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "892416ad-0de9-4867-a24d-085b7078be4e")
+		(property "Reference" "D107"
+			(at 270.4465 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206MIL"
+			(at 270.4465 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 270.51 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 270.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "666b8ebc-cb0f-4128-be28-2af00b90f9c9")
+		)
+		(pin "2"
+			(uuid "0b064202-f6f9-42be-8f6e-3da2c699cad7")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
+					(reference "D107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
 		(at 118.11 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9543,6 +9826,74 @@
 			(project "lighthouse_display"
 				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
 					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 214.63 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94e41449-5aef-46d2-aa3f-020c88222304")
+		(property "Reference" "D103"
+			(at 214.5665 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206MIL"
+			(at 214.5665 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 214.63 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 214.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a01c2ff-575a-4304-95a2-dd7b337a527e")
+		)
+		(pin "2"
+			(uuid "5bfd3a40-3675-4c4a-9908-b03afdda3b4e")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -10793,6 +11144,74 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
+		(at 200.66 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c886a252-fe49-4b59-b4df-bcd3e1f29056")
+		(property "Reference" "D102"
+			(at 200.5965 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206MIL"
+			(at 200.5965 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 200.66 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a00dde22-75b3-4c14-ba9d-30d11c0f9d3d")
+		)
+		(pin "2"
+			(uuid "96605eb8-f5fb-4370-8eab-837bdb5a65ca")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
 		(at 66.04 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11546,6 +11965,74 @@
 			(project "lighthouse_display"
 				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
 					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 186.69 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e262429a-4b2f-4e65-ae6f-130782eb40bc")
+		(property "Reference" "D101"
+			(at 186.6265 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1206MIL"
+			(at 186.6265 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 186.69 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83017bd0-5800-49d9-b8da-288715546dbb")
+		)
+		(pin "2"
+			(uuid "6bd4ae6c-7466-49b6-a130-bd8ed143da90")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6/f59c7767-4342-4841-9fe8-2d864aedbd32"
+					(reference "D101")
 					(unit 1)
 				)
 			)
