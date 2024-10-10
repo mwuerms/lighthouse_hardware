@@ -2110,6 +2110,24 @@
 					)
 				)
 				(pin input line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -15.24 -10.16 0)
 					(length 2.54)
 					(name "VLDO"
@@ -2737,6 +2755,12 @@
 		(uuid "1711720a-9c67-4439-92fa-2c9ca70a695b")
 	)
 	(junction
+		(at 120.65 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2b94c2-47a0-4593-81f9-2782e4d45ecf")
+	)
+	(junction
 		(at 78.74 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2885,6 +2909,16 @@
 	(no_connect
 		(at 50.8 58.42)
 		(uuid "fbcfa3f7-e1ec-4e0b-be58-2a711878d79a")
+	)
+	(wire
+		(pts
+			(xy 116.84 157.48) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0655d42a-28f1-47f1-9239-49de77c5f48d")
 	)
 	(wire
 		(pts
@@ -3158,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 154.94) (xy 134.62 154.94)
+			(xy 116.84 154.94) (xy 120.65 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3275,6 +3309,16 @@
 			(type default)
 		)
 		(uuid "4ee512c2-f43e-45a0-99ad-fc79707c89eb")
+	)
+	(wire
+		(pts
+			(xy 120.65 154.94) (xy 134.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff4525b-6a70-462b-a521-5c2c61f6cc99")
 	)
 	(wire
 		(pts
@@ -3715,6 +3759,16 @@
 			(type default)
 		)
 		(uuid "a24f13b6-189e-4ca3-a060-2615f5ebf867")
+	)
+	(wire
+		(pts
+			(xy 120.65 154.94) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b3d8f5-4d3b-416e-aef1-2890af6016e9")
 	)
 	(wire
 		(pts
@@ -5083,6 +5137,9 @@
 		)
 		(pin "1"
 			(uuid "f6ab417b-0fb7-4d99-9f1e-24bfe949b100")
+		)
+		(pin "17"
+			(uuid "78b4f714-146a-48cc-861d-ebb9601eb2ab")
 		)
 		(instances
 			(project "lighthouse_display"
