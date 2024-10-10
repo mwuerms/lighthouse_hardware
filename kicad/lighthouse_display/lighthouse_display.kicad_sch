@@ -4156,9 +4156,9 @@
 		)
 		(uuid "69eed039-3016-4e7e-bbb2-c23d28ffa551")
 	)
-	(text "6 white LEDs in series @ 20 mA -> 3.25 V\nVOUT 6*3.25 V = 19.5 V, VFB = 1.5\nVOUT = (Rupper/Rlower + 1) * 1.5 V\nRlower = Rupper / (VOUT/VFB - 1) = 83.33k @ Rupper = 1M"
+	(text "7 white LEDs in series @ 20 mA -> 3.25 V\nVOUT 7*3.25 V = 22.75 V, VFB = 1.5\nVOUT = (Rupper/Rlower + 1) * 1.5 V\nRlower = Rupper / (VOUT/VFB - 1) = 70k5 @ Rupper = 1M\nRLower = 68k"
 		(exclude_from_sim no)
-		(at 107.95 184.15 0)
+		(at 107.95 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7116,7 +7116,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "83k3"
+		(property "Value" "68k"
 			(at 137.16 149.8599 0)
 			(effects
 				(font
