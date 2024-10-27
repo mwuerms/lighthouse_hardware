@@ -1905,6 +1905,175 @@
 				)
 			)
 		)
+		(symbol "Sensor_Humidity:SHTC3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SHTC3"
+				(at -2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm"
+				(at 5.08 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Sensirion environment environmental measurement digital"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Sensirion*DFN*1EP*2x2mm*P1mm*EP0.7x1.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SHTC3_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "lighthouse:TPS61176RTER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2815,6 +2984,18 @@
 		(uuid "7af58728-e96d-4afb-b971-a7798139116d")
 	)
 	(junction
+		(at 179.07 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e1850cd-15a9-40aa-a345-e12260c220cb")
+	)
+	(junction
+		(at 179.07 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83cb630a-6812-4264-82b5-ca1913473b72")
+	)
+	(junction
 		(at 81.28 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2909,6 +3090,16 @@
 	(no_connect
 		(at 50.8 58.42)
 		(uuid "fbcfa3f7-e1ec-4e0b-be58-2a711878d79a")
+	)
+	(wire
+		(pts
+			(xy 166.37 27.94) (xy 179.07 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01795642-d7a6-4399-b818-18940aaea57f")
 	)
 	(wire
 		(pts
@@ -3212,6 +3403,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 27.94) (xy 179.07 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395f3c91-8db1-4e97-bc2a-fd3108ed03e5")
+	)
+	(wire
+		(pts
 			(xy 63.5 55.88) (xy 83.82 55.88)
 		)
 		(stroke
@@ -3449,6 +3650,16 @@
 			(type default)
 		)
 		(uuid "626753c9-5f4e-495a-abde-065a9f836fee")
+	)
+	(wire
+		(pts
+			(xy 148.59 35.56) (xy 154.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635458d3-b42f-4fd1-8b4a-5d8fcd43c5d1")
 	)
 	(wire
 		(pts
@@ -3702,6 +3913,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 40.64) (xy 179.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b31c84-59e0-422b-aaf8-53589c361042")
+	)
+	(wire
+		(pts
 			(xy 48.26 179.07) (xy 58.42 179.07)
 		)
 		(stroke
@@ -3719,6 +3940,16 @@
 			(type default)
 		)
 		(uuid "95bb976a-e383-42ff-8318-e2ac3ed40407")
+	)
+	(wire
+		(pts
+			(xy 179.07 44.45) (xy 166.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8e589c-cc52-4e8c-a26c-58df405527f5")
 	)
 	(wire
 		(pts
@@ -3839,6 +4070,16 @@
 			(type default)
 		)
 		(uuid "b237e7e5-347b-429f-bcdc-53159dd523f0")
+	)
+	(wire
+		(pts
+			(xy 156.21 33.02) (xy 148.59 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3454917-a40d-4add-b831-3f6554c3b632")
 	)
 	(wire
 		(pts
@@ -4072,6 +4313,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 38.1) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83cd91e-d250-4a79-8688-72958a4c8647")
+	)
+	(wire
+		(pts
 			(xy 125.73 91.44) (xy 121.92 91.44)
 		)
 		(stroke
@@ -4142,6 +4393,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 35.56) (xy 154.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71a8e22-3ec7-496c-988a-ba51a8560ae0")
+	)
+	(wire
+		(pts
 			(xy 86.36 78.74) (xy 86.36 82.55)
 		)
 		(stroke
@@ -4189,6 +4450,16 @@
 			(type default)
 		)
 		(uuid "fc42eccc-c102-4a9d-9805-6999b05f0238")
+	)
+	(wire
+		(pts
+			(xy 166.37 44.45) (xy 166.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfbfbe9-1723-459c-952e-2d3163f7a55f")
 	)
 	(text "AD: set I2C address"
 		(exclude_from_sim no)
@@ -4770,6 +5041,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 148.59 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91eb2518-af3b-4300-90bd-d53c1c449c72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.0972 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CB2"
 		(shape input)
 		(at 125.73 73.66 0)
@@ -4898,6 +5191,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 148.59 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c85a96ee-853b-4b7a-a769-943f6f310dde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.0367 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5996,6 +6311,75 @@
 			(project "lighthouse_display"
 				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40e8f043-3254-401e-9634-122d69f2ebc7")
+		(property "Reference" "C9"
+			(at 179.578 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 177.8 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 180.0352 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a97fe69f-8164-46f0-9fc4-0e05539ef551")
+		)
+		(pin "1"
+			(uuid "cf9d5d8e-3484-495e-9a73-74f5702baf9b")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7295,6 +7679,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 179.07 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0ef58a6-fc6d-4a94-a265-8ba9cd3b7d77")
+		(property "Reference" "#PWR019"
+			(at 179.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 179.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 179.07 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6480b0b-cf88-4a34-a79a-8d528317a9b8")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 59.69 30.48 0)
 		(unit 1)
@@ -8047,6 +8497,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 179.07 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f458a657-905a-482f-aeb3-14b8d18b2405")
+		(property "Reference" "#PWR018"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668a8fed-7945-46a2-a9f0-d1c3d270563c")
+		)
+		(instances
+			(project "lighthouse_display"
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 96.52 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8178,9 +8693,88 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Sensor_Humidity:SHTC3")
+		(at 163.83 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe890c6a-f996-481e-873c-0b9da115ca34")
+		(property "Reference" "U3"
+			(at 170.18 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SHTC3"
+			(at 170.18 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm"
+			(at 168.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf"
+			(at 156.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "542432ff-e15d-443f-9797-709d22317fc9")
+		)
+		(pin "2"
+			(uuid "cf43f5a3-128a-462a-b6d2-e3ecfb2bfed8")
+		)
+		(pin "1"
+			(uuid "9cd3e700-170b-49f8-a64e-54c32501a2ec")
+		)
+		(pin "5"
+			(uuid "4e49fda8-0738-4f27-a633-f1f0f54a2c58")
+		)
+		(pin "4"
+			(uuid "170404fc-4ce8-45b9-ab38-7a60dd6e32b1")
+		)
+		(instances
+			(project ""
+				(path "/fbd7c054-d495-4540-bf50-dcc1c5af0df6"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 175.26 35.56)
-		(size 83.82 116.84)
+		(at 220.98 22.86)
+		(size 57.15 116.84)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8192,7 +8786,7 @@
 		)
 		(uuid "f59c7767-4342-4841-9fe8-2d864aedbd32")
 		(property "Sheetname" "lighthouse_display_leds"
-			(at 175.26 34.8484 0)
+			(at 220.98 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8795,7 @@
 			)
 		)
 		(property "Sheetfile" "lighthouse_display_leds.kicad_sch"
-			(at 175.26 152.9846 0)
+			(at 220.98 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
