@@ -121,7 +121,7 @@ module place_button_pcb(x_pos = 0, y_pos = 0) {
         button_pcb();
     }
 }
-
+projection()
 place_button_pcb(0, 0);
 
 module display_pcb(th1 = 1.6, col = "ForestGreen", loc_res = 32) {
