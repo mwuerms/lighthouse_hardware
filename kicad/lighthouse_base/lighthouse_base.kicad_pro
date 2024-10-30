@@ -576,7 +576,15 @@
   "sheets": [
     [
       "e329df4a-6588-455a-9936-c9675a4aa830",
-      "Stammblatt"
+      "Root"
+    ],
+    [
+      "ce677066-b0b4-4434-a6aa-4b692f0d9db5",
+      "Lighthouse MCU"
+    ],
+    [
+      "0766630d-8ec2-4c83-94b4-820a1d6c29c4",
+      "Lighthouse Peripherials"
     ]
   ],
   "text_variables": {}
