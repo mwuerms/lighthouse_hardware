@@ -3549,7 +3549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0276bb4e-7d69-4496-9299-97afc3f798ce")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 264.16 124.4599 0)
 			(effects
 				(font
@@ -3567,7 +3567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Picoflex_90325-0006_2x03_P1.27mm_Vertical"
 			(at 261.62 124.46 0)
 			(effects
 				(font
@@ -3615,7 +3615,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3631,7 +3631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "074976ed-b11a-4046-80dc-d6fd4616abe7")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR026"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -3681,7 +3681,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR07")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138a569b-300b-4479-aa6f-347b9a2f9e97")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 264.16 50.7999 0)
 			(effects
 				(font
@@ -3715,7 +3715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Picoflex_90325-0012_2x06_P1.27mm_Vertical"
 			(at 261.62 50.8 0)
 			(effects
 				(font
@@ -3781,7 +3781,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3814,7 +3814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm"
 			(at 173.99 124.46 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19c709a5-58e8-4e4f-b250-d84fc5354f3b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR022"
 			(at 246.38 36.83 0)
 			(effects
 				(font
@@ -3918,7 +3918,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR05")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3933,7 +3933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "340103c1-8bbe-411e-afcd-11d74a6fa87c")
-		(property "Reference" "U4"
+		(property "Reference" "U8"
 			(at 186.69 123.952 0)
 			(effects
 				(font
@@ -4027,7 +4027,7 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "U4")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -4042,7 +4042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39d92e66-8b02-4e6e-861f-93250529a4ec")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR025"
 			(at 180.34 128.27 0)
 			(effects
 				(font
@@ -4092,7 +4092,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR015")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4108,7 +4108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f48d72-cd01-452a-a323-eef64b425dc9")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 264.16 88.8999 0)
 			(effects
 				(font
@@ -4126,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Picoflex_90325-0012_2x06_P1.27mm_Vertical"
 			(at 261.62 88.9 0)
 			(effects
 				(font
@@ -4192,7 +4192,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4208,7 +4208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "547168a1-dace-424f-8ec7-41fd12eb58a6")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 73.66 156.2099 0)
 			(effects
 				(font
@@ -4226,7 +4226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
 			(at 76.2 157.48 0)
 			(effects
 				(font
@@ -4271,7 +4271,7 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4287,7 +4287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6135bd25-38a5-49bd-b5b8-6b6554727f51")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR024"
 			(at 167.64 128.27 0)
 			(effects
 				(font
@@ -4337,7 +4337,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR016")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4353,7 +4353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77244851-edbf-48e7-885f-cbf5d969f24b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR021"
 			(at 241.3 36.83 0)
 			(effects
 				(font
@@ -4403,7 +4403,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR04")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4419,7 +4419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d51b13c-ff39-4133-8d36-0c31fd0268bb")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 162.56 142.2399 0)
 			(effects
 				(font
@@ -4437,7 +4437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 165.1 142.24 0)
 			(effects
 				(font
@@ -4473,7 +4473,7 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4489,7 +4489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8635e05b-00f8-481c-a6b0-d8a92b20e195")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR030"
 			(at 83.82 171.45 0)
 			(effects
 				(font
@@ -4539,7 +4539,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR018")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4554,7 +4554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95aac6c4-89c1-4fe1-b19b-e5758cb97e23")
-		(property "Reference" "U5"
+		(property "Reference" "U9"
 			(at 109.22 145.796 0)
 			(effects
 				(font
@@ -4642,7 +4642,7 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "U5")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4658,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98c2f422-3afe-49e6-a77f-a41ea4e3aca8")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR027"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR014")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4724,7 +4724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a06399cd-8df6-48fa-a9eb-947a475269d1")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR023"
 			(at 251.46 36.83 0)
 			(effects
 				(font
@@ -4774,7 +4774,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR06")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4790,7 +4790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2d51328-3dcf-47fe-b214-608342227070")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR029"
 			(at 124.46 158.75 0)
 			(effects
 				(font
@@ -4840,7 +4840,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4856,7 +4856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b29c3472-4f1c-4357-8f23-386ff3f7a200")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR028"
 			(at 186.69 160.02 0)
 			(effects
 				(font
@@ -4906,7 +4906,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR017")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4922,7 +4922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e708b9d6-ccf3-4d35-b982-712b60ac530c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR031"
 			(at 124.46 181.61 0)
 			(effects
 				(font
@@ -4972,7 +4972,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/0766630d-8ec2-4c83-94b4-820a1d6c29c4"
-					(reference "#PWR020")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

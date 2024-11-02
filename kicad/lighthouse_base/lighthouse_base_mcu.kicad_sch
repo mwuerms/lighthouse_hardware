@@ -5,6 +5,108 @@
 	(uuid "b1be6cf0-e0f1-4dbd-a18d-fb4e6ad870c3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x07"
 			(pin_names
 				(offset 1.016) hide)
@@ -3018,6 +3120,126 @@
 				)
 			)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3150,6 +3372,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d082d0c-d55a-4284-b3f2-f6280e0395d3")
+	)
+	(junction
+		(at 88.9 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "473451b8-5030-42a9-8cb8-cc5b3f01ec1b")
 	)
 	(junction
 		(at 101.6 43.18)
@@ -3356,6 +3584,16 @@
 			(type default)
 		)
 		(uuid "1420ad95-c4f9-44c4-83a3-0909cb53acfb")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1493108e-fc7d-45df-9fe4-c4a4532dee0c")
 	)
 	(wire
 		(pts
@@ -3736,6 +3974,16 @@
 			(type default)
 		)
 		(uuid "72687905-b037-424c-9eac-39e8ed1120bf")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76469475-10e3-45b2-9aac-4d8206080169")
 	)
 	(wire
 		(pts
@@ -4717,6 +4965,28 @@
 			)
 		)
 	)
+	(global_label "CH_STAT"
+		(shape input)
+		(at 116.84 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "879fad42-9669-411e-a1b3-bb1eb4873b35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.0534 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BLE_RX"
 		(shape input)
 		(at 116.84 91.44 180)
@@ -5189,7 +5459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b1aa13-5f8d-482a-9fbc-49d85cac0473")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 95.25 45.7199 0)
 			(effects
 				(font
@@ -5207,7 +5477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 92.4052 50.8 0)
 			(effects
 				(font
@@ -5243,7 +5513,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5258,7 +5528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a13330f-4eaa-4927-ae58-0fc4887582f3")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 127.254 92.71 90)
 			(effects
 				(font
@@ -5274,7 +5544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.19 93.218 90)
 			(effects
 				(font
@@ -5310,7 +5580,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5393,6 +5663,202 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "128a8bf6-7d82-4a59-bb8a-25a9b1906a4a")
+		(property "Reference" "TP24"
+			(at 168.656 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc26fafa-d285-493a-acf8-97ffb8f5486c")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14a2bee5-2681-4ae8-b61c-e12fd72e546e")
+		(property "Reference" "TP9"
+			(at 123.444 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df0ea53f-f523-4f35-b32a-98c93c78f01f")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17847210-e4e8-4ec7-a616-c3979a22ee4f")
+		(property "Reference" "#PWR032"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afc71766-7a5a-4a6f-86d2-1cccf8390668")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 50.8 0)
 		(unit 1)
@@ -5402,7 +5868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c28f5ba-c056-46c9-9f1b-367127d9037b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR014"
 			(at 91.44 57.15 0)
 			(effects
 				(font
@@ -5452,7 +5918,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR021")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5468,7 +5934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e550a22-2637-46ae-bef6-d73a24790dab")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 135.89 45.7199 0)
 			(effects
 				(font
@@ -5486,7 +5952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 133.0452 50.8 0)
 			(effects
 				(font
@@ -5522,7 +5988,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5538,7 +6004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d980fc-a07b-48dc-b521-4c73d3b3b86e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR020"
 			(at 58.42 191.77 0)
 			(effects
 				(font
@@ -5588,7 +6054,72 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR012")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c869822-e1c7-4e2b-ad15-14038a8733d9")
+		(property "Reference" "TP1"
+			(at 123.444 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5f494c7-d14e-4b98-8dc6-9f59630ba507")
+		)
+		(instances
+			(project ""
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5604,7 +6135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35441d2b-3a91-4fc3-b5f0-e7b3160c6da3")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 257.81 137.1599 0)
 			(effects
 				(font
@@ -5622,7 +6153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 254.9652 142.24 0)
 			(effects
 				(font
@@ -5658,7 +6189,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5674,7 +6205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35623a6c-ec1d-4a4c-ae0f-70315fbc2524")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 250.19 140.9699 0)
 			(effects
 				(font
@@ -5692,7 +6223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 247.3452 146.05 0)
 			(effects
 				(font
@@ -5728,7 +6259,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "C6")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5744,7 +6275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "376d9d1b-7b98-4fff-8a38-bbc4774d436a")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 125.73 45.7199 0)
 			(effects
 				(font
@@ -5762,7 +6293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 122.8852 50.8 0)
 			(effects
 				(font
@@ -5798,7 +6329,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5814,7 +6345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f21b685-c719-49cf-b10d-580ab82f6cb0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR016"
 			(at 254 133.35 0)
 			(effects
 				(font
@@ -5864,7 +6395,137 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR010")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40cb4744-ae04-4a06-9a93-552f34e30a44")
+		(property "Reference" "TP20"
+			(at 168.656 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62465a06-b694-433c-9e2d-8923d59c0e11")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42f9a4a5-a3d1-42ea-a30a-0acdcbf4790e")
+		(property "Reference" "TP10"
+			(at 123.444 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e4a42c-cb68-49e6-b9fc-839725c69cd3")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5881,7 +6542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4343df7d-580c-45b1-8671-ab1cb3c0a560")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 198.12 19.05 0)
 			(effects
 				(font
@@ -5897,7 +6558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical"
 			(at 198.12 33.02 0)
 			(effects
 				(font
@@ -5948,7 +6609,7 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5964,7 +6625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "448039c4-dfd9-4ead-b281-8fa7c94c3ae3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR012"
 			(at 205.74 26.67 0)
 			(effects
 				(font
@@ -6014,7 +6675,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR022")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46652be6-7de7-4c80-b64b-7028104dec1d")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 127.254 90.17 90)
 			(effects
 				(font
@@ -6045,7 +6706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.19 90.678 90)
 			(effects
 				(font
@@ -6081,7 +6742,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6097,7 +6758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "492155cd-9050-4168-b2d6-a805a768192f")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 60.6141 185.42 0)
 			(effects
 				(font
@@ -6169,7 +6830,399 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "U2")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a0adf6b-0b9d-46e8-b3a0-64f3a2cf646f")
+		(property "Reference" "TP14"
+			(at 123.444 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08a5393b-4973-4f1b-bf4d-d3ae4f24d795")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56ed20a9-7eea-4478-bb4e-b4cec39059e2")
+		(property "Reference" "TP17"
+			(at 168.656 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d338d87-8043-4b79-96c4-7f9d65a37424")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5df7ee78-e987-4761-b209-231e2447f54c")
+		(property "Reference" "TP3"
+			(at 123.444 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e3312f6-220d-4264-a267-ee250bc3d0e2")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ef5405a-af0c-411e-9cfa-b0c4fe06550f")
+		(property "Reference" "TP5"
+			(at 168.656 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68ba7835-59a1-4a75-a98f-c2eea8e31fba")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5effd8b6-2bbe-494d-b5ce-ff7b0c83a354")
+		(property "Reference" "TP23"
+			(at 168.656 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a0291ee-8d5d-4c80-8d64-3debfc0a0fa9")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63a59397-919e-499a-af3a-d0987f8bbb56")
+		(property "Reference" "R12"
+			(at 86.614 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 88.9 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 90.678 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d890ca3e-850a-4f16-bef6-4f8df0a2057e")
+		)
+		(pin "1"
+			(uuid "69883eec-828f-4cad-abdd-1d1ab58cb78f")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6185,7 +7238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68ee7685-4cf2-4ddf-bee7-0c36f94515f7")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 233.68 163.83 0)
 			(effects
 				(font
@@ -6235,7 +7288,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6251,7 +7304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78a5f8f2-96b4-4ca8-b8d7-a9c1d9e36eea")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR018"
 			(at 43.18 161.29 0)
 			(effects
 				(font
@@ -6301,7 +7354,267 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR08")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7eeccfaa-144b-4048-9cd8-32ee69e972e1")
+		(property "Reference" "TP19"
+			(at 168.656 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74224e96-57c2-4e66-a637-9bc1088e0d32")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f869418-4005-4a1e-a507-d71939bb16e1")
+		(property "Reference" "TP15"
+			(at 168.656 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5c5102-a5f1-41ab-a992-07ed87d7b709")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "805d4e4f-83b4-42a0-91b9-0655050ed5e9")
+		(property "Reference" "TP7"
+			(at 123.444 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d63abe1f-39b1-4295-96c3-bf44fde7ece7")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d9b6f7b-cab7-4dba-a675-7aa87b17f3b0")
+		(property "Reference" "TP22"
+			(at 168.656 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85bbfd46-4b14-4e7a-ab8c-cb762eb5f500")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -6317,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e739b39-b113-4c86-ac52-0008b52d4900")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR017"
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -6367,7 +7680,203 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR011")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fcc14c3-d816-4172-ad15-38bf3ce2a6ef")
+		(property "Reference" "#PWR033"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d4c40fe-2e6f-4dd6-a8b3-ebf96d34d2d9")
+		)
+		(instances
+			(project ""
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93159f3e-857c-4807-95fd-c5d76537fb39")
+		(property "Reference" "TP18"
+			(at 168.656 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "477651b8-598e-45b3-bd5a-54ae1237812f")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1f9e6bb-c724-4401-90fa-8aee41118fc3")
+		(property "Reference" "TP16"
+			(at 123.444 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "729ea118-e02f-4c31-82a2-450d5d203dd0")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -6383,7 +7892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39dd637-fc7e-4687-80dd-70e6b7b9ce08")
-		(property "Reference" "BT1"
+		(property "Reference" "BT2"
 			(at 77.47 164.5284 0)
 			(effects
 				(font
@@ -6437,7 +7946,7 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "BT1")
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -6453,7 +7962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a478af64-43cf-4486-85c1-ba0a8a1de1b3")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 115.57 45.7199 0)
 			(effects
 				(font
@@ -6471,7 +7980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 112.7252 50.8 0)
 			(effects
 				(font
@@ -6507,7 +8016,72 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "C8")
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4b7a49f-7ce8-4f34-9f3b-84beddd54801")
+		(property "Reference" "TP2"
+			(at 123.444 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1db53906-1702-48c5-9968-56667a41b59f")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6522,7 +8096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b33241c2-ca40-4d2c-ab6e-6b93289564e0")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 172.974 64.77 90)
 			(effects
 				(font
@@ -6538,7 +8112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 168.91 65.278 90)
 			(effects
 				(font
@@ -6574,7 +8148,72 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "R3")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc17e3be-806e-4abc-a116-7fa2d4f578af")
+		(property "Reference" "TP4"
+			(at 123.444 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09ac90e2-e55a-4781-94c1-fdc33d944304")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6590,7 +8229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6282585-bb0f-435c-a9d5-f877cbf183bb")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 149.5141 147.32 0)
 			(effects
 				(font
@@ -6831,7 +8470,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6847,7 +8486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0031692-6ed4-4f7e-9c0d-55c5941f624a")
-		(property "Reference" "C3"
+		(property "Reference" "C8"
 			(at 105.41 45.7199 0)
 			(effects
 				(font
@@ -6865,7 +8504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 102.5652 50.8 0)
 			(effects
 				(font
@@ -6901,7 +8540,267 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "C3")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5594a35-0eae-43a8-aab0-57a5175be624")
+		(property "Reference" "TP11"
+			(at 123.444 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3700e8a-461d-451f-935c-7d37c5891c5b")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d591db20-868e-47f1-92a3-83ea929dcfdf")
+		(property "Reference" "TP13"
+			(at 123.444 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9dd515b-2512-4350-85ec-e5ff8bff016a")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9a8c4f3-9e61-424e-a7b5-80fc0fdfbe41")
+		(property "Reference" "TP21"
+			(at 168.656 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81fc888a-3b31-4792-a178-a5812c5bec5c")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcb13619-0842-4e9f-9863-663a8d09f040")
+		(property "Reference" "TP12"
+			(at 123.444 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.238 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa869c7-9a42-4ed8-a501-e1376c2f16f3")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -6917,7 +8816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7294624-ec0b-45b1-aed9-1144faec4419")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR015"
 			(at 205.74 59.69 0)
 			(effects
 				(font
@@ -6967,7 +8866,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR023")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6983,7 +8882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb39a899-fc6b-4639-9eb8-681d393e0423")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 242.57 143.5099 0)
 			(effects
 				(font
@@ -7055,7 +8954,7 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7071,7 +8970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebcce0af-e5c1-468c-98bf-3b8ccdc3bc2f")
-		(property "Reference" "C5"
+		(property "Reference" "C14"
 			(at 46.99 162.5599 0)
 			(effects
 				(font
@@ -7089,7 +8988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 44.1452 167.64 0)
 			(effects
 				(font
@@ -7125,7 +9024,74 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "C5")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee79b06f-1110-4622-ab28-f30383e876e5")
+		(property "Reference" "R11"
+			(at 86.614 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 88.9 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 90.678 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4308d71-b4cb-40a0-95cc-4b732073077a")
+		)
+		(pin "1"
+			(uuid "48c47c26-0b61-4144-b9d3-47f6c824d0b4")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7141,7 +9107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4409d1e-5004-4ea7-b031-df7d46e75cdb")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 91.44 44.45 0)
 			(effects
 				(font
@@ -7191,7 +9157,72 @@
 		(instances
 			(project ""
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "#PWR09")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6cc2ebf-a16e-47c7-b9c3-14d68ccad561")
+		(property "Reference" "TP8"
+			(at 168.656 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6848a953-8ec8-430e-b213-9ed996c778d5")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -7206,7 +9237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd9487b0-98ff-49b1-8a9b-0a7cf2ae76d2")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 172.974 67.056 90)
 			(effects
 				(font
@@ -7222,7 +9253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 168.91 67.818 90)
 			(effects
 				(font
@@ -7258,7 +9289,7 @@
 		(instances
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
