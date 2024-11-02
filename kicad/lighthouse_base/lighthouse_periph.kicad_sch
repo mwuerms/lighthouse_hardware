@@ -2426,6 +2426,94 @@
 		(color 0 0 0 0)
 		(uuid "f60a855c-d6c7-4119-95fa-58795494c8b8")
 	)
+	(no_connect
+		(at 121.92 162.56)
+		(uuid "0cb51820-f277-41c4-bed8-103a282b9f5a")
+	)
+	(no_connect
+		(at 196.85 133.35)
+		(uuid "29008b07-6591-45eb-9e3c-b9a734787a50")
+	)
+	(no_connect
+		(at 121.92 160.02)
+		(uuid "47948298-9d69-4e40-8f2b-7e3ff44dca1f")
+	)
+	(no_connect
+		(at 256.54 66.04)
+		(uuid "491bdc39-1d33-4c81-83e6-48a8d63c74cb")
+	)
+	(no_connect
+		(at 176.53 135.89)
+		(uuid "4f52bdd2-a7af-4ed5-b925-70fcae2babab")
+	)
+	(no_connect
+		(at 196.85 138.43)
+		(uuid "61327bd0-c800-45e7-879c-6ec03bcfa96d")
+	)
+	(no_connect
+		(at 256.54 99.06)
+		(uuid "7ce2229d-6b2d-45fa-9c94-fc686ca41d7d")
+	)
+	(no_connect
+		(at 176.53 138.43)
+		(uuid "8b301635-e213-49ee-88a3-1374e535d208")
+	)
+	(no_connect
+		(at 256.54 60.96)
+		(uuid "8cf28ab4-7734-4780-bdc2-a8b1d1205a0e")
+	)
+	(no_connect
+		(at 196.85 135.89)
+		(uuid "91c9ddd4-3aa4-41cb-9959-7fdda8e26f8b")
+	)
+	(no_connect
+		(at 96.52 170.18)
+		(uuid "960adb4d-5056-4a37-92fc-456b012a87c6")
+	)
+	(no_connect
+		(at 96.52 172.72)
+		(uuid "9677c10f-8695-4228-8078-1a6fa036861a")
+	)
+	(no_connect
+		(at 196.85 128.27)
+		(uuid "967ada9b-2b3c-4809-aa9f-968e7b79ab88")
+	)
+	(no_connect
+		(at 256.54 63.5)
+		(uuid "9a2c4cf6-f5f4-498b-a41b-114add574fcd")
+	)
+	(no_connect
+		(at 121.92 157.48)
+		(uuid "baebb053-6854-4e72-aefd-dfa77d0243ec")
+	)
+	(no_connect
+		(at 196.85 130.81)
+		(uuid "c231e8d4-af38-4ed8-a4aa-f70f5bfd4a96")
+	)
+	(no_connect
+		(at 96.52 167.64)
+		(uuid "ce62cd02-cd68-4d37-9ca1-23d6f714dc6d")
+	)
+	(no_connect
+		(at 196.85 140.97)
+		(uuid "d02c0cad-d73c-46b6-9f46-f47c29b92f9f")
+	)
+	(no_connect
+		(at 256.54 101.6)
+		(uuid "dd5aba7f-d349-4332-bc61-d20b39deb40a")
+	)
+	(no_connect
+		(at 196.85 146.05)
+		(uuid "dfab6858-7049-4c5f-b12f-f9b4bf2d8c98")
+	)
+	(no_connect
+		(at 96.52 162.56)
+		(uuid "e80bab7e-d298-4979-b49d-108a2b89a1cd")
+	)
+	(no_connect
+		(at 256.54 104.14)
+		(uuid "ec6cc11e-1a7a-41ba-af79-f27df0349058")
+	)
 	(wire
 		(pts
 			(xy 246.38 81.28) (xy 256.54 81.28)

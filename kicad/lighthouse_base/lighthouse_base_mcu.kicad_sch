@@ -820,6 +820,150 @@
 				)
 			)
 		)
+		(symbol "Diode:PMEG4002EJ"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMEG4002EJ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323F"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4002EJ.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V, 200mA low Vf MEGA Schottky barrier rectifier, SOD-323F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "forward voltage diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323F*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMEG4002EJ_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG4002EJ_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32L4:STM32L412R8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2786,20 +2930,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 0 0)
+			(property "Reference" "SW1"
+				(at -0.6351 -1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 1.27 -1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Lighthouse1:PTS526"
@@ -3338,6 +3484,12 @@
 		)
 	)
 	(junction
+		(at 195.58 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0270261e-2be7-47a6-bc12-f6d878aa0fbb")
+	)
+	(junction
 		(at 220.98 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3410,6 +3562,12 @@
 		(uuid "72ea3847-151b-4f14-9991-98bca2e85c22")
 	)
 	(junction
+		(at 195.58 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d4b3c0-aca9-49c1-b884-bb78baf07736")
+	)
+	(junction
 		(at 121.92 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3476,6 +3634,18 @@
 		(uuid "c5e84e1a-835a-4354-b4b6-92dd20ce6fa8")
 	)
 	(junction
+		(at 198.12 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d43ebfcd-1d1b-496f-800b-0e369efb47e8")
+	)
+	(junction
+		(at 205.74 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1226c5b-f3e8-4245-8777-a8f7ed9b974c")
+	)
+	(junction
 		(at 101.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3504,6 +3674,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f63b25f0-238d-42bc-9673-889aa1bea57f")
+	)
+	(no_connect
+		(at 45.72 177.8)
+		(uuid "88477201-a0e9-4306-ae77-9a6e5a2d90ff")
 	)
 	(wire
 		(pts
@@ -3544,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "0dd13714-305a-43ec-b071-7afb701c0f1e")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efb3ab7-9e90-478b-be95-e4f46d227ef6")
 	)
 	(wire
 		(pts
@@ -3674,6 +3858,16 @@
 			(type default)
 		)
 		(uuid "25bcf4b1-835c-4a9f-8c01-689c1258c3ea")
+	)
+	(wire
+		(pts
+			(xy 195.58 78.74) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a16213-fa23-4dee-97c1-518f8a04ec34")
 	)
 	(wire
 		(pts
@@ -3907,7 +4101,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 160.02) (xy 73.66 160.02)
+			(xy 58.42 160.02) (xy 62.23 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3934,6 +4128,26 @@
 			(type default)
 		)
 		(uuid "66b45423-7083-4278-bb93-0b4dee45436f")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 198.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a71ef4-7910-49cf-8316-48816f4069fb")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.74) (xy 198.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be8f722-4657-4e0f-8333-199295898408")
 	)
 	(wire
 		(pts
@@ -4067,6 +4281,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 25.4) (xy 209.55 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee80fc0-1858-4758-9a4d-a9351498affb")
+	)
+	(wire
+		(pts
 			(xy 144.78 43.18) (xy 147.32 43.18)
 		)
 		(stroke
@@ -4127,6 +4351,26 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 68.58) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898264ec-87ad-418b-af1c-1081d27afb9c")
+	)
+	(wire
+		(pts
+			(xy 213.36 27.94) (xy 213.36 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abdbff9-fafb-4bc7-9f89-bb5c1d3d1377")
+	)
+	(wire
+		(pts
 			(xy 43.18 160.02) (xy 55.88 160.02)
 		)
 		(stroke
@@ -4177,13 +4421,33 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 162.56 83.82)
+			(xy 195.58 68.58) (xy 195.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43a97c8-6b10-4677-a63d-4e18b3a37371")
+	)
+	(wire
+		(pts
+			(xy 203.2 83.82) (xy 198.12 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a775d12d-1246-4de4-945c-98506589aedf")
+	)
+	(wire
+		(pts
+			(xy 205.74 25.4) (xy 209.55 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a214a5-ab23-4d1a-8860-7afa8def47f2")
 	)
 	(wire
 		(pts
@@ -4224,6 +4488,16 @@
 			(type default)
 		)
 		(uuid "afcb2b5a-03a8-4eee-853d-2fbdb81834fb")
+	)
+	(wire
+		(pts
+			(xy 198.12 71.12) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b032a2db-14d4-4228-962b-7436edb139d3")
 	)
 	(wire
 		(pts
@@ -4367,7 +4641,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 81.28) (xy 162.56 81.28)
+			(xy 203.2 81.28) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4424,6 +4698,16 @@
 			(type default)
 		)
 		(uuid "dc193a4c-3823-4318-9921-6863cae58678")
+	)
+	(wire
+		(pts
+			(xy 69.85 160.02) (xy 73.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc23eff6-c407-4113-a3a9-cc36f0b1556e")
 	)
 	(wire
 		(pts
@@ -4504,6 +4788,16 @@
 			(type default)
 		)
 		(uuid "f236d4dc-0fd2-4e8f-833d-ae97b8609734")
+	)
+	(wire
+		(pts
+			(xy 209.55 20.32) (xy 213.36 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4cc4577-096a-4f4e-adb6-def5ccb8758c")
 	)
 	(wire
 		(pts
@@ -4769,7 +5063,7 @@
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
-		(at 167.64 81.28 0)
+		(at 203.2 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4779,7 +5073,7 @@
 		)
 		(uuid "3934df0d-76af-47b1-b8bb-4d88b2cd59ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.3942 81.28 0)
+			(at 214.9542 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +5195,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 167.64 83.82 0)
+		(at 203.2 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4911,7 +5205,7 @@
 		)
 		(uuid "61bf14b5-f779-4f32-b7dc-346c4a523294")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.4547 83.82 0)
+			(at 215.0147 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.4052 50.8 0)
 			(effects
 				(font
@@ -5514,6 +5808,73 @@
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02f0ebea-6dbd-4bef-bdd1-25b06e20e72f")
+		(property "Reference" "R13"
+			(at 196.85 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 195.58 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 197.358 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b4310aa-e1d0-4dca-a9ea-d67b1fb0771e")
+		)
+		(pin "1"
+			(uuid "ef408e6d-be23-4cf1-ac4f-12b5d554bb9b")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5614,7 +5975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lighthouse1:PTS526"
+		(property "Footprint" "lighthouse:PTS526"
 			(at 218.44 48.26 0)
 			(effects
 				(font
@@ -5952,7 +6313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 133.0452 50.8 0)
 			(effects
 				(font
@@ -6153,7 +6514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 254.9652 142.24 0)
 			(effects
 				(font
@@ -6223,7 +6584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 247.3452 146.05 0)
 			(effects
 				(font
@@ -6293,7 +6654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 122.8852 50.8 0)
 			(effects
 				(font
@@ -6330,6 +6691,74 @@
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG4002EJ")
+		(at 66.04 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c5fe7da-fe48-47ad-b249-64b1a5b7f0f8")
+		(property "Reference" "D5"
+			(at 65.7225 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG4002EJ"
+			(at 65.7225 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 66.04 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4002EJ.pdf"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V, 200mA low Vf MEGA Schottky barrier rectifier, SOD-323F"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be1f8933-7e36-495d-8dc4-6cfb7b961563")
+		)
+		(pin "1"
+			(uuid "f475de39-defa-45bc-9c40-1ef2b19d2765")
+		)
+		(instances
+			(project ""
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7980,7 +8409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 112.7252 50.8 0)
 			(effects
 				(font
@@ -8477,6 +8906,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 195.58 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8249612-b5de-46e1-8868-ecbab66827b4")
+		(property "Reference" "#PWR034"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "851892d8-29ce-40fe-98b7-29534d2a66f7")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c971a889-d317-4569-bb72-f2160ce53e9d")
+		(property "Reference" "R14"
+			(at 199.39 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 198.12 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.898 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca29b06d-6fed-451e-8a3b-71c27c4cc7d9")
+		)
+		(pin "1"
+			(uuid "c62f8e6d-8e9c-4dda-9b61-967a02e7afa7")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 46.99 0)
 		(unit 1)
@@ -8504,7 +9066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 102.5652 50.8 0)
 			(effects
 				(font
@@ -8988,7 +9550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 167.64 0)
 			(effects
 				(font
@@ -9290,6 +9852,73 @@
 			(project "lighthouse_base"
 				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe5b6fea-3ac8-4f72-b0ea-5e8f7c32dbba")
+		(property "Reference" "R15"
+			(at 214.63 19.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 23.876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 215.138 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71ca0dbe-9830-4dd9-b6a7-7ae04339ef49")
+		)
+		(pin "1"
+			(uuid "20b44b6f-c080-4e35-9f52-4bfe45f36b48")
+		)
+		(instances
+			(project "lighthouse_base"
+				(path "/e329df4a-6588-455a-9936-c9675a4aa830/ce677066-b0b4-4434-a6aa-4b692f0d9db5"
+					(reference "R15")
 					(unit 1)
 				)
 			)
