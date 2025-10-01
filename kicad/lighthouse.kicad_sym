@@ -1191,7 +1191,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SON65P200X200X65-7N-D"
+		(property "Footprint" "lighthouse:SON65P200X200X65-7N-D"
 			(at 26.67 -94.92 0)
 			(effects
 				(font

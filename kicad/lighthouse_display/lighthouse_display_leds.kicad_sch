@@ -61,6 +61,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -251,6 +260,17 @@
 			)
 		)
 		(uuid "185af631-94a0-4269-9a6e-263634de3bb0")
+	)
+	(text "front display\nred LEDs: D1 ... D63\n\nDNP LEDs: D64 ... D105"
+		(exclude_from_sim no)
+		(at 256.794 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cb8fe4c-c6b5-4a9a-9412-2676f60f217e")
 	)
 	(text "C4-13"
 		(exclude_from_sim no)
@@ -503,6 +523,17 @@
 			)
 		)
 		(uuid "6abd4ac5-24db-48f4-8279-32abbe23a8f2")
+	)
+	(text "back light\nyellow LEDs: D1, D2, D3, D4, D5, D6, D7\nred LEDs: D1 ... D63\nwhite LEDs: D64 ... D105"
+		(exclude_from_sim no)
+		(at 253.746 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b5b7647-0db1-43b2-b875-969adad45e61")
 	)
 	(text "C3-15"
 		(exclude_from_sim no)
@@ -5618,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 128.2065 176.53 0)
 			(effects
 				(font
@@ -5645,6 +5676,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 128.27 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 128.27 180.34 0)
 			(effects
 				(font
@@ -5686,7 +5726,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 222.25 92.6464 0)
 			(effects
 				(font
@@ -5714,6 +5754,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -5792,6 +5841,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47f01d12-ebe4-44ca-b229-1775c7796bc3")
 		)
@@ -5825,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 128.2065 165.1 0)
 			(effects
 				(font
@@ -5852,6 +5910,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 128.27 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 128.27 168.91 0)
 			(effects
 				(font
@@ -5893,7 +5960,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 114.2365 187.96 0)
 			(effects
 				(font
@@ -5920,6 +5987,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 114.3 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 114.3 191.77 0)
 			(effects
 				(font
@@ -5989,6 +6065,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 231.14 86.36 0)
 			(effects
 				(font
@@ -6067,6 +6152,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87b56cf9-b3ec-450d-930d-c647dfec820c")
 		)
@@ -6137,6 +6231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 161.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b696e32-5058-4a32-b5b6-4d53c275cfaf")
 		)
@@ -6171,7 +6274,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 121.92 110.4264 90)
 			(effects
 				(font
@@ -6199,6 +6302,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -6241,7 +6353,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 176.53 92.6464 0)
 			(effects
 				(font
@@ -6269,6 +6381,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 173.99 91.44 0)
 			(effects
 				(font
@@ -6310,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 85.0265 165.1 0)
 			(effects
 				(font
@@ -6337,6 +6458,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 85.09 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 85.09 168.91 0)
 			(effects
 				(font
@@ -6378,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 100.2665 165.1 0)
 			(effects
 				(font
@@ -6405,6 +6535,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 100.33 168.91 0)
 			(effects
 				(font
@@ -6446,7 +6585,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 114.2365 142.24 0)
 			(effects
 				(font
@@ -6473,6 +6612,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 114.3 146.05 0)
 			(effects
 				(font
@@ -6514,7 +6662,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 85.0265 130.81 0)
 			(effects
 				(font
@@ -6541,6 +6689,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 85.09 134.62 0)
 			(effects
 				(font
@@ -6619,6 +6776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 73.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51a81fc6-fd21-45b6-b937-12bab62dcaef")
 		)
@@ -6688,6 +6854,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7efc067-a1f7-4a69-8d02-e2892d9b391e")
 		)
@@ -6722,7 +6897,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 63.5 92.6464 0)
 			(effects
 				(font
@@ -6750,6 +6925,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -6792,7 +6976,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 184.15 110.4264 90)
 			(effects
 				(font
@@ -6820,6 +7004,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 181.61 109.22 0)
 			(effects
 				(font
@@ -6862,7 +7055,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 120.65 74.8664 0)
 			(effects
 				(font
@@ -6890,6 +7083,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 118.11 73.66 0)
 			(effects
 				(font
@@ -6968,6 +7170,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4e0b759-50c0-4062-a645-9c72d2876abf")
 		)
@@ -7001,7 +7212,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 100.2665 153.67 0)
 			(effects
 				(font
@@ -7028,6 +7239,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 100.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 100.33 157.48 0)
 			(effects
 				(font
@@ -7106,6 +7326,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e52b740-3caf-44d5-869c-78a4f6f9c943")
 		)
@@ -7140,7 +7369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 163.83 87.5664 0)
 			(effects
 				(font
@@ -7168,6 +7397,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 161.29 86.36 0)
 			(effects
 				(font
@@ -7210,7 +7448,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 76.2 87.5664 0)
 			(effects
 				(font
@@ -7238,6 +7476,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 73.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 73.66 86.36 0)
 			(effects
 				(font
@@ -7316,6 +7563,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0279f249-3fa4-44e6-ad17-111c720a260b")
 		)
@@ -7350,7 +7606,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 189.23 74.8664 0)
 			(effects
 				(font
@@ -7378,6 +7634,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -7419,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 128.2065 187.96 0)
 			(effects
 				(font
@@ -7446,6 +7711,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 128.27 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 128.27 191.77 0)
 			(effects
 				(font
@@ -7487,7 +7761,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 100.2665 176.53 0)
 			(effects
 				(font
@@ -7514,6 +7788,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 100.33 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 100.33 180.34 0)
 			(effects
 				(font
@@ -7591,6 +7874,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 218.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9113c0a-7dc6-4208-95e0-6d5046221f24")
 		)
@@ -7625,7 +7917,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 163.83 74.8664 0)
 			(effects
 				(font
@@ -7653,6 +7945,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -7695,7 +7996,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 63.5 79.9464 0)
 			(effects
 				(font
@@ -7723,6 +8024,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 60.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 60.96 78.74 0)
 			(effects
 				(font
@@ -7764,7 +8074,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 85.0265 153.67 0)
 			(effects
 				(font
@@ -7791,6 +8101,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 85.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 85.09 157.48 0)
 			(effects
 				(font
@@ -7832,7 +8151,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 43.1165 130.81 0)
 			(effects
 				(font
@@ -7859,6 +8178,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 43.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 43.18 134.62 0)
 			(effects
 				(font
@@ -7936,6 +8264,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 231.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7363bc96-7463-4e9f-b2d3-f753431be62c")
 		)
@@ -7969,7 +8306,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 100.2665 142.24 0)
 			(effects
 				(font
@@ -7996,6 +8333,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 100.33 146.05 0)
 			(effects
 				(font
@@ -8038,7 +8384,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 95.25 87.5664 0)
 			(effects
 				(font
@@ -8066,6 +8412,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 92.71 86.36 0)
 			(effects
 				(font
@@ -8107,7 +8462,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 57.0865 165.1 0)
 			(effects
 				(font
@@ -8134,6 +8489,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 57.15 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 57.15 168.91 0)
 			(effects
 				(font
@@ -8175,7 +8539,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 43.1165 176.53 0)
 			(effects
 				(font
@@ -8202,6 +8566,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 43.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 43.18 180.34 0)
 			(effects
 				(font
@@ -8244,7 +8617,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 210.82 110.4264 90)
 			(effects
 				(font
@@ -8272,6 +8645,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 208.28 109.22 0)
 			(effects
 				(font
@@ -8314,7 +8696,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 95.25 110.4264 90)
 			(effects
 				(font
@@ -8342,6 +8724,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -8384,7 +8775,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 165.1 110.4264 90)
 			(effects
 				(font
@@ -8412,6 +8803,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -8453,7 +8853,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 57.0865 176.53 0)
 			(effects
 				(font
@@ -8480,6 +8880,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 57.15 180.34 0)
 			(effects
 				(font
@@ -8521,7 +8930,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 43.1165 187.96 0)
 			(effects
 				(font
@@ -8548,6 +8957,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 43.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 43.18 191.77 0)
 			(effects
 				(font
@@ -8626,6 +9044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41dbe452-6974-430c-8a6b-07194b5e721e")
 		)
@@ -8659,7 +9086,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 71.0565 130.81 0)
 			(effects
 				(font
@@ -8686,6 +9113,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 71.12 134.62 0)
 			(effects
 				(font
@@ -8764,6 +9200,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4cef36b-0735-45ac-92f2-74a543f2674f")
 		)
@@ -8797,7 +9242,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 114.2365 130.81 0)
 			(effects
 				(font
@@ -8824,6 +9269,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 114.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 114.3 134.62 0)
 			(effects
 				(font
@@ -8902,6 +9356,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2cd88b9-04c0-4747-8b42-36c9cb4defdb")
 		)
@@ -8935,7 +9398,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 114.2365 176.53 0)
 			(effects
 				(font
@@ -8962,6 +9425,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 114.3 180.34 0)
 			(effects
 				(font
@@ -9040,6 +9512,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81730284-2b82-4715-814f-f5076699c393")
 		)
@@ -9074,7 +9555,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 95.25 74.8664 0)
 			(effects
 				(font
@@ -9102,6 +9583,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -9144,7 +9634,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 176.53 79.9464 0)
 			(effects
 				(font
@@ -9172,6 +9662,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 173.99 78.74 0)
 			(effects
 				(font
@@ -9213,7 +9712,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 71.0565 153.67 0)
 			(effects
 				(font
@@ -9240,6 +9739,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 71.12 157.48 0)
 			(effects
 				(font
@@ -9318,6 +9826,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95f11ef1-80bc-4b69-a94b-20a692195ea8")
 		)
@@ -9351,7 +9868,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 85.0265 187.96 0)
 			(effects
 				(font
@@ -9378,6 +9895,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 85.09 191.77 0)
 			(effects
 				(font
@@ -9456,6 +9982,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "499de30e-702f-4e24-9630-8af8a990435a")
 		)
@@ -9490,7 +10025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 109.22 79.9464 0)
 			(effects
 				(font
@@ -9518,6 +10053,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 105.41 78.74 0)
 			(effects
 				(font
@@ -9559,7 +10103,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 57.0865 142.24 0)
 			(effects
 				(font
@@ -9586,6 +10130,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 57.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 57.15 146.05 0)
 			(effects
 				(font
@@ -9628,7 +10181,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 120.65 87.5664 0)
 			(effects
 				(font
@@ -9656,6 +10209,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 118.11 86.36 0)
 			(effects
 				(font
@@ -9734,6 +10296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 186.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e138e532-5051-46cc-b5e0-ebf7061e5882")
 		)
@@ -9767,7 +10338,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 114.2365 165.1 0)
 			(effects
 				(font
@@ -9794,6 +10365,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 114.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 114.3 168.91 0)
 			(effects
 				(font
@@ -9835,7 +10415,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 128.2065 153.67 0)
 			(effects
 				(font
@@ -9862,6 +10442,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 128.27 157.48 0)
 			(effects
 				(font
@@ -9940,6 +10529,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95202386-b618-4e02-99db-70de76fad0ec")
 		)
@@ -10001,6 +10599,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 231.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 231.14 48.26 0)
 			(effects
 				(font
@@ -10078,6 +10685,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fdf319e-4535-4fbb-9596-c29a2d968a01")
 		)
@@ -10112,7 +10728,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 109.22 92.6464 0)
 			(effects
 				(font
@@ -10140,6 +10756,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 105.41 91.44 0)
 			(effects
 				(font
@@ -10181,7 +10806,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 100.2665 187.96 0)
 			(effects
 				(font
@@ -10208,6 +10833,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 100.33 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 100.33 191.77 0)
 			(effects
 				(font
@@ -10277,6 +10911,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 205.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 205.74 60.96 0)
 			(effects
 				(font
@@ -10355,6 +10998,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee5483c9-8f8e-43f1-8291-4a22b405c6e8")
 		)
@@ -10388,7 +11040,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 57.0865 153.67 0)
 			(effects
 				(font
@@ -10415,6 +11067,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 57.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 57.15 157.48 0)
 			(effects
 				(font
@@ -10493,6 +11154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "208409de-952b-40f7-ab6b-6f2277f8705f")
 		)
@@ -10526,7 +11196,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 222.25 79.9464 0)
 			(effects
 				(font
@@ -10554,6 +11224,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -10595,7 +11274,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 71.0565 142.24 0)
 			(effects
 				(font
@@ -10622,6 +11301,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 71.12 146.05 0)
 			(effects
 				(font
@@ -10700,6 +11388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ae97f40-c7a3-4583-b77d-b5598159893d")
 		)
@@ -10762,6 +11459,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -10839,6 +11545,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f68252b1-a8cb-487d-8477-124e601e5a6c")
 		)
@@ -10872,7 +11587,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 57.0865 187.96 0)
 			(effects
 				(font
@@ -10899,6 +11614,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 57.15 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 57.15 191.77 0)
 			(effects
 				(font
@@ -10940,7 +11664,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 85.0265 176.53 0)
 			(effects
 				(font
@@ -10967,6 +11691,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 85.09 180.34 0)
 			(effects
 				(font
@@ -11045,6 +11778,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e010683-790d-4f11-948c-964631171161")
 		)
@@ -11078,7 +11820,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 71.0565 176.53 0)
 			(effects
 				(font
@@ -11105,6 +11847,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 71.12 180.34 0)
 			(effects
 				(font
@@ -11146,7 +11897,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 128.2065 142.24 0)
 			(effects
 				(font
@@ -11173,6 +11924,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 128.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 128.27 146.05 0)
 			(effects
 				(font
@@ -11214,7 +11974,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 43.1165 165.1 0)
 			(effects
 				(font
@@ -11241,6 +12001,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 43.18 168.91 0)
 			(effects
 				(font
@@ -11282,7 +12051,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 71.0565 187.96 0)
 			(effects
 				(font
@@ -11309,6 +12078,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 71.12 191.77 0)
 			(effects
 				(font
@@ -11351,7 +12129,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 142.24 87.5664 90)
 			(effects
 				(font
@@ -11379,6 +12157,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -11420,7 +12207,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 85.0265 142.24 0)
 			(effects
 				(font
@@ -11447,6 +12234,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 85.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 85.09 146.05 0)
 			(effects
 				(font
@@ -11489,7 +12285,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 76.2 110.4264 90)
 			(effects
 				(font
@@ -11517,6 +12313,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 73.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 73.66 109.22 0)
 			(effects
 				(font
@@ -11559,7 +12364,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 142.24 74.8664 90)
 			(effects
 				(font
@@ -11587,6 +12392,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 139.7 73.66 0)
 			(effects
 				(font
@@ -11628,7 +12442,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 208.28 87.5664 0)
 			(effects
 				(font
@@ -11656,6 +12470,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 205.74 86.36 0)
 			(effects
 				(font
@@ -11734,6 +12557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6bf8b56-f3da-4db8-ad00-18dc19419b5f")
 		)
@@ -11795,6 +12627,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 205.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -11873,6 +12714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "155e8cb5-b1fe-4d1e-868e-77fd9296de89")
 		)
@@ -11906,7 +12756,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 71.0565 165.1 0)
 			(effects
 				(font
@@ -11933,6 +12783,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 71.12 168.91 0)
 			(effects
 				(font
@@ -11974,7 +12833,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 128.2065 130.81 0)
 			(effects
 				(font
@@ -12001,6 +12860,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 128.27 134.62 0)
 			(effects
 				(font
@@ -12042,7 +12910,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 43.1165 142.24 0)
 			(effects
 				(font
@@ -12069,6 +12937,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 43.18 146.05 0)
 			(effects
 				(font
@@ -12110,7 +12987,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 114.2365 153.67 0)
 			(effects
 				(font
@@ -12137,6 +13014,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 114.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 114.3 157.48 0)
 			(effects
 				(font
@@ -12215,6 +13101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62aa27e7-dba3-4777-94e2-3b760879d719")
 		)
@@ -12248,7 +13143,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 208.28 74.8664 0)
 			(effects
 				(font
@@ -12276,6 +13171,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 205.74 73.66 0)
 			(effects
 				(font
@@ -12318,7 +13222,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 142.24 110.4264 90)
 			(effects
 				(font
@@ -12346,6 +13250,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 139.7 109.22 0)
 			(effects
 				(font
@@ -12424,6 +13337,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c709b7ac-4f3f-4874-804d-e8c6dda8ab6e")
 		)
@@ -12457,7 +13379,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 57.0865 130.81 0)
 			(effects
 				(font
@@ -12484,6 +13406,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 57.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 57.15 134.62 0)
 			(effects
 				(font
@@ -12526,7 +13457,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 76.2 74.8664 0)
 			(effects
 				(font
@@ -12554,6 +13485,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 73.66 73.66 0)
 			(effects
 				(font
@@ -12595,7 +13535,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 43.1165 153.67 0)
 			(effects
 				(font
@@ -12622,6 +13562,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -12663,7 +13612,7 @@
 				)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "IN-S126AT5UW"
 			(at 100.2665 130.81 0)
 			(effects
 				(font
@@ -12690,6 +13639,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 100.33 134.62 0)
 			(effects
 				(font
@@ -12732,7 +13690,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206MIL"
+		(property "Value" "599-0210-007F"
 			(at 189.23 87.5664 0)
 			(effects
 				(font
@@ -12760,6 +13718,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 186.69 86.36 0)
 			(effects
 				(font
@@ -12830,6 +13797,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 105.41 66.04 0)
 			(effects
 				(font
